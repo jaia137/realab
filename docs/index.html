@@ -2,14 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.22">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Dr.&nbsp;Gang He">
-<meta name="description" content="Quarto Academic Website Template adapted by Dr.&nbsp;Gang He">
+<meta name="author" content="Patrick Neff, PD Dr.">
+<meta name="description" content="Quarto Academic Website Template adapted by Patrick Neff">
 
-<title>Quarto Academic, PhD – Quarto Academic</title>
+<title>Patrick Neff, PD Dr.&nbsp;– rea.lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -36,15 +36,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b4406b7675125bc2ba204020e191172.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f4e4f6f13c60fd88d7a110a7c3d02718.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-3e8f12d1b5c8d04d32925f9f9ead600c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -147,7 +146,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -164,13 +163,13 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Quarto Academic, PhD – Quarto Academic">
-<meta property="og:description" content="Quarto Academic Website Template adapted by Dr.&nbsp;Gang He">
-<meta property="og:image" content="https://drganghe.github.io/quarto-academic-website-template/files/images/placeholder4.JPG">
-<meta property="og:site_name" content="Quarto Academic">
-<meta name="twitter:title" content="Quarto Academic, PhD – Quarto Academic">
-<meta name="twitter:description" content="Quarto Academic Website Template adapted by Dr.&nbsp;Gang He">
-<meta name="twitter:image" content="https://drganghe.github.io/quarto-academic-website-template/files/images/placeholder4.JPG">
+<meta property="og:title" content="Patrick Neff, PD Dr.&nbsp;– rea.lab">
+<meta property="og:description" content="Website of rea.lab">
+<meta property="og:image" content="https://jaia137.github.io/realab/files/images/placeholder4.JPG">
+<meta property="og:site_name" content="rea.lab">
+<meta name="twitter:title" content="Patrick Neff, PD Dr.&nbsp;– rea.lab">
+<meta name="twitter:description" content="Website of rea.lab">
+<meta name="twitter:image" content="https://jaia137.github.io/realab/files/images/placeholder4.JPG">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -182,7 +181,7 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Quarto Academic</span>
+    <span class="navbar-title">rea.lab</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -220,18 +219,14 @@ window.Quarto = {
  <span class="dropdown-text">List of Publications</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./posts.html#category=paper">
- <span class="dropdown-text">Selected Papers</span></a>
-  </li>  
-        <li>
     <a class="dropdown-item" href="./projects.html">
- <span class="dropdown-text">Grants</span></a>
+ <span class="dropdown-text">Projects</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html"> 
-<span class="menu-text">Teaching</span></a>
+    <a class="nav-link" href="./labs.html"> 
+<span class="menu-text">Labs</span></a>
   </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-outreach" role="link" data-bs-toggle="dropdown" aria-expanded="false">
@@ -245,6 +240,10 @@ window.Quarto = {
     </ul>
   </li>
   <li class="nav-item">
+    <a class="nav-link" href="./partners.html"> 
+<span class="menu-text">Partners</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./people.html"> 
 <span class="menu-text">Group</span></a>
   </li>  
@@ -253,20 +252,6 @@ window.Quarto = {
   <li class="nav-item">
     <a class="nav-link" href="./files/nsf-biosketch.pdf"> 
 <span class="menu-text">CV</span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/drganghe/quarto-academic-website-template" target="_blank"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="https://bsky.app" target="_blank"> 
-<span class="menu-text"><i class="fa-brands fa-bluesky" aria-label="bluesky"></i></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="./posts.xml" target="_blank"> <i class="bi bi-rss" role="img">
-</i> 
-<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -291,91 +276,88 @@ window.Quarto = {
 
 
 
+<!-- 
+Load Academicons v1: https://jpswalsh.github.io/academicons/
+-->
+<p><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"></p>
+<p><link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"></p>
+<!---
+The following code are needed to show dimension citation and altmetrics.
+https://api.altmetric.com/embeds.html
+https://badge.dimensions.ai/
+--->
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+<script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
 <div class="quarto-about-trestles column-page">
   <div class="about-entity">
     <img src="files/images/placeholder4.JPG" class="about-image
   rounded " style="width: 70%;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Quarto Academic, PhD</h1>
+<h1 class="title">Patrick Neff, PD Dr.</h1>
 </div>
 <div class="quarto-title-meta column-page">
   </div>
 </header>
     <div class="about-links">
-  <a href="https://www.github.com" class="about-link" rel="" target="_blank">
+  <a href="https://github.com/jaia137" class="about-link" rel="" target="_blank">
     <i class="bi bi-sun"></i>
-     <span class="about-link-text">Lab</span>
+     <span class="about-link-text">Github</span>
   </a>
-  <a href="https://baruch.cuny.edu" class="about-link" rel="" target="_blank">
+  <a href="https://www.tinnitus.uzh.ch/de/team/leitung/neff.html" class="about-link" rel="" target="_blank">
     <i class="bi bi-globe"></i>
-     <span class="about-link-text">Uprofile</span>
+     <span class="about-link-text">Web</span>
   </a>
-  <a href="mailto:email@gmail.com" class="about-link" rel="" target="">
+  <a href="mailto:patrick.neff@uzh.ch" class="about-link" rel="" target="">
     <i class="bi bi-envelope"></i>
      <span class="about-link-text">E-mail</span>
   </a>
-  <a href="https://linkedin.com" class="about-link" rel="" target="_blank">
+  <a href="https://www.linkedin.com/in/patrick-neff-76525b126/" class="about-link" rel="" target="_blank">
     <i class="bi bi-linkedin"></i>
      <span class="about-link-text">LinkedIn</span>
   </a>
-  <a href="https://www.youtube.com" class="about-link" rel="" target="_blank">
-    <i class="bi bi-youtube"></i>
-     <span class="about-link-text">YouTube</span>
-  </a>
-  <a href="https://orcid.org" class="about-link" rel="" target="_blank">
+  <a href="https://orcid.org/0000-0003-3174-4910" class="about-link" rel="" target="_blank">
      <span class="about-link-text"><i class="ai  ai-orcid"></i> ORCID</span>
   </a>
-  <a href="https://www.webofscience.com" class="about-link" rel="" target="_blank">
-     <span class="about-link-text"><i class="ai  ai-clarivate"></i> Web of Science</span>
-  </a>
-  <a href="https://www.scopus.com" class="about-link" rel="" target="_blank">
-     <span class="about-link-text"><i class="ai  ai-scopus"></i> Scopus</span>
-  </a>
-  <a href="https://scholar.google.com" class="about-link" rel="" target="_blank">
+  <a href="https://scholar.google.ch/citations?hl=en&amp;user=5eEBvugAAAAJ&amp;view_op=list_works&amp;sortby=pubdate" class="about-link" rel="" target="_blank">
      <span class="about-link-text"><i class="ai  ai-google-scholar"></i> Google Scholar</span>
+  </a>
+  <a href="https://www.researchgate.net/profile/Patrick-Neff-2/unconfirmed" class="about-link" rel="" target="_blank">
+     <span class="about-link-text"><i class="ai  ai-researchgate"></i> Research Gate</span>
   </a>
 </div>
   </div>
   <div class="about-contents"><div id="hero-heading">
-<p>I’m a <a href="https://github.com/drganghe/quarto-academic-website-template">Quarto Academeic Website Template</a> adapted by <a href="http://drganghe.github.io">Dr.&nbsp;Gang He</a>.</p>
-<p>I’m a template that you can fork to build your own website with easy adaptation and deployment.</p>
-<ol type="1">
-<li><strong>Star</strong> this repository to bookmark it for future reference.<br>
-</li>
-<li><strong>Fork</strong> this repository and rename it to <code>YourGitHubUserName.github.io</code>.<br>
-</li>
-<li><strong>Update</strong> the <code>_quarto.yml</code> file to configure your site’s basic settings.<br>
-</li>
-<li><strong>Add or edit content</strong> in the following files and folders:
+<section id="rea.lab-real-life-audio-lab" class="level2">
+<h2 data-anchor-id="rea.lab-real-life-audio-lab">REA.lab (Real-Life Audio Lab)</h2>
+<p>The <strong>REA.lab</strong> investigates how the brain and mind construct inner and outer auditory experiences. We combine psychophysics, psychoacoustics, neuroimaging, and 3D audio simulations to understand the full spectrum of hearing disorders—including hearing loss, tinnitus, and hyperacusis—as well as the neurodiverse reality of auditory processing. Our transdisciplinary approach integrates medicine, neuroscience, psychology, engineering, and computer science to develop objective biomarkers and therapies for altered sound perception.</p>
+<section id="research-approach-meta-stack" class="level3">
+<h3 data-anchor-id="research-approach-meta-stack">Research Approach (Meta-Stack)</h3>
+<p>We operate as a <strong>transdisciplinary, full-stack laboratory</strong> at the intersection of medicine, neuroscience, psychology, engineering, and computer science. Our philosophy is defined by three core pillars:</p>
 <ul>
-<li><code>/posts/</code> – posts about publications, news, events<br>
-</li>
-<li><code>teaching.qmd</code> – teaching information<br>
-</li>
-<li><code>projects.yml</code> – research or other projects<br>
-</li>
-<li><code>people.qmd</code> and <code>/people/</code> – team or collaborators<br>
-</li>
-<li><code>/files/</code> - profiles, images, pdfs, and includes</li>
-</ul></li>
-<li><a href="https://quarto.org/docs/websites/"><strong>Render and preview</strong></a> your site locally.<br>
-</li>
-<li><a href="https://quarto.org/docs/publishing/github-pages.html"><strong>Publish</strong></a> your site using GitHub Pages (make sure <a href="https://quarto.org/docs/publishing/images/gh-pages-docs-dir.png">configuring</a> your GitHub repository to publish from the <code>docs</code> directory, not the <code>root</code> folder).</li>
-<li><strong>Refine and polish</strong> your content and design as needed.<br>
-</li>
-<li>✅ Enjoy your new website!</li>
-</ol>
+<li><strong>Full-Stack Engineering:</strong> We adopt a philosophy of engineering our own experimental ecosystems, from custom hardware and acquisition setups to advanced computational pipelines. This ensure transparency, interoperability, and sustainability of research output.</li>
+<li><strong>Ecological Validity:</strong> We bridge the gap between reductionist lab settings and the real world. By utilizing 3D audio domes and mobile Citizen Science apps (e.g., HearHere), we capture the complexity of hearing in daily life.</li>
+<li><strong>Open Science &amp; Rigor:</strong> Rooted in the principles of reproducible science, we build reproducible, open-source models that serve as a robust foundation for the broader scientific community.</li>
+</ul>
+</section>
+</section>
 <section id="experience" class="level2">
 <h2 data-anchor-id="experience">Experience</h2>
 <ul>
-<li>Researcher, Univerisity</li>
+<li><b><strong>Scientific Group Lead &amp; Private Lecturer</strong> | UZH / USZ | 2022 - Present</b></li>
+<li><strong>Senior Guest Research Fellow</strong> | ETH Zürich (CVL) | 2025 - Present</li>
+<li><strong>Postdoctoral Fellow (SNF)</strong> | EPFL Geneva (MIPlab) | 2021 - 2023</li>
+<li><strong>Postdoctoral Fellow (SNF)</strong> | University of Salzburg (CCNS) | 2019 - 2021</li>
+<li><strong>Postdoctoral Fellow (SNF)</strong> | University of Regensburg (UR) | 2017 - 2025</li>
 </ul>
 </section>
 <section id="education" class="level2">
 <h2 data-anchor-id="education">Education</h2>
 <ul>
-<li>PhD, Univerisity</li>
+<li><strong>Re-habilitation (Exp. Otorhinolaryngology)</strong> | University of Zurich | 2025</li>
+<li><strong>Habilitation (Exp. Psychiatry)</strong> | University of Regensburg | 2022</li>
+<li><strong>PhD in Neuropsychology</strong> | University of Zürich | 2017</li>
 </ul>
 </section>
 </div></div>
@@ -387,7 +369,7 @@ window.Quarto = {
 <p>Check out the latest &nbsp;<a href="./posts.html#category=paper">Papers</a>&nbsp;, &nbsp;<a href="./posts.html#category=news">News</a>&nbsp;, &nbsp;<a href="./posts.html#category=event">Events</a>&nbsp;, and &nbsp;<a href="./posts.html">More »</a></p>
 <div id="listing-recent-posts" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="bmV3cw==" data-listing-date-sort="1728964800000">
+<div class="g-col-1" data-index="0" data-categories="bmV3cw==" data-listing-date-sort="1728943200000">
 <a href="https://drganghe.github.io/quarto-academic-site-examples.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -405,7 +387,7 @@ Oct 15, 2024
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="ZXZlbnQlMkNwcmVzZW50YXRpb24=" data-listing-date-sort="1725336000000" data-listing-file-modified-sort="1739198683941" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
+<div class="g-col-1" data-index="1" data-categories="ZXZlbnQlMkNwcmVzZW50YXRpb24=" data-listing-date-sort="1725314400000" data-listing-file-modified-sort="1769537386098" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
 <a href="./posts/event-title/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -423,7 +405,7 @@ Sep 3, 2024
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="bmV3cw==" data-listing-date-sort="1719201600000" data-listing-file-modified-sort="1749249243868" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
+<div class="g-col-1" data-index="2" data-categories="bmV3cw==" data-listing-date-sort="1719180000000" data-listing-file-modified-sort="1769537386098" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
 <a href="./posts/news-title/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -498,13 +480,14 @@ Jun 24, 2024
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -862,25 +845,7 @@ Jun 24, 2024
 <p>Build on <a href="https://github.com/drganghe/quarto-academic-website-template">Quart Academic Website Template</a> adapted by <a href="http://drganghe.github.io">Dr.&nbsp;Gang He</a></p>
 </div>
     <div class="nav-footer-right">
-      <ul class="footer-items list-unstyled">
-    <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/drganghe/quarto-academic-website-template" target="_blank">
-      <i class="bi bi-github" role="img">
-</i> 
-    </a>
-  </li>  
-    <li class="nav-item">
-    <a class="nav-link" href="https://bsky.app" target="_blank">
-<p><i class="fa-brands fa-bluesky" aria-label="bluesky"></i></p>
-</a>
-  </li>  
-    <li class="nav-item compact">
-    <a class="nav-link" href="./posts.xml" target="_blank">
-      <i class="bi bi-rss" role="img">
-</i> 
-    </a>
-  </li>  
-</ul>
+      &nbsp;
     </div>
   </div>
 </footer>

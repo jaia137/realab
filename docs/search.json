@@ -11,7 +11,7 @@
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "Notes: * corresponding author; GS graduate student advisee; VS visiting scholar;  ESI Highly Cited Paper (top 1%);  ESI Hot Paper (top 0.1%)\nTotal citations as of January 2025:"
+    "text": "Total citations as of January 2026:"
   },
   {
     "objectID": "publications.html#selected-work",
@@ -28,32 +28,18 @@
     "text": "Order By\n      Default\n      \n      \n      \n        Title\n      \n      \n        Team\n      \n      \n        Funder\n      \n      \n        Description\n      \n      \n        Start\n      \n      \n        End\n      \n      \n        Funding\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nTitle\n\n\n\nTeam\n\n\n\nFunder\n\n\n\nDescription\n\n\n\nFunding\n\n\n\nStart\n\n\n\nEnd\n\n\n\n\n\n\n\n\n\n\n\nExploring \n\n\nAcademic Website\n\n\nFunder\n\n\nThe goal of this project is to investigate .\n\n\n$0\n\n\n2024\n\n\n2025\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/news-title/index.html",
-    "href": "posts/news-title/index.html",
-    "title": "News item",
+    "objectID": "projects.html#ongoing-research",
+    "href": "projects.html#ongoing-research",
+    "title": "Projects",
+    "section": "Ongoing Research",
+    "text": "Ongoing Research\nSpin3D utilizes our 3D audio dome infrastructure to simulate realistic acoustic environments. This platform allows us to test auditory perception and hearing device performance in complex, dynamic scenarios that mimic real-world challenges, moving beyond standard audiometric testing.\nHearHere is a Citizen Science initiative that maps sensory challenges in the urban soundscape. Using the custom “CS-Logger” app, we record environmental noise and subjective hearing experiences to identify urban hotspots and increase the ecological validity of our lab experiments.\nHLC_Audio focuses on advanced real-life audio analysis, bridging the gap between controlled lab settings and complex, noisy environments where hearing challenges truly emerge.\nThe Silence-Illusion Paradigm investigates how the brain constructs auditory reality by contrasting Auditory Illusions (context-driven filling-in) with Silence Perception (input suppression). This project aims to map the “Prediction-Sensation” spectrum across neuroatypical groups (Tinnitus, ASD, ADHD), establishing objective biomarkers for sensory processing disorders.\nFire is a large-scale epidemiological study tracking tinnitus prevalence and health metrics across Switzerland, providing essential data for understanding the public health impact of hearing disorders.\nANT (Advancing Neurofeedback in Tinnitus) develops next-generation neurofeedback protocols, bridging computational modeling with clinical application to treat tinnitus.\nTEAS (Neuromodulation in Tinnitus) investigates non-invasive electrical stimulation techniques to modulate auditory cortex activity and provide relief for tinnitus patients."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
     "section": "",
-    "text": "About the news"
-  },
-  {
-    "objectID": "posts/news-title/index.html#summary",
-    "href": "posts/news-title/index.html#summary",
-    "title": "News item",
-    "section": "",
-    "text": "About the news"
-  },
-  {
-    "objectID": "posts/paper-title/index.html#abstract",
-    "href": "posts/paper-title/index.html#abstract",
-    "title": "Can quantum-mechanical description of physical reality be considered complete?",
-    "section": "Abstract",
-    "text": "Abstract\nIn a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete."
-  },
-  {
-    "objectID": "posts/paper-title/index.html#links",
-    "href": "posts/paper-title/index.html#links",
-    "title": "Can quantum-mechanical description of physical reality be considered complete?",
-    "section": "Links",
-    "text": "Links\nPublished paper"
+    "text": "Quarto Academic\nDepartment of Otorhinolaryngology, Head and Neck Surgery\nFaculty of Medicine\nUniversity of Zürich\nAddress: Scheuchzerstrasse 21, 8006 Zürich\nPhone: Send email and/or cookies\nE-mail: patrick.neff at uzh dot ch"
   },
   {
     "objectID": "teaching.html",
@@ -84,37 +70,86 @@
     "text": "Class 3\n\n\n\n\n\nSpring 2025,   Spring 2024\nClass 3 introduction."
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
+    "objectID": "partners.html",
+    "href": "partners.html",
+    "title": "Partners",
     "section": "",
-    "text": "Quarto Academic\nSchool\nCollege\nUniversity\nAddress:\nPhone:\nE-mail:"
+    "text": "Partners\nAdd details about institutional and industry partners here."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Quarto Academic, PhD",
+    "objectID": "posts/paper-title/index.html#abstract",
+    "href": "posts/paper-title/index.html#abstract",
+    "title": "Can quantum-mechanical description of physical reality be considered complete?",
+    "section": "Abstract",
+    "text": "Abstract\nIn a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete."
+  },
+  {
+    "objectID": "posts/paper-title/index.html#links",
+    "href": "posts/paper-title/index.html#links",
+    "title": "Can quantum-mechanical description of physical reality be considered complete?",
+    "section": "Links",
+    "text": "Links\nPublished paper"
+  },
+  {
+    "objectID": "posts/news-title/index.html",
+    "href": "posts/news-title/index.html",
+    "title": "News item",
     "section": "",
-    "text": "Lab\n  \n  \n    \n     Uprofile\n  \n  \n    \n     E-mail\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     YouTube\n  \n  \n      ORCID\n  \n  \n      Web of Science\n  \n  \n      Scopus\n  \n  \n      Google Scholar\n  \n\n  \n  \nI’m a Quarto Academeic Website Template adapted by Dr. Gang He.\nI’m a template that you can fork to build your own website with easy adaptation and deployment.\n\nStar this repository to bookmark it for future reference.\n\nFork this repository and rename it to YourGitHubUserName.github.io.\n\nUpdate the _quarto.yml file to configure your site’s basic settings.\n\nAdd or edit content in the following files and folders:\n\n/posts/ – posts about publications, news, events\n\nteaching.qmd – teaching information\n\nprojects.yml – research or other projects\n\npeople.qmd and /people/ – team or collaborators\n\n/files/ - profiles, images, pdfs, and includes\n\nRender and preview your site locally.\n\nPublish your site using GitHub Pages (make sure configuring your GitHub repository to publish from the docs directory, not the root folder).\nRefine and polish your content and design as needed.\n\n✅ Enjoy your new website!\n\n\n\n\nResearcher, Univerisity\n\n\n\n\n\nPhD, Univerisity"
+    "text": "About the news"
+  },
+  {
+    "objectID": "posts/news-title/index.html#summary",
+    "href": "posts/news-title/index.html#summary",
+    "title": "News item",
+    "section": "",
+    "text": "About the news"
+  },
+  {
+    "objectID": "labs.html",
+    "href": "labs.html",
+    "title": "Labs",
+    "section": "",
+    "text": "Interdisziplinäre Tinnitusforschung\nhttps://tinnitus.uzh.ch\nLocation: Scheuchzerstrasse 21, 8006 Zürich (UZH, SCH)\n\n \n\n\n\n\n\n\n\nVividSoundLab (VSL) at HLC\nhttps://www.hlc.uzh.ch/de/research_innovation/labs_technologies/vsl.html\nLocation: Stampfenbachstrasse 73, 8006 Zürich (UZH, STB)"
+  },
+  {
+    "objectID": "labs.html#scheuchzerstrasse-lab-sch",
+    "href": "labs.html#scheuchzerstrasse-lab-sch",
+    "title": "Labs",
+    "section": "",
+    "text": "Interdisziplinäre Tinnitusforschung\nhttps://tinnitus.uzh.ch\nLocation: Scheuchzerstrasse 21, 8006 Zürich (UZH, SCH)"
+  },
+  {
+    "objectID": "labs.html#vividsoundlab-vsl",
+    "href": "labs.html#vividsoundlab-vsl",
+    "title": "Labs",
+    "section": "",
+    "text": "VividSoundLab (VSL) at HLC\nhttps://www.hlc.uzh.ch/de/research_innovation/labs_technologies/vsl.html\nLocation: Stampfenbachstrasse 73, 8006 Zürich (UZH, STB)"
+  },
+  {
+    "objectID": "index.html#rea.lab-real-life-audio-lab",
+    "href": "index.html#rea.lab-real-life-audio-lab",
+    "title": "Patrick Neff, PD Dr.",
+    "section": "REA.lab (Real-Life Audio Lab)",
+    "text": "REA.lab (Real-Life Audio Lab)\nThe REA.lab investigates how the brain and mind construct inner and outer auditory experiences. We combine psychophysics, psychoacoustics, neuroimaging, and 3D audio simulations to understand the full spectrum of hearing disorders—including hearing loss, tinnitus, and hyperacusis—as well as the neurodiverse reality of auditory processing. Our transdisciplinary approach integrates medicine, neuroscience, psychology, engineering, and computer science to develop objective biomarkers and therapies for altered sound perception.\n\nResearch Approach (Meta-Stack)\nWe operate as a transdisciplinary, full-stack laboratory at the intersection of medicine, neuroscience, psychology, engineering, and computer science. Our philosophy is defined by three core pillars:\n\nFull-Stack Engineering: We adopt a philosophy of engineering our own experimental ecosystems, from custom hardware and acquisition setups to advanced computational pipelines. This ensure transparency, interoperability, and sustainability of research output.\nEcological Validity: We bridge the gap between reductionist lab settings and the real world. By utilizing 3D audio domes and mobile Citizen Science apps (e.g., HearHere), we capture the complexity of hearing in daily life.\nOpen Science & Rigor: Rooted in the principles of reproducible science, we build reproducible, open-source models that serve as a robust foundation for the broader scientific community."
   },
   {
     "objectID": "index.html#experience",
     "href": "index.html#experience",
-    "title": "Quarto Academic, PhD",
-    "section": "",
-    "text": "Researcher, Univerisity"
+    "title": "Patrick Neff, PD Dr.",
+    "section": "Experience",
+    "text": "Experience\n\nScientific Group Lead & Private Lecturer | UZH / USZ | 2022 - Present\nSenior Guest Research Fellow | ETH Zürich (CVL) | 2025 - Present\nPostdoctoral Fellow (SNF) | EPFL Geneva (MIPlab) | 2021 - 2023\nPostdoctoral Fellow (SNF) | University of Salzburg (CCNS) | 2019 - 2021\nPostdoctoral Fellow (SNF) | University of Regensburg (UR) | 2017 - 2025"
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
-    "title": "Quarto Academic, PhD",
-    "section": "",
-    "text": "PhD, Univerisity"
+    "title": "Patrick Neff, PD Dr.",
+    "section": "Education",
+    "text": "Education\n\nRe-habilitation (Exp. Otorhinolaryngology) | University of Zurich | 2025\nHabilitation (Exp. Psychiatry) | University of Regensburg | 2022\nPhD in Neuropsychology | University of Zürich | 2017"
   },
   {
     "objectID": "index.html#recent-posts",
     "href": "index.html#recent-posts",
-    "title": "Quarto Academic, PhD",
+    "title": "Patrick Neff, PD Dr.",
     "section": "Recent Posts",
     "text": "Recent Posts\nCheck out the latest  Papers ,  News ,  Events , and  More »\n\n\n\n\n\n\n\n\n\n\nQuarto Academic Website Examples and Tips\n\n\n\nOct 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nEvent item\n\n\n\nSep 3, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nNews item\n\n\n\nJun 24, 2024\n\n\n\n\n\n\nNo matching items\n\n\nAll Posts »"
   },
