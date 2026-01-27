@@ -1,6 +1,6 @@
 ---
-title: "Quarto Academic, PhD"
-description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
+title: "Patrick Neff, PD Dr."
+description-meta: "Quarto Academic Website Template adapted by Patrick Neff"
 image: "files/images/placeholder4.JPG"
 page-navigation: false
 toc: false
@@ -13,39 +13,29 @@ about:
   image-width: 70%
   links:
     - icon: sun
-      text: Lab
-      href: https://www.github.com
+      text: Github
+      href: https://github.com/jaia137
       target: _blank
     - icon: globe
-      text: Uprofile
-      href: https://baruch.cuny.edu
+      text: Web
+      href: https://www.tinnitus.uzh.ch/de/team/leitung/neff.html
       target: _blank
     - icon: envelope
       text: E-mail
-      href: mailto:email@gmail.com    
+      href: mailto:patrick.neff@uzh.ch    
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://www.linkedin.com/in/patrick-neff-76525b126/
       target: _blank
-    - icon: youtube
-      text: YouTube
-      href: https://www.youtube.com     
-      target: _blank 
     - text: "{{< ai orcid >}} ORCID"   # use academic icons, "" are needed, you also need to install the fontawesome extension
-      href: https://orcid.org
-      target: _blank
-    - text: "{{< ai clarivate >}} Web of Science"
-      href: https://www.webofscience.com  
-      target: _blank
-    - text: "{{< ai scopus >}} Scopus"
-      href: https://www.scopus.com
+      href: https://orcid.org/0000-0003-3174-4910
       target: _blank
     - text: "{{< ai google-scholar >}} Google Scholar"
-      href: https://scholar.google.com
+      href: https://scholar.google.ch/citations?hl=en&user=5eEBvugAAAAJ&view_op=list_works&sortby=pubdate
       target: _blank
-#    - text: "{{< ai researchgate >}} Research Gate"
-#      href: https://www.researchgate.net
-#      target: _blank
+    - text: "{{< ai researchgate >}} Research Gate"
+      href: https://www.researchgate.net/profile/Patrick-Neff-2/unconfirmed
+      target: _blank
 
 listing:   # Comment the listing section and delete corresponding lines in the index.qmd file to remove the recent posts
   - id: recent-posts
@@ -65,33 +55,35 @@ listing:   # Comment the listing section and delete corresponding lines in the i
       - "title asc"
 ---
 
+{{< include files/includes/_academic.qmd >}}
+
 :::{#hero-heading}
 
-I'm a [Quarto Academeic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io).
+## REA.lab (Real-Life Audio Lab)
 
-I'm a template that you can fork to build your own website with easy adaptation and deployment.
+The **REA.lab** investigates how the brain and mind construct inner and outer auditory experiences. We combine psychophysics, psychoacoustics, neuroimaging, and 3D audio simulations to understand the full spectrum of hearing disorders—including hearing loss, tinnitus, and hyperacusis—as well as the neurodiverse reality of auditory processing. Our transdisciplinary approach integrates medicine, neuroscience, psychology, engineering, and computer science to develop objective biomarkers and therapies for altered sound perception.
 
-1. **Star** this repository to bookmark it for future reference.  
-1. **Fork** this repository and rename it to `YourGitHubUserName.github.io`.  
-1. **Update** the `_quarto.yml` file to configure your site’s basic settings.  
-1. **Add or edit content** in the following files and folders:
-   - `/posts/` – posts about publications, news, events  
-   - `teaching.qmd` – teaching information  
-   - `projects.yml` – research or other projects  
-   - `people.qmd` and `/people/` – team or collaborators  
-   - `/files/` - profiles, images, pdfs, and includes 
-1. [**Render and preview**](https://quarto.org/docs/websites/) your site locally.  
-1. [**Publish**](https://quarto.org/docs/publishing/github-pages.html) your site using GitHub Pages (make sure [configuring](https://quarto.org/docs/publishing/images/gh-pages-docs-dir.png) your GitHub repository to publish from the `docs` directory, not the `root` folder). 
-1. **Refine and polish** your content and design as needed.  
-1. ✅ Enjoy your new website!
+### Research Approach (Meta-Stack)
+We operate as a **transdisciplinary, full-stack laboratory** at the intersection of medicine, neuroscience, psychology, engineering, and computer science. Our philosophy is defined by three core pillars:
+
+*   **Full-Stack Engineering:** We adopt a philosophy of engineering our own experimental ecosystems, from custom hardware and acquisition setups to advanced computational pipelines. This ensure transparency, interoperability, and sustainability of research output.
+*   **Ecological Validity:** We bridge the gap between reductionist lab settings and the real world. By utilizing 3D audio domes and mobile Citizen Science apps (e.g., HearHere), we capture the complexity of hearing in daily life.
+*   **Open Science & Rigor:** Rooted in the principles of reproducible science, we build reproducible, open-source models that serve as a robust foundation for the broader scientific community.
 
 ## Experience
 
-- Researcher, Univerisity
+- <b>**Scientific Group Lead & Private Lecturer** | UZH / USZ | 2022 - Present</b>
+- **Senior Guest Research Fellow** | ETH Zürich (CVL) | 2025 - Present
+- **Postdoctoral Fellow (SNF)** | EPFL Geneva (MIPlab) | 2021 - 2023
+- **Postdoctoral Fellow (SNF)** | University of Salzburg (CCNS) | 2019 - 2021
+- **Postdoctoral Fellow (SNF)** | University of Regensburg (UR) | 2017 - 2025
+
 
 ## Education
 
-- PhD, Univerisity
+- **Re-habilitation (Exp. Otorhinolaryngology)** | University of Zurich | 2025
+- **Habilitation (Exp. Psychiatry)** | University of Regensburg | 2022
+- **PhD in Neuropsychology** | University of Zürich | 2017
 
 :::
 

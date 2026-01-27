@@ -8,17 +8,16 @@ title-block-banner: false
 
 **Quarto Academic**
 
-School
+Department of Otorhinolaryngology, Head and Neck Surgery
 
-College
+Faculty of Medicine
 
-University
+University of Zürich
 
-Address: 
+Address: Scheuchzerstrasse 21, 8006 Zürich
 
-Phone: 
+Phone: Send email and/or cookies
 
-E-mail: 
-
+E-mail: [patrick.neff@uzh.ch](mailto:patrick.neff@uzh.ch)
 
 </center>

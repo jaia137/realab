@@ -1,0 +1,30 @@
+---
+title: "Labs"
+subtitle: "Affiliated and Collaborating Labs"
+page-layout: full
+---
+
+# Labs
+
+## Scheuchzerstrasse Lab (SCH)
+**Interdisziplinäre Tinnitusforschung**  
+[https://tinnitus.uzh.ch](https://tinnitus.uzh.ch)  
+Location: Scheuchzerstrasse 21, 8006 Zürich (UZH, SCH)
+
+<div style="display: flex; gap: 1em; flex-wrap: wrap;">
+  <img src="files/images/Picture-1.jpg" alt="Scheuchzerstrasse Lab 1" style="max-width: 45%; min-width: 200px;">
+  <img src="files/images/Picture-2.jpg" alt="Scheuchzerstrasse Lab 2" style="max-width: 45%; min-width: 200px;">
+</div>
+
+<iframe src="https://www.google.com/maps?q=Scheuchzerstrasse+21,+8006+Zürich&output=embed" width="100%" height="300" style="border:0; margin-top:1em;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+---
+
+## VividSoundLab (VSL)
+**VividSoundLab (VSL) at HLC**  
+[https://www.hlc.uzh.ch/de/research_innovation/labs_technologies/vsl.html](https://www.hlc.uzh.ch/de/research_innovation/labs_technologies/vsl.html)  
+Location: Stampfenbachstrasse 73, 8006 Zürich (UZH, STB)
+
+<img src="files/images/Picture-3.jpg" alt="VividSoundLab" style="max-width: 400px; width: 100%; margin-bottom: 1em;">
+
+<iframe src="https://www.google.com/maps?q=Stampfenbachstrasse+73,+8006+Zürich&output=embed" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

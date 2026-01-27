@@ -1,15 +1,14 @@
 project:
   type: website
-  output-dir: docs
 
 # Meta
 description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
-author-meta: "Dr. Gang He"
+author-meta: "Patrick Neff, PD Dr."
 
 website:
-  title: "Quarto Academic"
+  title: "rea.lab"
   image: "https://quarto.org/quarto.png"
-  description: "Quarto Academic Website Template adapted by Dr. Gang He"
+  description: "Website of rea.lab"
  
   navbar:
     background: light  # You can change the background color here
@@ -29,47 +28,35 @@ website:
         menu:
           - text: List of Publications
             href: publications.qmd
-          - text: Selected Papers
-            href: posts.qmd#category=paper
-          - text: Grants
-            href: projects.qmd                                
-      - text: Teaching # Comment the Teaching part out to remove the Teaching page
-        href: teaching.qmd
+          - text: Projects
+            href: projects.qmd
+      - text: Labs
+        href: labs.qmd
       - text: Outreach
-        menu:        
+        menu:
         - text: Presentations
-          href: posts.qmd#category=presentation                   
+          href: posts.qmd#category=presentation
+      - text: Partners
+        href: partners.qmd
       - text: Group   # Comment the Group part out to remove the Group page
         href: people.qmd
 
-    right: 
+    right:
       - text: CV
         href: files/nsf-biosketch.pdf
-      - icon: github
-        href: https://github.com/drganghe/quarto-academic-website-template
-        target: _blank
-      - text: "{{< fa brands bluesky >}}"
-        href: https://bsky.app
-        target: _blank      
-      - icon: rss
-        href: posts.xml
-        target: _blank
+      # - '<a href="https://github.com/drganghe/quarto-academic-website-template" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>'
+      # - '<a href="https://bsky.app" target="_blank">Bluesky</a>'
+      # - '<a href="posts.xml" target="_blank">RSS</a>'
   
   page-navigation: true
   
   page-footer: 
     left: "[Your Name](http://www.github.com) &copy; <script>document.write(new Date().getFullYear())</script>" 
     center: "Build on [Quart Academic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io)"
-    right:  
-      - icon: github
-        href: https://github.com/drganghe/quarto-academic-website-template
-        target: _blank
-      - text: "{{< fa brands bluesky >}}" 
-        href: https://bsky.app
-        target: _blank
-      - icon: rss
-        href: posts.xml
-        target: _blank  
+    # right:
+    #   - '<a href="https://github.com/drganghe/quarto-academic-website-template" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>'
+    #   - '<a href="https://bsky.app" target="_blank">Bluesky</a>'
+    #   - '<a href="posts.xml" target="_blank">RSS</a>'
   
   search:
     location: navbar
@@ -87,7 +74,7 @@ website:
   twitter-card: true 
 #  card-style: summary      
   
-  site-url: "https://drganghe.github.io/quarto-academic-website-template"
+  site-url: "https://jaia137.github.io/realab/"
   
   google-analytics:
     tracking-id: ""  # Please delete or replace with your own tracking ID
