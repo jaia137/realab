@@ -1,0 +1,177 @@
+[
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "What’s New & Updated",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nQuarto Academic Website Examples and Tips\n\n\n\n\n\n\nnews\n\n\n\nExamples and tips for Quarto Academic Website\n\n\n\n\n\nOct 15, 2024\n\n\nDr. Gang He\n\n\n\n\n\n\n\n\n\n\n\n\nEvent item\n\n\n\n\n\n\nevent\n\npresentation\n\n\n\nAbout Event item.\n\n\n\n\n\nSep 3, 2024\n\n\nEvent\n\n\n\n\n\n\n\n\n\n\n\n\nNews item\n\n\n\n\n\n\nnews\n\n\n\nAbout new item\n\n\n\n\n\nJun 24, 2024\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\n\nCan quantum-mechanical description of physical reality be considered complete?\n\n\nPhysical Review\n\n\n\npaper\n\n\n\nOne is thus led to conclude that the description of reality as given by a wave function is not complete.\n\n\n\n\n\nMay 15, 1935\n\n\nAlbert Einstein, Boris Podolsky, Nathan Rosen\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Total citations as of January 2026:"
+  },
+  {
+    "objectID": "publications.html#selected-work",
+    "href": "publications.html#selected-work",
+    "title": "Publications",
+    "section": "Selected Work",
+    "text": "Selected Work\nEinstein, A., Podolsky, B., & Rosen, N. (1935). Can quantum-mechanical description of physical reality be considered complete?. Physical review, 47(10), 777. [pdf] [code and data]   \n\n\n\n\n\n\nEinstein, A. (1965). Concerning an heuristic point of view toward the emission and transformation of light. American Journal of Physics, 33(5), 367. [pdf]"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Order By\n      Default\n      \n      \n      \n        Title\n      \n      \n        Team\n      \n      \n        Funder\n      \n      \n        Description\n      \n      \n        Start\n      \n      \n        End\n      \n      \n        Funding\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nTitle\n\n\n\nTeam\n\n\n\nFunder\n\n\n\nDescription\n\n\n\nFunding\n\n\n\nStart\n\n\n\nEnd\n\n\n\n\n\n\n\n\n\n\n\nExploring \n\n\nAcademic Website\n\n\nFunder\n\n\nThe goal of this project is to investigate .\n\n\n$0\n\n\n2024\n\n\n2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects.html#ongoing-research",
+    "href": "projects.html#ongoing-research",
+    "title": "Projects",
+    "section": "Ongoing Research",
+    "text": "Ongoing Research\nSpin3D utilizes our 3D audio dome infrastructure to simulate realistic acoustic environments. This platform allows us to test auditory perception and hearing device performance in complex, dynamic scenarios that mimic real-world challenges, moving beyond standard audiometric testing.\nHearHere is a Citizen Science initiative that maps sensory challenges in the urban soundscape. Using the custom “CS-Logger” app, we record environmental noise and subjective hearing experiences to identify urban hotspots and increase the ecological validity of our lab experiments.\nHLC_Audio focuses on advanced real-life audio analysis, bridging the gap between controlled lab settings and complex, noisy environments where hearing challenges truly emerge.\nThe Silence-Illusion Paradigm investigates how the brain constructs auditory reality by contrasting Auditory Illusions (context-driven filling-in) with Silence Perception (input suppression). This project aims to map the “Prediction-Sensation” spectrum across neuroatypical groups (Tinnitus, ASD, ADHD), establishing objective biomarkers for sensory processing disorders.\nFire is a large-scale epidemiological study tracking tinnitus prevalence and health metrics across Switzerland, providing essential data for understanding the public health impact of hearing disorders.\nANT (Advancing Neurofeedback in Tinnitus) develops next-generation neurofeedback protocols, bridging computational modeling with clinical application to treat tinnitus.\nTEAS (Neuromodulation in Tinnitus) investigates non-invasive electrical stimulation techniques to modulate auditory cortex activity and provide relief for tinnitus patients."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Quarto Academic\nDepartment of Otorhinolaryngology, Head and Neck Surgery\nFaculty of Medicine\nUniversity of Zürich\nAddress: Scheuchzerstrasse 21, 8006 Zürich\nPhone: Send email and/or cookies\nE-mail: patrick.neff at uzh dot ch"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Fall 2024,   Fall 2023\nClass 1 introduction."
+  },
+  {
+    "objectID": "teaching.html#class-1",
+    "href": "teaching.html#class-1",
+    "title": "Teaching",
+    "section": "",
+    "text": "Fall 2024,   Fall 2023\nClass 1 introduction."
+  },
+  {
+    "objectID": "teaching.html#class-2",
+    "href": "teaching.html#class-2",
+    "title": "Teaching",
+    "section": "Class 2",
+    "text": "Class 2\n\n\n\n\n\nSpring 2025,   Fall 2023\nClass 2 introduction."
+  },
+  {
+    "objectID": "teaching.html#class-3",
+    "href": "teaching.html#class-3",
+    "title": "Teaching",
+    "section": "Class 3",
+    "text": "Class 3\n\n\n\n\n\nSpring 2025,   Spring 2024\nClass 3 introduction."
+  },
+  {
+    "objectID": "partners.html",
+    "href": "partners.html",
+    "title": "Partners",
+    "section": "",
+    "text": "Partners\nAdd details about institutional and industry partners here."
+  },
+  {
+    "objectID": "posts/paper-title/index.html#abstract",
+    "href": "posts/paper-title/index.html#abstract",
+    "title": "Can quantum-mechanical description of physical reality be considered complete?",
+    "section": "Abstract",
+    "text": "Abstract\nIn a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete."
+  },
+  {
+    "objectID": "posts/paper-title/index.html#links",
+    "href": "posts/paper-title/index.html#links",
+    "title": "Can quantum-mechanical description of physical reality be considered complete?",
+    "section": "Links",
+    "text": "Links\nPublished paper"
+  },
+  {
+    "objectID": "posts/news-title/index.html",
+    "href": "posts/news-title/index.html",
+    "title": "News item",
+    "section": "",
+    "text": "About the news"
+  },
+  {
+    "objectID": "posts/news-title/index.html#summary",
+    "href": "posts/news-title/index.html#summary",
+    "title": "News item",
+    "section": "",
+    "text": "About the news"
+  },
+  {
+    "objectID": "labs.html",
+    "href": "labs.html",
+    "title": "Labs",
+    "section": "",
+    "text": "Interdisziplinäre Tinnitusforschung\nhttps://tinnitus.uzh.ch\nLocation: Scheuchzerstrasse 21, 8006 Zürich (UZH, SCH)\n\n \n\n\n\n\n\n\n\nVividSoundLab (VSL) at HLC\nhttps://www.hlc.uzh.ch/de/research_innovation/labs_technologies/vsl.html\nLocation: Stampfenbachstrasse 73, 8006 Zürich (UZH, STB)"
+  },
+  {
+    "objectID": "labs.html#scheuchzerstrasse-lab-sch",
+    "href": "labs.html#scheuchzerstrasse-lab-sch",
+    "title": "Labs",
+    "section": "",
+    "text": "Interdisziplinäre Tinnitusforschung\nhttps://tinnitus.uzh.ch\nLocation: Scheuchzerstrasse 21, 8006 Zürich (UZH, SCH)"
+  },
+  {
+    "objectID": "labs.html#vividsoundlab-vsl",
+    "href": "labs.html#vividsoundlab-vsl",
+    "title": "Labs",
+    "section": "",
+    "text": "VividSoundLab (VSL) at HLC\nhttps://www.hlc.uzh.ch/de/research_innovation/labs_technologies/vsl.html\nLocation: Stampfenbachstrasse 73, 8006 Zürich (UZH, STB)"
+  },
+  {
+    "objectID": "index.html#rea.lab-real-life-audio-lab",
+    "href": "index.html#rea.lab-real-life-audio-lab",
+    "title": "Patrick Neff, PD Dr.",
+    "section": "REA.lab (Real-Life Audio Lab)",
+    "text": "REA.lab (Real-Life Audio Lab)\nThe REA.lab investigates how the brain and mind construct inner and outer auditory experiences. We combine psychophysics, psychoacoustics, neuroimaging, and 3D audio simulations to understand the full spectrum of hearing disorders—including hearing loss, tinnitus, and hyperacusis—as well as the neurodiverse reality of auditory processing. Our transdisciplinary approach integrates medicine, neuroscience, psychology, engineering, and computer science to develop objective biomarkers and therapies for altered sound perception.\n\nResearch Approach (Meta-Stack)\nWe operate as a transdisciplinary, full-stack laboratory at the intersection of medicine, neuroscience, psychology, engineering, and computer science. Our philosophy is defined by three core pillars:\n\nFull-Stack Engineering: We adopt a philosophy of engineering our own experimental ecosystems, from custom hardware and acquisition setups to advanced computational pipelines. This ensure transparency, interoperability, and sustainability of research output.\nEcological Validity: We bridge the gap between reductionist lab settings and the real world. By utilizing 3D audio domes and mobile Citizen Science apps (e.g., HearHere), we capture the complexity of hearing in daily life.\nOpen Science & Rigor: Rooted in the principles of reproducible science, we build reproducible, open-source models that serve as a robust foundation for the broader scientific community."
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Patrick Neff, PD Dr.",
+    "section": "Experience",
+    "text": "Experience\n\nScientific Group Lead & Private Lecturer | UZH / USZ | 2022 - Present\nSenior Guest Research Fellow | ETH Zürich (CVL) | 2025 - Present\nPostdoctoral Fellow (SNF) | EPFL Geneva (MIPlab) | 2021 - 2023\nPostdoctoral Fellow (SNF) | University of Salzburg (CCNS) | 2019 - 2021\nPostdoctoral Fellow (SNF) | University of Regensburg (UR) | 2017 - 2025"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Patrick Neff, PD Dr.",
+    "section": "Education",
+    "text": "Education\n\nRe-habilitation (Exp. Otorhinolaryngology) | University of Zurich | 2025\nHabilitation (Exp. Psychiatry) | University of Regensburg | 2022\nPhD in Neuropsychology | University of Zürich | 2017"
+  },
+  {
+    "objectID": "index.html#recent-posts",
+    "href": "index.html#recent-posts",
+    "title": "Patrick Neff, PD Dr.",
+    "section": "Recent Posts",
+    "text": "Recent Posts\nCheck out the latest  Papers ,  News ,  Events , and  More »\n\n\n\n\n\n\n\n\n\n\nQuarto Academic Website Examples and Tips\n\n\n\nOct 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nEvent item\n\n\n\nSep 3, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nNews item\n\n\n\nJun 24, 2024\n\n\n\n\n\n\nNo matching items\n\n\nAll Posts »"
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
+    "section": "",
+    "text": "PhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nMasters Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nUndergraduate Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPI\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people.html#team",
+    "href": "people.html#team",
+    "title": "People",
+    "section": "",
+    "text": "PhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nMasters Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nUndergraduate Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPI\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people.html#alumni",
+    "href": "people.html#alumni",
+    "title": "People",
+    "section": "Alumni",
+    "text": "Alumni\n\n\n   \n    \n    \n      Order By\n      Default\n      \n      \n      \n        Name\n      \n      \n        Role\n      \n      \n        Started\n      \n      \n        Ended\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nName\n\n\n\nRole\n\n\n\nStarted\n\n\n\nEnded\n\n\n\n\n\n\n\n\n\n\n\nAlumni A\n\n\nPhD Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\n\n\n\nAlumni B\n\n\nMasters Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\n\n\n\nAlumni C\n\n\nUndergraduate Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\nNo matching items"
+  }
+]
