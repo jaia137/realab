@@ -1,7 +1,7 @@
     - path: #
       image: "/files/profiles/manager.JPG"
-      title: "Study Manager Name"
-      lastname: "LastName"
-      subtitle: "Study Manager"
+      title: "Cevincia Singleton"
+      lastname: "Singleton"
+      subtitle: "Study Manager, MSc"
       categories: [Study Manager] 
-      started: "YYYY"
+      started: "2025"

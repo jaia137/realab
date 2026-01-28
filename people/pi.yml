@@ -1,8 +1,6 @@
-    - path: https://drganghe.github.io/quarto-academic-website-template
+    - path: https://www.tinnitus.uzh.ch/de/team/leitung/neff.html
       image: "/files/profiles/profile7.JPG"
-      title: "PI Name"
-      lastname: "Website"
-#      author: 
-      subtitle: "PI"
-#      date: "2024-03-12"
-      categories: [Director] 
+      title: "PD Dr. Patrick Neff"
+      lastname: "Neff"
+      subtitle: "Principal Investigator"
+      categories: [Director]

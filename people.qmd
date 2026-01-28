@@ -16,33 +16,9 @@ listing:  #an example of listing external links
 #  sort-ui: true
 #  filter-ui: true
   contents: 
-    - /people/pi.yml  # Use individual files here as you may use each person at different occasions such as events, news.
+    - /people/pi.yml
     - /people/study-manager.yml
     - /people/phd-student.yml
-    - /people/masters-student.yml
-    - /people/undergraduate-student.yml
-
-- id: lab-alumni
-  sort: "lastname asc"
-  type: table
-  fields: [image, title, subtitle, started, ended]
-  grid-item-align: center  
-  grid-columns: 4
-  image-height: 25px
-  field-display-names: 
-      title: "Name"
-      subtitle: "Role"
-      started: "Started"
-      ended: "Ended"
-#  categories: true
-#  sort-ui: true
-#  filter-ui: true
-  contents: 
-    - /people/phd-alumni.yml
-    - /people/masters-alumni.yml
-    - /people/undergraduate-alumni.yml
-
- 
 
 page-navigation: false
 title-block-banner: false
@@ -57,11 +33,5 @@ format:
 ## Team
 
 :::{#lab-member}
-:::
-
-
-## Alumni
-
-:::{#lab-alumni}
 :::
 
