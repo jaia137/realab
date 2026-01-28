@@ -9,13 +9,13 @@ css: custom.css
 
 
 <!--Include academic icons or buttons-->
-{{< include /files/includes/_academic.qmd >}}
+{{< include files/includes/_academic.qmd >}}
 
 Total citations as of January 2026:
 
 - [Google Scholar](https://scholar.google.ch/citations?hl=en&user=5eEBvugAAAAJ&view_op=list_works&sortby=pubdate): 2237 (h-index = 29, i10-index = 45) 
 
-## Selected Work
+<!-- ## Selected Work
 
 Einstein, A., Podolsky, B., & Rosen, N. (1935). [Can quantum-mechanical description of physical reality be considered complete?](posts/paper-title/index.qmd). *Physical review*, 47(10), 777. \[[pdf](https://scholar.google.com/)\] \[[code and data](https://doi.org)\] ![](https://drganghe.github.io/files/images/highly-cited-paper-badge.png "ESI Highly Cited Paper"){width=20 fig-alt="Highly cited paper"} ![](https://drganghe.github.io/files/images/hot-paper-badge.png "ESI Hot Paper"){width=20 fig-alt="Hot paper"} <span class="__dimensions_badge_embed__" data-doi="10.1103/PhysRev.47.777" data-style="large_rectangle"></span> <div data-badge-popover="right" data-badge-type="1" data-doi="10.1103/PhysRev.47.777" data-hide-no-mentions="true" class="altmetric-embed"></div>     
 
@@ -26,6 +26,5 @@ Einstein, A. (1965). Concerning an heuristic point of view toward the emission a
 
 
 
-<!--Include social share buttons-->
-
-{{< include /files/includes/_socialshare.qmd >}}
+<!--Include social share buttons
+{{< include files/includes/_socialshare.qmd >}} -->

@@ -1,0 +1,7 @@
+    - path: #
+      image: "/files/profiles/manager.JPG"
+      title: "Study Manager Name"
+      lastname: "LastName"
+      subtitle: "Study Manager"
+      categories: [Study Manager] 
+      started: "YYYY"

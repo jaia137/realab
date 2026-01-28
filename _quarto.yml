@@ -19,15 +19,15 @@ website:
 #        href: index.qmd
       - text: About
         menu:
-          - text: News
-            href: posts.qmd#category=news
-          - text: Events
-            href: posts.qmd#category=event      
+#          - text: News
+#            href: posts.qmd#category=news
+#          - text: Events
+#            href: posts.qmd#category=event      
           - text: Contact
             href: contact.qmd             
       - text: Research
         menu:
-          - text: List of Publications
+          - text: Publications
             href: publications.qmd
           - text: Projects
             href: projects.qmd
@@ -42,9 +42,9 @@ website:
       - text: Group   # Comment the Group part out to remove the Group page
         href: people.qmd
 
-    right:
-      - text: CV
-        href: files/nsf-biosketch.pdf
+    # right:
+      # - text: CV
+      #   href: files/nsf-biosketch.pdf
       # - '<a href="https://github.com/drganghe/quarto-academic-website-template" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>'
       # - '<a href="https://bsky.app" target="_blank">Bluesky</a>'
       # - '<a href="posts.xml" target="_blank">RSS</a>'
@@ -52,7 +52,7 @@ website:
   page-navigation: true
   
   page-footer: 
-    left: "[Your Name](http://www.github.com) &copy; <script>document.write(new Date().getFullYear())</script>" 
+    left: "[rea.lab](http://www.github.com) &copy; <script>document.write(new Date().getFullYear())</script>" 
     center: "Build on [Quart Academic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io)"
     # right:
     #   - '<a href="https://github.com/drganghe/quarto-academic-website-template" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>'

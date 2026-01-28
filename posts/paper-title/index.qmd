@@ -24,7 +24,7 @@ google-scholar: true
 
 <!--Include academic icons or bottons-->
 
-{{< include /files/includes/_academic.qmd >}}
+{{< include ../../files/includes/_academic.qmd >}}
 
 
 ## Abstract

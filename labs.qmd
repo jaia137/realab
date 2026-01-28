@@ -1,15 +1,74 @@
 ---
 title: "Labs"
-subtitle: "Affiliated and Collaborating Labs"
+subtitle: "UZH centre"
 page-layout: full
 ---
 
-# Labs
+## VividSoundLab (VSL)
+**VividSoundLab (VSL) at HLC**  
+[VSL at HLC](https://www.hlc.uzh.ch/de/research_innovation/labs_technologies/vsl.html)  
+Location: Stampfenbachstrasse 73, 8006 Zürich (UZH, STB)
+
+### Equipment & Features
+
+**3D Audio System:**
+- 42-speaker dome array
+- Multiple overlapping 3D audio encoders (e.g. higher order Ambisonics)
+
+**Audio Hardware:**
+- RME 64-channel digital audio interface
+- Low-latency and real-time implementation, synchronization with sensor systems
+
+**Software & Integration:**
+- SPAT (Spatial Audio Processing)
+- Max/MSP
+- OSC (Open Sound Control)
+
+**EEG System:**
+- Brain Products 64-channel EEG system
+
+**Physiological Monitoring:**
+- Pulse oximetry
+- Electromyography (EMG)
+- Electrocardiography (ECG)
+- Respiration monitoring
+- Galvanic skin response (GSR)
+
+<img src="files/images/Picture-3.jpg" alt="VividSoundLab" style="max-width: 400px; width: 100%; margin-bottom: 1em;">
+
+<iframe src="https://www.google.com/maps?q=Stampfenbachstrasse+73,+8006+Zürich&output=embed" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+---
 
 ## Scheuchzerstrasse Lab (SCH)
-**Interdisziplinäre Tinnitusforschung**  
+**Interdisciplinary Tinnitus Research**  
 [https://tinnitus.uzh.ch](https://tinnitus.uzh.ch)  
 Location: Scheuchzerstrasse 21, 8006 Zürich (UZH, SCH)
+
+### Equipment & Features
+
+**EEG Systems:**
+- 2× Brain Products 64-channel EEG systems
+- 1× BioSemi 128-channel EEG system
+- Soundproof research booths
+
+
+**Eye Tracking:**
+- SR Research EyeLink 1000 eye tracker
+- Face tracking
+
+**Physiological Monitoring:**
+- Pulse oximetry
+- Electromyography (EMG)
+- Electrocardiography (ECG)
+- Respiration monitoring
+- Galvanic skin response (GSR)
+- Environmental sensors
+
+
+**Neurostimulation:**
+- Soterix MxN-33 Ultra HD electrical neurostimulator
+
 
 <div style="display: flex; gap: 1em; flex-wrap: wrap;">
   <img src="files/images/Picture-1.jpg" alt="Scheuchzerstrasse Lab 1" style="max-width: 45%; min-width: 200px;">
@@ -17,14 +76,3 @@ Location: Scheuchzerstrasse 21, 8006 Zürich (UZH, SCH)
 </div>
 
 <iframe src="https://www.google.com/maps?q=Scheuchzerstrasse+21,+8006+Zürich&output=embed" width="100%" height="300" style="border:0; margin-top:1em;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
----
-
-## VividSoundLab (VSL)
-**VividSoundLab (VSL) at HLC**  
-[https://www.hlc.uzh.ch/de/research_innovation/labs_technologies/vsl.html](https://www.hlc.uzh.ch/de/research_innovation/labs_technologies/vsl.html)  
-Location: Stampfenbachstrasse 73, 8006 Zürich (UZH, STB)
-
-<img src="files/images/Picture-3.jpg" alt="VividSoundLab" style="max-width: 400px; width: 100%; margin-bottom: 1em;">
-
-<iframe src="https://www.google.com/maps?q=Stampfenbachstrasse+73,+8006+Zürich&output=embed" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

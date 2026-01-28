@@ -39,7 +39,7 @@ listing:
 
 **The Silence-Illusion Paradigm** investigates how the brain constructs auditory reality by contrasting *Auditory Illusions* (context-driven filling-in) with *Silence Perception* (input suppression). This project aims to map the "Prediction-Sensation" spectrum across neuroatypical groups (Tinnitus, ASD, ADHD), establishing objective biomarkers for sensory processing disorders.
 
-**Fire** is a large-scale epidemiological study tracking tinnitus prevalence and health metrics across Switzerland, providing essential data for understanding the public health impact of hearing disorders.
+**Fire** full-stack physiological EEG paradigm we iterate to develop a method to study fatigue and fatiguability in auditory processing.
 
 **ANT (Advancing Neurofeedback in Tinnitus)** develops next-generation neurofeedback protocols, bridging computational modeling with clinical application to treat tinnitus.
 

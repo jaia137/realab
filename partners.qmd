@@ -4,6 +4,13 @@ subtitle: "Institutional and Industry Partners"
 page-layout: full
 ---
 
-# Partners
+# Academia
 
 Add details about institutional and industry partners here.
+
+# NGOs
+
+# GOs
+
+# Industry
+

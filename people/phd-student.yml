@@ -1,10 +1,39 @@
-    - path: https://drganghe.github.io/quarto-academic-website-template
+    - path: #
       image: "/files/profiles/profile1.JPG"
-      title: "Student A"
-      lastname: "A"
-#      author: 
-      subtitle: "PhD Student"
-#      date: "2024-03-12"
+      title: "Jinyi Han"
+      lastname: "Han"
+      subtitle: "Linguistics and Phonetics - ZNZ"
+      categories: [PhD Student] 
+      started: "2025"
+      
+    - path: #
+      image: "/files/profiles/profile2.JPG"
+      title: "Payam S. Shabestari"
+      lastname: "Shabestari"
+      subtitle: "Biomedical Engineer - ZNZ"
+      categories: [PhD Student] 
+      started: "2022"
+      
+    - path: #
+      image: "/files/profiles/profile3.JPG"
+      title: "Jessica Fritzsche"
+      lastname: "Fritzsche"
+      subtitle: "Neuroscience - ZNZ"
       categories: [PhD Student] 
       started: "2024"
-      ended: "2025"
+      
+    - path: #
+      image: "/files/profiles/profile4.JPG"
+      title: "Nick Sommerhalder"
+      lastname: "Sommerhalder"
+      subtitle: "Psychology - Psychology PhD School"
+      categories: [PhD Student] 
+      started: "2023"
+      
+    - path: #
+      image: "/files/profiles/profile5.JPG"
+      title: "Zino Wellauer"
+      lastname: "Wellauer"
+      subtitle: "Psychology - LIFE Academy"
+      categories: [PhD Student] 
+      started: "2023"

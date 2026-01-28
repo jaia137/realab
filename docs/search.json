@@ -11,14 +11,7 @@
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "Total citations as of January 2026:"
-  },
-  {
-    "objectID": "publications.html#selected-work",
-    "href": "publications.html#selected-work",
-    "title": "Publications",
-    "section": "Selected Work",
-    "text": "Selected Work\nEinstein, A., Podolsky, B., & Rosen, N. (1935). Can quantum-mechanical description of physical reality be considered complete?. Physical review, 47(10), 777. [pdf] [code and data]   \n\n\n\n\n\n\nEinstein, A. (1965). Concerning an heuristic point of view toward the emission and transformation of light. American Journal of Physics, 33(5), 367. [pdf]"
+    "text": "Total citations as of January 2026:\n\nGoogle Scholar: 2237 (h-index = 29, i10-index = 45)"
   },
   {
     "objectID": "projects.html",
@@ -32,7 +25,7 @@
     "href": "projects.html#ongoing-research",
     "title": "Projects",
     "section": "Ongoing Research",
-    "text": "Ongoing Research\nSpin3D utilizes our 3D audio dome infrastructure to simulate realistic acoustic environments. This platform allows us to test auditory perception and hearing device performance in complex, dynamic scenarios that mimic real-world challenges, moving beyond standard audiometric testing.\nHearHere is a Citizen Science initiative that maps sensory challenges in the urban soundscape. Using the custom “CS-Logger” app, we record environmental noise and subjective hearing experiences to identify urban hotspots and increase the ecological validity of our lab experiments.\nHLC_Audio focuses on advanced real-life audio analysis, bridging the gap between controlled lab settings and complex, noisy environments where hearing challenges truly emerge.\nThe Silence-Illusion Paradigm investigates how the brain constructs auditory reality by contrasting Auditory Illusions (context-driven filling-in) with Silence Perception (input suppression). This project aims to map the “Prediction-Sensation” spectrum across neuroatypical groups (Tinnitus, ASD, ADHD), establishing objective biomarkers for sensory processing disorders.\nFire is a large-scale epidemiological study tracking tinnitus prevalence and health metrics across Switzerland, providing essential data for understanding the public health impact of hearing disorders.\nANT (Advancing Neurofeedback in Tinnitus) develops next-generation neurofeedback protocols, bridging computational modeling with clinical application to treat tinnitus.\nTEAS (Neuromodulation in Tinnitus) investigates non-invasive electrical stimulation techniques to modulate auditory cortex activity and provide relief for tinnitus patients."
+    "text": "Ongoing Research\nSpin3D utilizes our 3D audio dome infrastructure to simulate realistic acoustic environments. This platform allows us to test auditory perception and hearing device performance in complex, dynamic scenarios that mimic real-world challenges, moving beyond standard audiometric testing.\nHearHere is a Citizen Science initiative that maps sensory challenges in the urban soundscape. Using the custom “CS-Logger” app, we record environmental noise and subjective hearing experiences to identify urban hotspots and increase the ecological validity of our lab experiments.\nHLC_Audio focuses on advanced real-life audio analysis, bridging the gap between controlled lab settings and complex, noisy environments where hearing challenges truly emerge.\nThe Silence-Illusion Paradigm investigates how the brain constructs auditory reality by contrasting Auditory Illusions (context-driven filling-in) with Silence Perception (input suppression). This project aims to map the “Prediction-Sensation” spectrum across neuroatypical groups (Tinnitus, ASD, ADHD), establishing objective biomarkers for sensory processing disorders.\nFire full-stack physiological EEG paradigm we iterate to develop a method to study fatigue and fatiguability in auditory processing.\nANT (Advancing Neurofeedback in Tinnitus) develops next-generation neurofeedback protocols, bridging computational modeling with clinical application to treat tinnitus.\nTEAS (Neuromodulation in Tinnitus) investigates non-invasive electrical stimulation techniques to modulate auditory cortex activity and provide relief for tinnitus patients."
   },
   {
     "objectID": "contact.html",
@@ -74,7 +67,7 @@
     "href": "partners.html",
     "title": "Partners",
     "section": "",
-    "text": "Partners\nAdd details about institutional and industry partners here."
+    "text": "Academia\nAdd details about institutional and industry partners here.\n\n\nNGOs\n\n\nGOs\n\n\nIndustry"
   },
   {
     "objectID": "posts/paper-title/index.html#abstract",
@@ -109,63 +102,56 @@
     "href": "labs.html",
     "title": "Labs",
     "section": "",
-    "text": "Interdisziplinäre Tinnitusforschung\nhttps://tinnitus.uzh.ch\nLocation: Scheuchzerstrasse 21, 8006 Zürich (UZH, SCH)\n\n \n\n\n\n\n\n\n\nVividSoundLab (VSL) at HLC\nhttps://www.hlc.uzh.ch/de/research_innovation/labs_technologies/vsl.html\nLocation: Stampfenbachstrasse 73, 8006 Zürich (UZH, STB)"
-  },
-  {
-    "objectID": "labs.html#scheuchzerstrasse-lab-sch",
-    "href": "labs.html#scheuchzerstrasse-lab-sch",
-    "title": "Labs",
-    "section": "",
-    "text": "Interdisziplinäre Tinnitusforschung\nhttps://tinnitus.uzh.ch\nLocation: Scheuchzerstrasse 21, 8006 Zürich (UZH, SCH)"
+    "text": "VividSoundLab (VSL) at HLC\nVSL at HLC\nLocation: Stampfenbachstrasse 73, 8006 Zürich (UZH, STB)\n\n\n3D Audio System: - 42-speaker dome array - Multiple overlapping 3D audio encoders (e.g. higher order Ambisonics)\nAudio Hardware: - RME 64-channel digital audio interface - Low-latency and real-time implementation, synchronization with sensor systems\nSoftware & Integration: - SPAT (Spatial Audio Processing) - Max/MSP - OSC (Open Sound Control)\nEEG System: - Brain Products 64-channel EEG system\nPhysiological Monitoring: - Pulse oximetry - Electromyography (EMG) - Electrocardiography (ECG) - Respiration monitoring - Galvanic skin response (GSR)"
   },
   {
     "objectID": "labs.html#vividsoundlab-vsl",
     "href": "labs.html#vividsoundlab-vsl",
     "title": "Labs",
     "section": "",
-    "text": "VividSoundLab (VSL) at HLC\nhttps://www.hlc.uzh.ch/de/research_innovation/labs_technologies/vsl.html\nLocation: Stampfenbachstrasse 73, 8006 Zürich (UZH, STB)"
+    "text": "VividSoundLab (VSL) at HLC\nVSL at HLC\nLocation: Stampfenbachstrasse 73, 8006 Zürich (UZH, STB)\n\n\n3D Audio System: - 42-speaker dome array - Multiple overlapping 3D audio encoders (e.g. higher order Ambisonics)\nAudio Hardware: - RME 64-channel digital audio interface - Low-latency and real-time implementation, synchronization with sensor systems\nSoftware & Integration: - SPAT (Spatial Audio Processing) - Max/MSP - OSC (Open Sound Control)\nEEG System: - Brain Products 64-channel EEG system\nPhysiological Monitoring: - Pulse oximetry - Electromyography (EMG) - Electrocardiography (ECG) - Respiration monitoring - Galvanic skin response (GSR)"
+  },
+  {
+    "objectID": "labs.html#scheuchzerstrasse-lab-sch",
+    "href": "labs.html#scheuchzerstrasse-lab-sch",
+    "title": "Labs",
+    "section": "Scheuchzerstrasse Lab (SCH)",
+    "text": "Scheuchzerstrasse Lab (SCH)\nInterdisciplinary Tinnitus Research\nhttps://tinnitus.uzh.ch\nLocation: Scheuchzerstrasse 21, 8006 Zürich (UZH, SCH)\n\nEquipment & Features\nEEG Systems: - 2× Brain Products 64-channel EEG systems - 1× BioSemi 128-channel EEG system - Soundproof research booths\nEye Tracking: - SR Research EyeLink 1000 eye tracker - Face tracking\nPhysiological Monitoring: - Pulse oximetry - Electromyography (EMG) - Electrocardiography (ECG) - Respiration monitoring - Galvanic skin response (GSR) - Environmental sensors\nNeurostimulation: - Soterix MxN-33 Ultra HD electrical neurostimulator"
   },
   {
     "objectID": "index.html#rea.lab-real-life-audio-lab",
     "href": "index.html#rea.lab-real-life-audio-lab",
-    "title": "Patrick Neff, PD Dr.",
+    "title": "rea.lab",
     "section": "REA.lab (Real-Life Audio Lab)",
-    "text": "REA.lab (Real-Life Audio Lab)\nThe REA.lab investigates how the brain and mind construct inner and outer auditory experiences. We combine psychophysics, psychoacoustics, neuroimaging, and 3D audio simulations to understand the full spectrum of hearing disorders—including hearing loss, tinnitus, and hyperacusis—as well as the neurodiverse reality of auditory processing. Our transdisciplinary approach integrates medicine, neuroscience, psychology, engineering, and computer science to develop objective biomarkers and therapies for altered sound perception.\n\nResearch Approach (Meta-Stack)\nWe operate as a transdisciplinary, full-stack laboratory at the intersection of medicine, neuroscience, psychology, engineering, and computer science. Our philosophy is defined by three core pillars:\n\nFull-Stack Engineering: We adopt a philosophy of engineering our own experimental ecosystems, from custom hardware and acquisition setups to advanced computational pipelines. This ensure transparency, interoperability, and sustainability of research output.\nEcological Validity: We bridge the gap between reductionist lab settings and the real world. By utilizing 3D audio domes and mobile Citizen Science apps (e.g., HearHere), we capture the complexity of hearing in daily life.\nOpen Science & Rigor: Rooted in the principles of reproducible science, we build reproducible, open-source models that serve as a robust foundation for the broader scientific community."
+    "text": "REA.lab (Real-Life Audio Lab)\nThe REA.lab investigates how the brain and mind construct inner and outer auditory experiences. We combine psychophysics, psychoacoustics, neuroimaging, and 3D audio simulations to understand the full spectrum of hearing disorders—including hearing loss, tinnitus, and hyperacusis—as well as the neurodiverse reality of auditory processing. Our transdisciplinary approach integrates medicine, neuroscience, psychology, engineering, and computer science to develop methods, technology, objective biomarkers and therapies for normal and pathological hearing.\n\nResearch Approach\nOur philosophy is defined by three core pillars:\n\nEcological Validity: We bridge the gap between reductionist lab settings and the real world. By utilizing 3D audio domes, auditory scene analysis and mobile Citizen Science apps, we capture the complexity and challenges of hearing in daily life.\nFull-Stack Engineering: We adopt a philosophy of engineering our own experimental ecosystems, from custom hardware and acquisition setups to computational pipelines. This ensure transparency, interoperability, and sustainability of research output.\nOpen Science & Reproducibility: We are committed to the principles of reproducible science and build open-source methodologies for the hearing and broader scientific community."
   },
   {
     "objectID": "index.html#experience",
     "href": "index.html#experience",
-    "title": "Patrick Neff, PD Dr.",
+    "title": "rea.lab",
     "section": "Experience",
-    "text": "Experience\n\nScientific Group Lead & Private Lecturer | UZH / USZ | 2022 - Present\nSenior Guest Research Fellow | ETH Zürich (CVL) | 2025 - Present\nPostdoctoral Fellow (SNF) | EPFL Geneva (MIPlab) | 2021 - 2023\nPostdoctoral Fellow (SNF) | University of Salzburg (CCNS) | 2019 - 2021\nPostdoctoral Fellow (SNF) | University of Regensburg (UR) | 2017 - 2025"
+    "text": "Experience\n\nScientific Group Lead & Private Lecturer | UZH | 2022 - Present\nSenior Guest Research Fellow | ETH Zürich (CVL) | 2025 - Present\nPostdoctoral Fellow (SNF) | EPFL Geneva (MIPlab) | 2021 - 2023\nPostdoctoral Fellow (SNF) | University of Salzburg (CCNS) | 2019 - 2021\nPostdoctoral Fellow (SNF) | University of Regensburg (UR) | 2017 - 2025"
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
-    "title": "Patrick Neff, PD Dr.",
+    "title": "rea.lab",
     "section": "Education",
     "text": "Education\n\nRe-habilitation (Exp. Otorhinolaryngology) | University of Zurich | 2025\nHabilitation (Exp. Psychiatry) | University of Regensburg | 2022\nPhD in Neuropsychology | University of Zürich | 2017"
-  },
-  {
-    "objectID": "index.html#recent-posts",
-    "href": "index.html#recent-posts",
-    "title": "Patrick Neff, PD Dr.",
-    "section": "Recent Posts",
-    "text": "Recent Posts\nCheck out the latest  Papers ,  News ,  Events , and  More »\n\n\n\n\n\n\n\n\n\n\nQuarto Academic Website Examples and Tips\n\n\n\nOct 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nEvent item\n\n\n\nSep 3, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nNews item\n\n\n\nJun 24, 2024\n\n\n\n\n\n\nNo matching items\n\n\nAll Posts »"
   },
   {
     "objectID": "people.html",
     "href": "people.html",
     "title": "People",
     "section": "",
-    "text": "PhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nMasters Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nUndergraduate Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPI\n\n\n\n\n\nNo matching items"
+    "text": "Masters Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nUndergraduate Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nNeuroscience - ZNZ\n\n\n\n\n\n\n\n\n\n\n\n\n\nLinguistics and Phonetics - ZNZ\n\n\n\n\n\n\n\n\n\n\n\n\n\nStudy Manager\n\n\n\n\n\n\n\n\n\n\n\n\n\nBiomedical Engineer - ZNZ\n\n\n\n\n\n\n\n\n\n\n\n\n\nPsychology - Psychology PhD School\n\n\n\n\n\n\n\n\n\n\n\n\n\nPI\n\n\n\n\n\n\n\n\n\n\n\n\n\nPsychology - LIFE Academy\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "people.html#team",
     "href": "people.html#team",
     "title": "People",
     "section": "",
-    "text": "PhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nMasters Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nUndergraduate Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPI\n\n\n\n\n\nNo matching items"
+    "text": "Masters Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nUndergraduate Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nNeuroscience - ZNZ\n\n\n\n\n\n\n\n\n\n\n\n\n\nLinguistics and Phonetics - ZNZ\n\n\n\n\n\n\n\n\n\n\n\n\n\nStudy Manager\n\n\n\n\n\n\n\n\n\n\n\n\n\nBiomedical Engineer - ZNZ\n\n\n\n\n\n\n\n\n\n\n\n\n\nPsychology - Psychology PhD School\n\n\n\n\n\n\n\n\n\n\n\n\n\nPI\n\n\n\n\n\n\n\n\n\n\n\n\n\nPsychology - LIFE Academy\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "people.html#alumni",
