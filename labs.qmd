@@ -34,7 +34,9 @@ Location: Stampfenbachstrasse 73, 8006 Zürich (UZH, STB)
 - Respiration monitoring
 - Galvanic skin response (GSR)
 
-<img src="files/images/Picture-3.jpg" alt="VividSoundLab" style="max-width: 400px; width: 100%; margin-bottom: 1em;">
+<div style="text-align: center;">
+  <img src="files/images/Picture-3.jpg" alt="VividSoundLab" style="max-width: 400px; width: 100%; margin-bottom: 1em;">
+</div>
 
 <iframe src="https://www.google.com/maps?q=Stampfenbachstrasse+73,+8006+Zürich&output=embed" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
@@ -48,16 +50,19 @@ Location: Scheuchzerstrasse 21, 8006 Zürich (UZH, SCH)
 ### Equipment & Features
 
 **EEG Systems:**
+
 - 2× Brain Products 64-channel EEG systems
 - 1× BioSemi 128-channel EEG system
 - Soundproof research booths
 
 
 **Eye Tracking:**
+
 - SR Research EyeLink 1000 eye tracker
 - Face tracking
 
 **Physiological Monitoring:**
+
 - Pulse oximetry
 - Electromyography (EMG)
 - Electrocardiography (ECG)
@@ -67,12 +72,13 @@ Location: Scheuchzerstrasse 21, 8006 Zürich (UZH, SCH)
 
 
 **Neurostimulation:**
+
 - Soterix MxN-33 Ultra HD electrical neurostimulator
 
 
-<div style="display: flex; gap: 1em; flex-wrap: wrap;">
-  <img src="files/images/Picture-1.jpg" alt="Scheuchzerstrasse Lab 1" style="max-width: 45%; min-width: 200px;">
-  <img src="files/images/Picture-2.jpg" alt="Scheuchzerstrasse Lab 2" style="max-width: 45%; min-width: 200px;">
+<div style="text-align: center;">
+  <img src="files/images/Picture-1.jpg" alt="Scheuchzerstrasse Lab 1" style="max-width: 400px; width: 100%; margin-bottom: 1em;">
+  <img src="files/images/Picture-2.jpg" alt="Scheuchzerstrasse Lab 2" style="max-width: 400px; width: 100%; margin-bottom: 1em;">
 </div>
 
 <iframe src="https://www.google.com/maps?q=Scheuchzerstrasse+21,+8006+Zürich&output=embed" width="100%" height="300" style="border:0; margin-top:1em;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
