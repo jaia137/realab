@@ -6,7 +6,7 @@ title-block-banner: false
 
 <center>
 
-**Quarto Academic**
+**Patrick Neff**
 
 Department of Otorhinolaryngology, Head and Neck Surgery
 

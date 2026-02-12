@@ -17,8 +17,9 @@ listing:  #an example of listing external links
 #  filter-ui: true
   contents: 
     - /people/pi.yml
-    - /people/study-manager.yml
+    - /people/research-staff.yml
     - /people/phd-student.yml
+#    - /people/interns.yml
 
 page-navigation: false
 title-block-banner: false
