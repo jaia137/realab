@@ -19,6 +19,7 @@ listing:  #an example of listing external links
     - /people/pi.yml
     - /people/research-staff.yml
     - /people/phd-student.yml
+    - /people/masters-student.yml
 #    - /people/interns.yml
 
 page-navigation: false
