@@ -48,50 +48,6 @@ listing:
   contents: 
     - /people/masters-student.yml
 
-- id: undergrad
-  sort: "lastname asc"
-  type: grid
-  fields: [image, title, subtitle]
-  grid-item-align: center
-  grid-columns: 4
-  image-height: 200px
-  categories: false
-  contents: 
-    - /people/undergraduate-student.yml
-
-- id: phd-alumni
-  sort: "lastname asc"
-  type: grid
-  fields: [image, title, subtitle]
-  grid-item-align: center
-  grid-columns: 4
-  image-height: 200px
-  categories: false
-  contents: 
-    - /people/phd-alumni.yml
-
-- id: masters-alumni
-  sort: "lastname asc"
-  type: grid
-  fields: [image, title, subtitle]
-  grid-item-align: center
-  grid-columns: 4
-  image-height: 200px
-  categories: false
-  contents: 
-    - /people/masters-alumni.yml
-
-- id: undergrad-alumni
-  sort: "lastname asc"
-  type: grid
-  fields: [image, title, subtitle]
-  grid-item-align: center
-  grid-columns: 4
-  image-height: 200px
-  categories: false
-  contents: 
-    - /people/undergraduate-alumni.yml
-
 page-navigation: false
 title-block-banner: false
 toc: false
@@ -101,6 +57,15 @@ format:
     link-external-newwindow: true
 ---
 
+## Principal Investigator
+
+:::{#pi}
+:::
+
+## Research Staff
+
+:::{#staff}
+:::
 
 ## PhD Students
 
@@ -110,16 +75,6 @@ format:
 ## Masters Students
 
 :::{#masters}
-:::
-
-## Research Staff
-
-:::{#staff}
-:::
-
-## Principal Investigator
-
-:::{#pi}
 :::
 
 
