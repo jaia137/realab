@@ -74,7 +74,35 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-lab-member .list');
+    const listingTargetEl = window.document.querySelector('#listing-pi .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-image","listing-title","listing-lastname","listing-subtitle","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-pi'] = new List('listing-pi', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-staff .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -87,7 +115,175 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-lab-member'] = new List('listing-lab-member', options);
+    window['quarto-listings']['listing-staff'] = new List('listing-staff', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-phd .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-image","listing-title","listing-lastname","listing-subtitle","listing-categories","listing-started"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-phd'] = new List('listing-phd', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-masters .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-image","listing-title","listing-lastname","listing-subtitle","listing-categories","listing-started"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-masters'] = new List('listing-masters', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-undergrad .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-image","listing-title","listing-lastname","listing-subtitle","listing-categories","listing-started","listing-ended"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-undergrad'] = new List('listing-undergrad', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-phd-alumni .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-image","listing-title","listing-lastname","listing-subtitle","listing-categories","listing-started","listing-ended"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-phd-alumni'] = new List('listing-phd-alumni', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-masters-alumni .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-image","listing-title","listing-lastname","listing-subtitle","listing-categories","listing-started","listing-ended"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-masters-alumni'] = new List('listing-masters-alumni', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-undergrad-alumni .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-image","listing-title","listing-lastname","listing-subtitle","listing-categories","listing-started","listing-ended"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-undergrad-alumni'] = new List('listing-undergrad-alumni', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -163,11 +359,11 @@ window.Quarto = {
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="People – rea.lab">
 <meta property="og:description" content="Who we are">
-<meta property="og:image" content="https://jaia137.github.io/realab/files/profiles/profile9.JPG">
+<meta property="og:image" content="https://jaia137.github.io/realab/files/profiles/profile3.JPG">
 <meta property="og:site_name" content="rea.lab">
 <meta name="twitter:title" content="People – rea.lab">
 <meta name="twitter:description" content="Who we are">
-<meta name="twitter:image" content="https://jaia137.github.io/realab/files/profiles/profile9.JPG">
+<meta name="twitter:image" content="https://jaia137.github.io/realab/files/profiles/profile3.JPG">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -238,10 +434,9 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(10)</span></div><div class="category" data-category="RGlyZWN0b3I=">Director <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWFzdGVycyUyMFN0dWRlbnQ=">Masters Student <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UGhEJTIwU3R1ZGVudA==">PhD Student <span class="quarto-category-count">(5)</span></div><div class="category" data-category="UmVzZWFyY2glMjBTdGFmZg==">Research Staff <span class="quarto-category-count">(2)</span></div></div></div>
+    
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -251,7 +446,7 @@ window.Quarto = {
 
 
 
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -263,9 +458,97 @@ window.Quarto = {
 </header>
 
 
-<section id="team" class="level2">
-<h2 class="anchored" data-anchor-id="team">Team</h2>
-<div id="listing-lab-member" class="quarto-listing quarto-listing-container-grid">
+<section id="phd-students" class="level2">
+<h2 class="anchored" data-anchor-id="phd-students">PhD Students</h2>
+<div id="listing-phd" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-4">
+<div class="g-col-1" data-index="0" data-categories="UGhEJTIwU3R1ZGVudA==">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="./files/profiles/profile3.JPG" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Jessica Fritzsche, M.Sc.
+</h5>
+<div class="card-subtitle listing-subtitle">
+Neuroscience - ZNZ
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="UGhEJTIwU3R1ZGVudA==">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="./files/profiles/profile1.JPG" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Jinyi Han, M.Sc.
+</h5>
+<div class="card-subtitle listing-subtitle">
+Linguistics and Phonetics - ZNZ
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="UGhEJTIwU3R1ZGVudA==">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="./files/profiles/profile2.JPG" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Payam S. Shabestari, M.Sc.
+</h5>
+<div class="card-subtitle listing-subtitle">
+Biomedical Engineer - ZNZ
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="UGhEJTIwU3R1ZGVudA==">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="./files/profiles/profile4.JPG" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Nick Sommerhalder, M.Sc.
+</h5>
+<div class="card-subtitle listing-subtitle">
+Psychology - Psychology PhD School
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="UGhEJTIwU3R1ZGVudA==">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="./files/profiles/profile5.JPG" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Zino Wellauer, M.Sc.
+</h5>
+<div class="card-subtitle listing-subtitle">
+Psychology - LIFE Academy
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="masters-students" class="level2">
+<h2 class="anchored" data-anchor-id="masters-students">Masters Students</h2>
+<div id="listing-masters" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-4">
 <div class="g-col-1" data-index="0" data-categories="TWFzdGVycyUyMFN0dWRlbnQ=">
 <a href="" class="quarto-grid-link">
@@ -275,47 +558,39 @@ window.Quarto = {
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Philip Aruliah
+Philip Aruliah, BSc Psychology
 </h5>
 <div class="card-subtitle listing-subtitle">
-The influence of Motor Imagery Based Neurofeedback on Speech Performance
+
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="UGhEJTIwU3R1ZGVudA==">
+<div class="g-col-1" data-index="1" data-categories="TWFzdGVycyUyMFN0dWRlbnQ=">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./files/profiles/profile3.JPG" class="thumbnail-image card-img" style="height: 200px;">
+<img loading="lazy" src="./files/profiles/profile10.JPG" class="thumbnail-image card-img" style="height: 200px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-M.Sc. Jessica Fritzsche
+Yajaira Suriel Santana, MSc ETH Arc
 </h5>
 <div class="card-subtitle listing-subtitle">
-Neuroscience - ZNZ
+
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="UGhEJTIwU3R1ZGVudA==">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="./files/profiles/profile1.JPG" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-M.Sc. Jinyi Han
-</h5>
-<div class="card-subtitle listing-subtitle">
-Linguistics and Phonetics - ZNZ
 </div>
+<div class="listing-no-matching d-none">No matching items</div>
 </div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="UmVzZWFyY2glMjBTdGFmZg==">
+</section>
+<section id="research-staff" class="level2">
+<h2 class="anchored" data-anchor-id="research-staff">Research Staff</h2>
+<div id="listing-staff" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-4">
+<div class="g-col-1" data-index="0" data-categories="UmVzZWFyY2glMjBTdGFmZg==">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -323,15 +598,39 @@ Linguistics and Phonetics - ZNZ
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Eric Larrieux
+Eric Larrieux, MSc Electrical Engineering
 </h5>
 <div class="card-subtitle listing-subtitle">
-Audio engineer, MSc
+Audio engineer
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="RGlyZWN0b3I=">
+<div class="g-col-1" data-index="1" data-categories="UmVzZWFyY2glMjBTdGFmZg==">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="./files/profiles/profile6.JPG" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Cevincia Singleton, MSc Nursing Science
+</h5>
+<div class="card-subtitle listing-subtitle">
+Study Manager
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="principal-investigator" class="level2">
+<h2 class="anchored" data-anchor-id="principal-investigator">Principal Investigator</h2>
+<div id="listing-pi" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-4">
+<div class="g-col-1" data-index="0" data-categories="RGlyZWN0b3I=">
 <a href="https://www.tinnitus.uzh.ch/de/team/leitung/neff.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -347,86 +646,6 @@ Principal Investigator
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="UGhEJTIwU3R1ZGVudA==">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="./files/profiles/profile2.JPG" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-M.Sc. Payam S. Shabestari
-</h5>
-<div class="card-subtitle listing-subtitle">
-Biomedical Engineer - ZNZ
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="UmVzZWFyY2glMjBTdGFmZg==">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="./files/profiles/profile6.JPG" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Cevincia Singleton
-</h5>
-<div class="card-subtitle listing-subtitle">
-Study Manager, MSc
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="7" data-categories="UGhEJTIwU3R1ZGVudA==">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="./files/profiles/profile4.JPG" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-M.Sc. Nick Sommerhalder
-</h5>
-<div class="card-subtitle listing-subtitle">
-Psychology - Psychology PhD School
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="8" data-categories="TWFzdGVycyUyMFN0dWRlbnQ=">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="./files/profiles/profile10.JPG" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Yajaira Suriel Santana
-</h5>
-<div class="card-subtitle listing-subtitle">
-Der Einfluss von Stress auf emotionale Bewertung und neuronale Verarbeitung auditiver Reize
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="9" data-categories="UGhEJTIwU3R1ZGVudA==">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="./files/profiles/profile5.JPG" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-M.Sc. Zino Wellauer
-</h5>
-<div class="card-subtitle listing-subtitle">
-Psychology - LIFE Academy
-</div>
-</div>
-</div></a>
-</div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
@@ -435,7 +654,87 @@ Psychology - LIFE Academy
 
 </section>
 
-</main> <!-- /main -->
+<div class="quarto-listing quarto-listing-container-grid" id="listing-undergrad">
+<div class="list grid quarto-listing-cols-4">
+<div class="g-col-1" data-index="0" data-categories="VW5kZXJncmFkdWF0ZSUyMFN0dWRlbnQ=">
+<a href="https://drganghe.github.io/quarto-academic-website-template" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="./files/profiles/profile5.JPG" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Student C
+</h5>
+<div class="card-subtitle listing-subtitle">
+Undergraduate Student
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div><div class="quarto-listing quarto-listing-container-grid" id="listing-phd-alumni">
+<div class="list grid quarto-listing-cols-4">
+<div class="g-col-1" data-index="0" data-categories="UGhEJTIwU3R1ZGVudA==">
+<a href="https://drganghe.github.io/quarto-academic-website-template" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="./files/profiles/profile2.JPG" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Alumni A
+</h5>
+<div class="card-subtitle listing-subtitle">
+PhD Alumni
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div><div class="quarto-listing quarto-listing-container-grid" id="listing-masters-alumni">
+<div class="list grid quarto-listing-cols-4">
+<div class="g-col-1" data-index="0" data-categories="TWFzdGVycyUyMFN0dWRlbnQ=">
+<a href="https://drganghe.github.io/quarto-academic-website-template" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="./files/profiles/profile4.JPG" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Alumni B
+</h5>
+<div class="card-subtitle listing-subtitle">
+Masters Alumni
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div><div class="quarto-listing quarto-listing-container-grid" id="listing-undergrad-alumni">
+<div class="list grid quarto-listing-cols-4">
+<div class="g-col-1" data-index="0" data-categories="VW5kZXJncmFkdWF0ZSUyMFN0dWRlbnQ=">
+<a href="https://drganghe.github.io/quarto-academic-website-template" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="./files/profiles/profile6.JPG" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Alumni C
+</h5>
+<div class="card-subtitle listing-subtitle">
+Undergraduate Alumni
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

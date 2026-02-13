@@ -1,6 +1,6 @@
     - path: #
       image: "/files/profiles/profile1.JPG"
-      title: "M.Sc. Jinyi Han"
+      title: "Jinyi Han, M.Sc."
       lastname: "Han"
       subtitle: "Linguistics and Phonetics - ZNZ"
       categories: [PhD Student] 
@@ -8,7 +8,7 @@
       
     - path: #
       image: "/files/profiles/profile2.JPG"
-      title: "M.Sc. Payam S. Shabestari"
+      title: "Payam S. Shabestari, M.Sc."
       lastname: "Shabestari"
       subtitle: "Biomedical Engineer - ZNZ"
       categories: [PhD Student] 
@@ -16,7 +16,7 @@
       
     - path: #
       image: "/files/profiles/profile3.JPG"
-      title: "M.Sc. Jessica Fritzsche"
+      title: "Jessica Fritzsche, M.Sc."
       lastname: "Fritzsche"
       subtitle: "Neuroscience - ZNZ"
       categories: [PhD Student] 
@@ -24,7 +24,7 @@
       
     - path: #
       image: "/files/profiles/profile4.JPG"
-      title: "M.Sc. Nick Sommerhalder"
+      title: "Nick Sommerhalder, M.Sc."
       lastname: "Sommerhalder"
       subtitle: "Psychology - Psychology PhD School"
       categories: [PhD Student] 
@@ -32,7 +32,7 @@
       
     - path: #
       image: "/files/profiles/profile5.JPG"
-      title: "M.Sc. Zino Wellauer"
+      title: "Zino Wellauer, M.Sc."
       lastname: "Wellauer"
       subtitle: "Psychology - LIFE Academy"
       categories: [PhD Student] 

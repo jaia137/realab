@@ -1,15 +1,15 @@
     - path: #
       image: "/files/profiles/profile9.JPG"
-      title: "Philip Aruliah"
-      lastname: "Aruliah, BSc Psychology"
-      subtitle: "The influence of Motor Imagery Based Neurofeedback on Speech Performance"
+      title: "Philip Aruliah, BSc Psychology"
+      lastname: "Aruliah"
+      subtitle: ""
       categories: [Masters Student] 
       started: "2024"
       
     - path: #
       image: "/files/profiles/profile10.JPG"
-      title: "Yajaira Suriel Santana"
-      lastname: "Suriel Santana, MSc ETH Arc"
-      subtitle: "Der Einfluss von Stress auf emotionale Bewertung und neuronale Verarbeitung auditiver Reize"
+      title: "Yajaira Suriel Santana, MSc ETH Arc"
+      lastname: "Suriel Santana"
+      subtitle: ""
       categories: [Masters Student] 
       started: "2026"
