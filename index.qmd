@@ -59,6 +59,25 @@ about:
 
 :::{#hero-heading}
 
+## Patrick Neff, PD Dr.
+
+### Experience
+
+- <b>**Scientific Group Lead & Private Lecturer** | UZH | 2022 - Present</b>
+- **Senior Guest Research Fellow** | ETH Zürich (CVL) | 2025 - Present
+- **Postdoctoral Fellow (SNF)** | EPFL Geneva (MIPlab) | 2021 - 2023
+- **Postdoctoral Fellow (SNF)** | University of Salzburg (CCNS) | 2019 - 2021
+- **Postdoctoral Fellow (SNF)** | University of Regensburg (UR) | 2017 - 2025
+
+
+### Education
+
+- **Re-habilitation (Exp. Otorhinolaryngology)** | University of Zurich | 2025
+- **Habilitation (Exp. Psychiatry)** | University of Regensburg | 2022
+- **PhD in Neuropsychology** | University of Zürich | 2017
+
+:::
+
 ## REA.lab (Real-Life Audio Lab)
 
 The **REA.lab** investigates how the brain and mind construct inner and outer auditory experiences. We combine psychophysics, psychoacoustics, neuroimaging, and 3D audio simulations to understand the full spectrum of hearing disorders—including hearing loss, tinnitus, and hyperacusis—as well as the neurodiverse reality of auditory processing. Our transdisciplinary approach integrates medicine, neuroscience, psychology, engineering, and computer science to develop methods, technology, objective biomarkers and therapies for normal and pathological hearing.
@@ -69,23 +88,6 @@ Our philosophy is defined by three core pillars:
 *   **Ecological Validity:** We bridge the gap between reductionist lab settings and the real world. By utilizing 3D audio domes, auditory scene analysis and mobile Citizen Science apps, we capture the complexity and challenges of hearing in daily life.
 *   **Full-Stack Engineering:** We adopt a philosophy of engineering our own experimental ecosystems, from custom hardware and acquisition setups to computational pipelines. This ensure transparency, interoperability, and sustainability of research output.
 *   **Open Science & Reproducibility:** We are committed to the principles of reproducible science and build open-source methodologies for the hearing and broader scientific community.
-
-## Experience
-
-- <b>**Scientific Group Lead & Private Lecturer** | UZH | 2022 - Present</b>
-- **Senior Guest Research Fellow** | ETH Zürich (CVL) | 2025 - Present
-- **Postdoctoral Fellow (SNF)** | EPFL Geneva (MIPlab) | 2021 - 2023
-- **Postdoctoral Fellow (SNF)** | University of Salzburg (CCNS) | 2019 - 2021
-- **Postdoctoral Fellow (SNF)** | University of Regensburg (UR) | 2017 - 2025
-
-
-## Education
-
-- **Re-habilitation (Exp. Otorhinolaryngology)** | University of Zurich | 2025
-- **Habilitation (Exp. Psychiatry)** | University of Regensburg | 2022
-- **PhD in Neuropsychology** | University of Zürich | 2017
-
-:::
 
 
 <!-- Delete the following section and delete corresponding lines in the yaml part to remove the recent posts -->
