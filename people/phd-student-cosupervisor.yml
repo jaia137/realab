@@ -1,0 +1,15 @@
+    - path: #
+      image: "/files/profiles/profile4.JPG"
+      title: "Nick Sommerhalder, M.Sc."
+      lastname: "Sommerhalder"
+      subtitle: "Psychology - Psychology PhD School"
+      categories: [PhD Student] 
+      started: "2023"
+      
+    - path: #
+      image: "/files/profiles/profile5.JPG"
+      title: "Zino Wellauer, M.Sc."
+      lastname: "Wellauer"
+      subtitle: "Psychology - LIFE Academy"
+      categories: [PhD Student] 
+      started: "2023"

@@ -1,0 +1,23 @@
+    - path: #
+      image: "/files/profiles/profile1.JPG"
+      title: "Jinyi Han, M.Sc."
+      lastname: "Han"
+      subtitle: "Linguistics and Phonetics - ZNZ"
+      categories: [PhD Student] 
+      started: "2025"
+      
+    - path: #
+      image: "/files/profiles/profile2.JPG"
+      title: "Payam S. Shabestari, M.Sc."
+      lastname: "Shabestari"
+      subtitle: "Biomedical Engineer - ZNZ"
+      categories: [PhD Student] 
+      started: "2022"
+      
+    - path: #
+      image: "/files/profiles/profile3.JPG"
+      title: "Jessica Fritzsche, M.Sc."
+      lastname: "Fritzsche"
+      subtitle: "Neuroscience - ZNZ"
+      categories: [PhD Student] 
+      started: "2024"

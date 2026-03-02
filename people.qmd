@@ -26,7 +26,7 @@ listing:
   contents: 
     - /people/research-staff.yml
 
-- id: phd
+- id: phd-main
   sort: "lastname asc"
   type: grid
   fields: [image, title, subtitle]
@@ -35,7 +35,18 @@ listing:
   image-height: 200px
   categories: false
   contents: 
-    - /people/phd-student.yml
+    - /people/phd-student-main.yml
+
+- id: phd-cosupervisor
+  sort: "lastname asc"
+  type: grid
+  fields: [image, title, subtitle]
+  grid-item-align: center
+  grid-columns: 4
+  image-height: 200px
+  categories: false
+  contents: 
+    - /people/phd-student-cosupervisor.yml
 
 - id: masters
   sort: "lastname asc"
@@ -59,7 +70,14 @@ format:
 
 ## PhD Students
 
-:::{#phd}
+### Main Advisor
+
+:::{#phd-main}
+:::
+
+### Co-Supervisor
+
+:::{#phd-cosupervisor}
 :::
 
 ## Masters Students

@@ -130,7 +130,7 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-phd .list');
+    const listingTargetEl = window.document.querySelector('#listing-phd-main .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -143,7 +143,35 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-phd'] = new List('listing-phd', options);
+    window['quarto-listings']['listing-phd-main'] = new List('listing-phd-main', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-phd-cosupervisor .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-image","listing-title","listing-lastname","listing-subtitle","listing-categories","listing-started"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-phd-cosupervisor'] = new List('listing-phd-cosupervisor', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -348,7 +376,9 @@ window.Quarto = {
 
 <section id="phd-students" class="level2">
 <h2 class="anchored" data-anchor-id="phd-students">PhD Students</h2>
-<div id="listing-phd" class="quarto-listing quarto-listing-container-grid">
+<section id="main-advisor" class="level3">
+<h3 class="anchored" data-anchor-id="main-advisor">Main Advisor</h3>
+<div id="listing-phd-main" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-4">
 <div class="g-col-1" data-index="0" data-categories="UGhEJTIwU3R1ZGVudA==">
 <a href="" class="quarto-grid-link">
@@ -398,7 +428,15 @@ Biomedical Engineer - ZNZ
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="UGhEJTIwU3R1ZGVudA==">
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="co-supervisor" class="level3">
+<h3 class="anchored" data-anchor-id="co-supervisor">Co-Supervisor</h3>
+<div id="listing-phd-cosupervisor" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-4">
+<div class="g-col-1" data-index="0" data-categories="UGhEJTIwU3R1ZGVudA==">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -414,7 +452,7 @@ Psychology - Psychology PhD School
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="UGhEJTIwU3R1ZGVudA==">
+<div class="g-col-1" data-index="1" data-categories="UGhEJTIwU3R1ZGVudA==">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -433,6 +471,7 @@ Psychology - LIFE Academy
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
+</section>
 </section>
 <section id="masters-students" class="level2">
 <h2 class="anchored" data-anchor-id="masters-students">Masters Students</h2>
