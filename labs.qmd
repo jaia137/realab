@@ -44,10 +44,11 @@ Location: Stampfenbachstrasse 73, 8006 Zürich (UZH, STB)
 
 ## Scheuchzerstrasse Lab (SCH)
 **Interdisciplinary Tinnitus Research**  
-[https://tinnitus.uzh.ch](https://tinnitus.uzh.ch)  
+[https://tinnitus.uzh.ch](https://www.tinnitus.uzh.ch)  
 Location: Scheuchzerstrasse 21, 8006 Zürich (UZH, SCH)
 
 ### Equipment & Features
+
 
 **EEG Systems:**
 
