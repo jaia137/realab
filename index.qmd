@@ -10,12 +10,12 @@ page-layout: full
 about:
   id: hero-heading
   template: solana
-  image-width: 250px
+  image-width: 375px
   links:
-    - icon: sun
-      text: Github
-      href: https://github.com/jaia137
-      target: _blank
+    # - icon: sun
+    #   text: Github
+    #   href: https://github.com/jaia137
+    #   target: _blank
     - icon: globe
       text: Web
       href: https://jaia137.github.io/realab/
