@@ -1,0 +1,17 @@
+# Industry Partners
+# Add entries following this format:
+# - path: "https://company.com"
+#   image: "/files/partners/industry/logo-name.png"
+#   title: "Company Name"
+
+- path: "https://placeholder.com"
+  image: "/files/images/placeholder1.JPG"
+  title: "Industry Partner 1"
+
+- path: "https://placeholder.com"
+  image: "/files/images/placeholder2.JPG"
+  title: "Industry Partner 2"
+
+- path: "https://placeholder.com"
+  image: "/files/images/placeholder3.JPG"
+  title: "Industry Partner 3"

@@ -1,0 +1,17 @@
+# Funding Partners
+# Add entries following this format:
+# - path: "https://funding-agency.org"
+#   image: "/files/partners/funding/logo-name.png"
+#   title: "Agency Name"
+
+- path: "https://placeholder.org"
+  image: "/files/images/placeholder1.JPG"
+  title: "Funding Agency 1"
+
+- path: "https://placeholder.org"
+  image: "/files/images/placeholder2.JPG"
+  title: "Funding Agency 2"
+
+- path: "https://placeholder.org"
+  image: "/files/images/placeholder3.JPG"
+  title: "Funding Agency 3"

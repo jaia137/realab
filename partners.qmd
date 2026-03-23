@@ -1,21 +1,95 @@
 ---
 title: "Partners"
-subtitle: "Institutional and Industry Partners"
+subtitle: "Our research and funding partners"
 page-layout: full
+listing:
+- id: academia
+  type: grid
+  fields: [image]
+  grid-item-align: center
+  grid-columns: 5
+  image-height: 140px
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  sort: false
+  contents:
+    - /partners/academia.yml
+
+- id: funding
+  type: grid
+  fields: [image]
+  grid-item-align: center
+  grid-columns: 5
+  image-height: 140px
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  contents:
+    - /partners/funding.yml
+
+- id: ngo-go
+  type: grid
+  fields: [image]
+  grid-item-align: center
+  grid-columns: 5
+  image-height: 140px
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  contents:
+    - /partners/ngo-go.yml
+
+- id: industry
+  type: grid
+  fields: [image]
+  grid-item-align: center
+  grid-columns: 5
+  image-height: 140px
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  contents:
+    - /partners/industry.yml
+
+page-navigation: false
+title-block-banner: false
+toc: true
+
+format:
+  html:
+    link-external-newwindow: true
 ---
 
-# Funding Agencies
+## Academia
 
+:::{.partners-grid}
+:::{#academia}
+:::
+:::
 
+## Funding
 
+:::{.partners-grid}
+:::{#funding}
+:::
+:::
 
-# Academia
+## NGO and GO
 
-Add details about institutional and industry partners here.
+:::{.partners-grid}
+:::{#ngo-go}
+:::
+:::
 
-# NGOs
+## Industry
 
-# GOs
+:::{.partners-grid}
+:::{#industry}
+:::
+:::
 
-# Industry
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}
 

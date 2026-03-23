@@ -1,0 +1,17 @@
+# NGO and GO Partners
+# Add entries following this format:
+# - path: "https://organisation.org"
+#   image: "/files/partners/ngo-go/logo-name.png"
+#   title: "Organisation Name"
+
+- path: "https://placeholder.org"
+  image: "/files/images/placeholder1.JPG"
+  title: "NGO / GO Partner 1"
+
+- path: "https://placeholder.org"
+  image: "/files/images/placeholder2.JPG"
+  title: "NGO / GO Partner 2"
+
+- path: "https://placeholder.org"
+  image: "/files/images/placeholder3.JPG"
+  title: "NGO / GO Partner 3"

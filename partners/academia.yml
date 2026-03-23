@@ -1,0 +1,44 @@
+# Academia Partners
+# Format: image (path to logo), title (display name), path (URL – add when ready)
+
+- image: "/files/partners/academia/Universität_Zürich_logo.svg"
+  title: "University of Zurich"
+
+- image: "/files/partners/academia/Universitätsspital_Zürich.svg"
+  title: "University Hospital Zurich"
+
+- image: "/files/partners/academia/ETH_Zürich_Logo_black.svg"
+  title: "ETH Zürich"
+
+- image: "/files/partners/academia/Logo_EPFL_2019.svg"
+  title: "EPFL"
+
+- image: "/files/partners/academia/Université_de_Genève_(logo).svg"
+  title: "University of Geneva"
+
+- image: "/files/partners/academia/Universität_Freiburg_(Schweiz)_logo.svg"
+  title: "University of Fribourg"
+
+- image: "/files/partners/academia/Logo_Charite.svg"
+  title: "Charité Berlin"
+
+- image: "/files/partners/academia/UR_Logo_Grau_RGB.svg"
+  title: "University of Regensburg"
+
+- image: "/files/partners/academia/University_of_Illinois_at_Urbana-Champaign_Wordmark.svg"
+  title: "University of Illinois"
+
+- image: "/files/partners/academia/newcastle-university.png"
+  title: "Newcastle University"
+
+- image: "/files/partners/academia/Martinos-Logos_04_10_2017-09.jpg"
+  title: "Martinos Center"
+
+- image: "/files/partners/academia/ZHdK_Logo.svg"
+  title: "ZHdK"
+
+- image: "/files/partners/academia/znz.png"
+  title: "Zurich Neuroscience Center"
+
+- image: "/files/partners/academia/6-PLUS.png"
+  title: "6-PLUS"
