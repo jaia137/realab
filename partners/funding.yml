@@ -1,17 +1,17 @@
 # Funding Partners
-# Add entries following this format:
-# - path: "https://funding-agency.org"
-#   image: "/files/partners/funding/logo-name.png"
-#   title: "Agency Name"
+# Format: image (path to logo), title (display name), path (URL – add when ready)
 
-- path: "https://placeholder.org"
-  image: "/files/images/placeholder1.JPG"
-  title: "Funding Agency 1"
+- image: "/files/partners/funding/SNF_logo_Swiss_National_Science_Foundation.png"
+  title: "Swiss National Science Foundation"
 
-- path: "https://placeholder.org"
-  image: "/files/images/placeholder2.JPG"
-  title: "Funding Agency 2"
+- image: "/files/partners/funding/DIZH-Logo-POS.png"
+  title: "DIZH"
 
-- path: "https://placeholder.org"
-  image: "/files/images/placeholder3.JPG"
-  title: "Funding Agency 3"
+- image: "/files/partners/funding/logo_fan4talents.svg"
+  title: "Fan4Talents"
+
+- image: "/files/partners/funding/rainwater-charitable-foundation_color-logo-transparent-tm-png-1500x745.jpg"
+  title: "Rainwater Charitable Foundation"
+
+- image: "/files/partners/funding/zsh.gif"
+  title: "ZSH"

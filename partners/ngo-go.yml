@@ -1,17 +1,29 @@
 # NGO and GO Partners
-# Add entries following this format:
-# - path: "https://organisation.org"
-#   image: "/files/partners/ngo-go/logo-name.png"
-#   title: "Organisation Name"
+# Format: image (path to logo), title (display name), path (URL – add when ready)
 
-- path: "https://placeholder.org"
-  image: "/files/images/placeholder1.JPG"
-  title: "NGO / GO Partner 1"
+- image: "/files/partners/ngo-go/stadt-zuerich-logo-vector.png"
+  title: "Stadt Zürich"
 
-- path: "https://placeholder.org"
-  image: "/files/images/placeholder2.JPG"
-  title: "NGO / GO Partner 2"
+- image: "/files/partners/ngo-go/ccc_1.jpg"
+  title: "CCC"
 
-- path: "https://placeholder.org"
-  image: "/files/images/placeholder3.JPG"
-  title: "NGO / GO Partner 3"
+- image: "/files/partners/ngo-go/Tinnitus-Liga-Logo.jpg"
+  title: "Tinnitus Liga"
+
+- image: "/files/partners/ngo-go/TinnitusTalk-Logo.webp"
+  title: "TinnitusTalk"
+
+- image: "/files/partners/ngo-go/67b9acec3947e06c2f6674b0_TRI Logo.png"
+  title: "TRI"
+
+- image: "/files/partners/ngo-go/PA.png"
+  title: "PA"
+
+- image: "/files/partners/ngo-go/autismuslogo_new.png"
+  title: "Autismus"
+
+- image: "/files/partners/ngo-go/elpos_ADHS_Logo_pos.webp"
+  title: "elpos ADHS"
+
+- image: "/files/partners/ngo-go/logo_sga_logo.svg"
+  title: "SGA"

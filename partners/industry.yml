@@ -1,17 +1,8 @@
 # Industry Partners
-# Add entries following this format:
-# - path: "https://company.com"
-#   image: "/files/partners/industry/logo-name.png"
-#   title: "Company Name"
+# Format: image (path to logo), title (display name), path (URL – add when ready)
 
-- path: "https://placeholder.com"
-  image: "/files/images/placeholder1.JPG"
-  title: "Industry Partner 1"
+- image: "/files/partners/industry/1200px-Sonova_Logo.svg.png"
+  title: "Sonova"
 
-- path: "https://placeholder.com"
-  image: "/files/images/placeholder2.JPG"
-  title: "Industry Partner 2"
-
-- path: "https://placeholder.com"
-  image: "/files/images/placeholder3.JPG"
-  title: "Industry Partner 3"
+- image: "/files/partners/industry/bp.png"
+  title: "BP"
