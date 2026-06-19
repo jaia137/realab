@@ -2,6 +2,7 @@
   {
     "listing": "/posts.html",
     "items": [
+      "/posts/mne-rt-release/index.html",
       "/posts/event-title/index.html",
       "/posts/news-title/index.html",
       "/posts/paper-title/index.html"
@@ -10,6 +11,15 @@
   {
     "listing": "/partners.html",
     "items": []
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/mne-rt-release/index.html",
+      "/posts/event-title/index.html",
+      "/posts/news-title/index.html",
+      "/posts/paper-title/index.html"
+    ]
   },
   {
     "listing": "/people.html",

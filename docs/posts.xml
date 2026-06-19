@@ -15,7 +15,60 @@
 <link>https://jaia137.github.io/realab/posts.html</link>
 </image>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Mon, 14 Oct 2024 22:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 18 Jun 2026 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>MNE-RT: Open-Source Real-Time M/EEG Processing Library Released</title>
+  <dc:creator>REA.lab </dc:creator>
+  <link>https://jaia137.github.io/realab/posts/mne-rt-release/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="mne-rt-is-live" class="level2">
+<h2 class="anchored" data-anchor-id="mne-rt-is-live">MNE-RT is Live</h2>
+<p>We are excited to announce the public release of <a href="https://payamsash.github.io/mne-rt/"><strong>MNE-RT</strong></a> — an open-source Python library for real-time M/EEG signal processing built on <a href="https://mne.tools/">MNE-Python</a> and MNE-LSL.</p>
+<p>MNE-RT covers the full real-time pipeline — from amplifier to 3-D brain display — in a single, researcher-friendly API designed for <strong>neurofeedback</strong>, <strong>BCI</strong>, and clinical or basic-science monitoring applications.</p>
+<section id="key-highlights" class="level3">
+<h3 class="anchored" data-anchor-id="key-highlights">Key Highlights</h3>
+<ul>
+<li><strong>20+ real-time feature modalities</strong> — sensor power, ERD/ERS, connectivity, cross-frequency coupling, graph-theory metrics, and more</li>
+<li><strong>Sensor and source-space processing</strong> using MNE inverse operators (eLORETA, dSPM, MNE)</li>
+<li><strong>Live artifact correction</strong> — ORICA, adaptive LMS, ASR, and real-time Maxwell filtering for MEG</li>
+<li><strong>Adaptive feedback protocols</strong> — threshold, z-score, reinforcement learning, sham, and operant schedules</li>
+<li><strong>Nine real-time visualisation windows</strong> including scalp topomaps, 3-D brain surface, and TFR heatmaps</li>
+<li><strong>Dual feedback output</strong> via OSC (Max/MSP, SuperCollider) and LSL (PsychoPy, OpenViBE, BCI2000)</li>
+</ul>
+</section>
+<section id="install" class="level3">
+<h3 class="anchored" data-anchor-id="install">Install</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">pip</span> install mne-rt</span></code></pre></div></div>
+<p>The library was developed with support from the Swiss National Science Foundation (grant 208164).</p>
+<!--Include social share buttons-->
+<!-- 
+AddToAny check more: https://www.addtoany.com/buttons/for/website 
+Using includes will make edits easier, will only need to add or remove button here if needed.
+https://quarto.org/docs/authoring/includes.html
+-->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
+</div>
+<script async="" src="https://static.addtoany.com/menu/page.js"></script>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>news</category>
+  <category>software</category>
+  <category>open-source</category>
+  <guid>https://jaia137.github.io/realab/posts/mne-rt-release/</guid>
+  <pubDate>Thu, 18 Jun 2026 22:00:00 GMT</pubDate>
+  <media:content url="https://jaia137.github.io/realab/files/images/placeholder3.JPG" medium="image"/>
+</item>
 <item>
   <title>Quarto Academic Website Examples and Tips</title>
   <link>https://jaia137.github.io/realab/</link>
@@ -146,7 +199,7 @@ Complete?”</span> <em>Physical Review</em> 47 (7938): 777–80. <a href="https
 </div></div></section></div> ]]></description>
   <category>paper</category>
   <guid>https://jaia137.github.io/realab/posts/paper-title/</guid>
-  <pubDate>Wed, 15 May 1935 00:00:00 GMT</pubDate>
+  <pubDate>Tue, 14 May 1935 23:00:00 GMT</pubDate>
   <media:content url="https://jaia137.github.io/realab/posts/paper-title/featured.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>

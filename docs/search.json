@@ -4,7 +4,7 @@
     "href": "posts.html",
     "title": "What’s New & Updated",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nQuarto Academic Website Examples and Tips\n\n\n\n\n\n\nnews\n\n\n\nExamples and tips for Quarto Academic Website\n\n\n\n\n\nOct 15, 2024\n\n\nDr. Gang He\n\n\n\n\n\n\n\n\n\n\n\n\nEvent item\n\n\n\n\n\n\nevent\n\npresentation\n\n\n\nAbout Event item.\n\n\n\n\n\nSep 3, 2024\n\n\nEvent\n\n\n\n\n\n\n\n\n\n\n\n\nNews item\n\n\n\n\n\n\nnews\n\n\n\nAbout new item\n\n\n\n\n\nJun 24, 2024\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\n\nCan quantum-mechanical description of physical reality be considered complete?\n\n\nPhysical Review\n\n\n\npaper\n\n\n\nOne is thus led to conclude that the description of reality as given by a wave function is not complete.\n\n\n\n\n\nMay 15, 1935\n\n\nAlbert Einstein, Boris Podolsky, Nathan Rosen\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nMNE-RT: Open-Source Real-Time M/EEG Processing Library Released\n\n\n\n\n\n\nnews\n\nsoftware\n\nopen-source\n\n\n\nOur lab’s open-source Python library for real-time EEG/MEG signal processing, neurofeedback, and BCI applications is now publicly available.\n\n\n\n\n\nJun 19, 2026\n\n\nREA.lab\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto Academic Website Examples and Tips\n\n\n\n\n\n\nnews\n\n\n\nExamples and tips for Quarto Academic Website\n\n\n\n\n\nOct 15, 2024\n\n\nDr. Gang He\n\n\n\n\n\n\n\n\n\n\n\n\nEvent item\n\n\n\n\n\n\nevent\n\npresentation\n\n\n\nAbout Event item.\n\n\n\n\n\nSep 3, 2024\n\n\nEvent\n\n\n\n\n\n\n\n\n\n\n\n\nNews item\n\n\n\n\n\n\nnews\n\n\n\nAbout new item\n\n\n\n\n\nJun 24, 2024\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\n\nCan quantum-mechanical description of physical reality be considered complete?\n\n\nPhysical Review\n\n\n\npaper\n\n\n\nOne is thus led to conclude that the description of reality as given by a wave function is not complete.\n\n\n\n\n\nMay 15, 1935\n\n\nAlbert Einstein, Boris Podolsky, Nathan Rosen\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "publications.html",
@@ -28,39 +28,32 @@
     "text": "Spin3D utilizes our 3D audio dome infrastructure to simulate realistic acoustic environments. This platform allows us to test auditory perception and hearing device performance in complex, dynamic scenarios that mimic real-world challenges, moving beyond standard audiometric testing.\nHearHere is a Citizen Science initiative that maps sensory challenges in the urban soundscape. Using the custom “CS-Logger” app, we record environmental noise and subjective hearing experiences to identify urban hotspots and increase the ecological validity of our lab experiments.\nHLC_Audio focuses on advanced real-life audio analysis, bridging the gap between controlled lab settings and complex, noisy environments where hearing challenges truly emerge.\nThe Silence-Illusion Paradigm investigates how the brain constructs auditory reality by contrasting Auditory Illusions (context-driven filling-in) with Silence Perception (input suppression). This project aims to map the “Prediction-Sensation” spectrum across neuroatypical groups (Tinnitus, ASD, ADHD), establishing objective biomarkers for sensory processing disorders.\nFire full-stack physiological EEG paradigm we iterate to develop a method to study fatigue and fatiguability in auditory processing.\nANT (Advancing Neurofeedback in Tinnitus) develops next-generation neurofeedback protocols, bridging computational modeling with clinical application to treat tinnitus.\nTEAS (Neuromodulation in Tinnitus) investigates non-invasive electrical stimulation techniques to modulate auditory cortex activity and provide relief for tinnitus patients."
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
+    "objectID": "posts/mne-rt-release/index.html",
+    "href": "posts/mne-rt-release/index.html",
+    "title": "MNE-RT: Open-Source Real-Time M/EEG Processing Library Released",
     "section": "",
-    "text": "Patrick Neff\nDepartment of Otorhinolaryngology, Head and Neck Surgery\nFaculty of Medicine\nUniversity of Zürich\nAddress: Scheuchzerstrasse 21, 8006 Zürich\nPhone: Send email and/or cookies\nE-mail: patrick.neff at uzh dot ch"
+    "text": "We are excited to announce the public release of MNE-RT — an open-source Python library for real-time M/EEG signal processing built on MNE-Python and MNE-LSL.\nMNE-RT covers the full real-time pipeline — from amplifier to 3-D brain display — in a single, researcher-friendly API designed for neurofeedback, BCI, and clinical or basic-science monitoring applications.\n\n\n\n20+ real-time feature modalities — sensor power, ERD/ERS, connectivity, cross-frequency coupling, graph-theory metrics, and more\nSensor and source-space processing using MNE inverse operators (eLORETA, dSPM, MNE)\nLive artifact correction — ORICA, adaptive LMS, ASR, and real-time Maxwell filtering for MEG\nAdaptive feedback protocols — threshold, z-score, reinforcement learning, sham, and operant schedules\nNine real-time visualisation windows including scalp topomaps, 3-D brain surface, and TFR heatmaps\nDual feedback output via OSC (Max/MSP, SuperCollider) and LSL (PsychoPy, OpenViBE, BCI2000)\n\n\n\n\npip install mne-rt\nThe library was developed with support from the Swiss National Science Foundation (grant 208164)."
   },
   {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
+    "objectID": "posts/mne-rt-release/index.html#mne-rt-is-live",
+    "href": "posts/mne-rt-release/index.html#mne-rt-is-live",
+    "title": "MNE-RT: Open-Source Real-Time M/EEG Processing Library Released",
     "section": "",
-    "text": "Fall 2024,   Fall 2023\nClass 1 introduction."
+    "text": "We are excited to announce the public release of MNE-RT — an open-source Python library for real-time M/EEG signal processing built on MNE-Python and MNE-LSL.\nMNE-RT covers the full real-time pipeline — from amplifier to 3-D brain display — in a single, researcher-friendly API designed for neurofeedback, BCI, and clinical or basic-science monitoring applications.\n\n\n\n20+ real-time feature modalities — sensor power, ERD/ERS, connectivity, cross-frequency coupling, graph-theory metrics, and more\nSensor and source-space processing using MNE inverse operators (eLORETA, dSPM, MNE)\nLive artifact correction — ORICA, adaptive LMS, ASR, and real-time Maxwell filtering for MEG\nAdaptive feedback protocols — threshold, z-score, reinforcement learning, sham, and operant schedules\nNine real-time visualisation windows including scalp topomaps, 3-D brain surface, and TFR heatmaps\nDual feedback output via OSC (Max/MSP, SuperCollider) and LSL (PsychoPy, OpenViBE, BCI2000)\n\n\n\n\npip install mne-rt\nThe library was developed with support from the Swiss National Science Foundation (grant 208164)."
   },
   {
-    "objectID": "teaching.html#class-1",
-    "href": "teaching.html#class-1",
-    "title": "Teaching",
-    "section": "",
-    "text": "Fall 2024,   Fall 2023\nClass 1 introduction."
+    "objectID": "posts/paper-title/index.html#abstract",
+    "href": "posts/paper-title/index.html#abstract",
+    "title": "Can quantum-mechanical description of physical reality be considered complete?",
+    "section": "Abstract",
+    "text": "Abstract\nIn a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete."
   },
   {
-    "objectID": "teaching.html#class-2",
-    "href": "teaching.html#class-2",
-    "title": "Teaching",
-    "section": "Class 2",
-    "text": "Class 2\n\n\n\n\n\nSpring 2025,   Fall 2023\nClass 2 introduction."
-  },
-  {
-    "objectID": "teaching.html#class-3",
-    "href": "teaching.html#class-3",
-    "title": "Teaching",
-    "section": "Class 3",
-    "text": "Class 3\n\n\n\n\n\nSpring 2025,   Spring 2024\nClass 3 introduction."
+    "objectID": "posts/paper-title/index.html#links",
+    "href": "posts/paper-title/index.html#links",
+    "title": "Can quantum-mechanical description of physical reality be considered complete?",
+    "section": "Links",
+    "text": "Links\nPublished paper"
   },
   {
     "objectID": "partners.html",
@@ -98,18 +91,39 @@
     "text": "Industry\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/paper-title/index.html#abstract",
-    "href": "posts/paper-title/index.html#abstract",
-    "title": "Can quantum-mechanical description of physical reality be considered complete?",
-    "section": "Abstract",
-    "text": "Abstract\nIn a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete."
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Fall 2024,   Fall 2023\nClass 1 introduction."
   },
   {
-    "objectID": "posts/paper-title/index.html#links",
-    "href": "posts/paper-title/index.html#links",
-    "title": "Can quantum-mechanical description of physical reality be considered complete?",
-    "section": "Links",
-    "text": "Links\nPublished paper"
+    "objectID": "teaching.html#class-1",
+    "href": "teaching.html#class-1",
+    "title": "Teaching",
+    "section": "",
+    "text": "Fall 2024,   Fall 2023\nClass 1 introduction."
+  },
+  {
+    "objectID": "teaching.html#class-2",
+    "href": "teaching.html#class-2",
+    "title": "Teaching",
+    "section": "Class 2",
+    "text": "Class 2\n\n\n\n\n\nSpring 2025,   Fall 2023\nClass 2 introduction."
+  },
+  {
+    "objectID": "teaching.html#class-3",
+    "href": "teaching.html#class-3",
+    "title": "Teaching",
+    "section": "Class 3",
+    "text": "Class 3\n\n\n\n\n\nSpring 2025,   Spring 2024\nClass 3 introduction."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Patrick Neff\nDepartment of Otorhinolaryngology, Head and Neck Surgery\nFaculty of Medicine\nUniversity of Zürich\nAddress: Scheuchzerstrasse 21, 8006 Zürich\nPhone: Send email and/or cookies\nE-mail: patrick.neff at uzh dot ch"
   },
   {
     "objectID": "posts/news-title/index.html",
@@ -154,11 +168,18 @@
     "text": "Patrick Neff, PD Dr.\n\nExperience\n\nScientific Group Lead & Private Lecturer | UZH | 2022 - Present\nSenior Guest Research Fellow | ETH Zürich (CVL) | 2025 - Present\nPostdoctoral Fellow (SNF) | EPFL Geneva (MIPlab) | 2021 - 2023\nPostdoctoral Fellow (SNF) | University of Salzburg (CCNS) | 2019 - 2021\nPostdoctoral Fellow (SNF) | University of Regensburg (UR) | 2017 - 2025\n\n\n\nEducation\n\nRe-habilitation (Exp. Otorhinolaryngology) | University of Zurich | 2025\nHabilitation (Exp. Psychiatry) | University of Regensburg | 2022\nPhD in Neuropsychology | University of Zürich | 2017"
   },
   {
-    "objectID": "index.html#rea.lab-real-life-audio-lab",
-    "href": "index.html#rea.lab-real-life-audio-lab",
+    "objectID": "index.html#rea.lab",
+    "href": "index.html#rea.lab",
     "title": "rea.lab",
-    "section": "REA.lab (Real-Life Audio Lab)",
-    "text": "REA.lab (Real-Life Audio Lab)\nThe REA.lab investigates how the brain and mind construct inner and outer auditory experiences. We combine psychophysics, psychoacoustics, neuroimaging, and 3D audio simulations to understand the full spectrum of hearing disorders—including hearing loss, tinnitus, and hyperacusis—as well as the neurodiverse reality of auditory processing. Our transdisciplinary approach integrates medicine, neuroscience, psychology, engineering, and computer science to develop methods, technology, objective biomarkers and therapies for normal and pathological hearing. Our work group is based at the University of Zurich, Faculty of Medicine, Department of Otorhinolaryngology, Head and Neck Surgery, and collaborates with leading research institutions worldwide.\n\nResearch Approach\nOur philosophy is defined by three core pillars:\n\nEcological Validity: We bridge the gap between reductionist lab settings and the real world. By utilizing 3D audio domes, auditory scene analysis and mobile Citizen Science apps, we capture the complexity and challenges of hearing in daily life.\nFull-Stack Engineering: We adopt a philosophy of engineering our own experimental ecosystems, from custom hardware and acquisition setups to computational pipelines. This ensures transparency, interoperability, and sustainability of research output.\nOpen Science & Reproducibility: We are committed to the principles of reproducible science and build open-source methodologies for the hearing and broader scientific community."
+    "section": "REA.lab",
+    "text": "REA.lab\nThe REA.lab - can be read as: Real Life Audio Lab or Real-time Auditory Research Lab or Real Environment Audio Lab etc.- investigates how the brain and mind construct inner and outer auditory experiences. We combine psychophysics, psychoacoustics, neuroimaging, and 3D audio simulations to understand the full spectrum of hearing disorders—including hearing loss, tinnitus, and hyperacusis—as well as the neurodiverse reality of auditory processing. Our transdisciplinary approach integrates medicine, neuroscience, psychology, engineering, and computer science to develop methods, technology, objective biomarkers and therapies for normal and pathological hearing. Our work group is based at the University of Zurich, Faculty of Medicine, Department of Otorhinolaryngology, Head and Neck Surgery, and collaborates with leading research institutions worldwide.\n\nResearch Approach\nOur philosophy is defined by three core pillars:\n\nFull-Stack Engineering: We adopt a philosophy of engineering our own experimental ecosystems, from custom hardware and acquisition setups to computational pipelines. This ensures transparency, interoperability, and sustainability of research output.\nOpen Science & Reproducibility: We are committed to the principles of reproducible science and build open-source methodologies for the hearing and broader scientific community.\nEcological Validity: We bridge the gap between reductionist lab settings and the real world. By utilizing 3D audio domes, auditory scene analysis and mobile Citizen Science apps, we capture the complexity and challenges of hearing in daily life."
+  },
+  {
+    "objectID": "index.html#news-updates",
+    "href": "index.html#news-updates",
+    "title": "rea.lab",
+    "section": "News & Updates",
+    "text": "News & Updates\n\n\n\n\n\n\n\n\n\n\nMNE-RT: Open-Source Real-Time M/EEG Processing Library Released\n\n\n\nJun 19, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto Academic Website Examples and Tips\n\n\n\nOct 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nEvent item\n\n\n\nSep 3, 2024\n\n\n\n\n\n\nNo matching items\n\nSee all posts »"
   },
   {
     "objectID": "people.html",

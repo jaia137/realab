@@ -7,9 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Patrick Neff, PD Dr.">
-<meta name="description" content="Posts about papers, events, news, and more">
+<meta name="dcterms.date" content="2026-06-19">
+<meta name="description" content="Quarto Academic Website Template adapted by Dr.&nbsp;Gang He">
 
-<title>What’s New &amp; Updated – rea.lab</title>
+<title>MNE-RT: Open-Source Real-Time M/EEG Processing Library Released – rea.lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,29 +23,62 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-3e8f12d1b5c8d04d32925f9f9ead600c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-3e8f12d1b5c8d04d32925f9f9ead600c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,35 +105,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id="></script>
 
 <script type="text/javascript">
@@ -130,44 +135,15 @@ https://badge.dimensions.ai/
 
 <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
-<link rel="alternate" type="application/rss+xml" title="rea.lab" href="posts.xml" data-external="1"><meta property="og:title" content="What’s New &amp; Updated – rea.lab">
-<meta property="og:description" content="Posts about papers, events, news, and more">
-<meta property="og:image" content="https://jaia137.github.io/realab/posts/paper-title/featured.jpg">
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="MNE-RT: Open-Source Real-Time M/EEG Processing Library Released – rea.lab">
+<meta property="og:description" content="Our lab’s open-source Python library for real-time EEG/MEG signal processing, neurofeedback, and BCI applications is now publicly available.">
+<meta property="og:image" content="https://jaia137.github.io/realab//files/images/placeholder3.JPG">
 <meta property="og:site_name" content="rea.lab">
-<meta name="twitter:title" content="What’s New &amp; Updated – rea.lab">
-<meta name="twitter:description" content="Posts about papers, events, news, and more">
-<meta name="twitter:image" content="https://jaia137.github.io/realab/posts/paper-title/featured.jpg">
+<meta name="twitter:title" content="MNE-RT: Open-Source Real-Time M/EEG Processing Library Released – rea.lab">
+<meta name="twitter:description" content="Our lab’s open-source Python library for real-time EEG/MEG signal processing, neurofeedback, and BCI applications is now publicly available.">
+<meta name="twitter:image" content="https://jaia137.github.io/realab//files/images/placeholder3.JPG">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -178,7 +154,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">rea.lab</span>
     </a>
   </div>
@@ -194,7 +170,7 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="./contact.html">
+    <a class="dropdown-item" href="../../contact.html">
  <span class="dropdown-text">Contact</span></a>
   </li>  
     </ul>
@@ -205,25 +181,25 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
         <li>
-    <a class="dropdown-item" href="./publications.html">
+    <a class="dropdown-item" href="../../publications.html">
  <span class="dropdown-text">Publications</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./projects.html">
+    <a class="dropdown-item" href="../../projects.html">
  <span class="dropdown-text">Projects</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./labs.html"> 
+    <a class="nav-link" href="../../labs.html"> 
 <span class="menu-text">Labs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./partners.html"> 
+    <a class="nav-link" href="../../partners.html"> 
 <span class="menu-text">Partners</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./people.html"> 
+    <a class="nav-link" href="../../people.html"> 
 <span class="menu-text">Group</span></a>
   </li>  
 </ul>
@@ -243,22 +219,53 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="ZXZlbnQ=">event <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bmV3cw==">news <span class="quarto-category-count">(3)</span></div><div class="category" data-category="b3Blbi1zb3VyY2U=">open-source <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cGFwZXI=">paper <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cHJlc2VudGF0aW9u">presentation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c29mdHdhcmU=">software <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#mne-rt-is-live" id="toc-mne-rt-is-live" class="nav-link active" data-scroll-target="#mne-rt-is-live">MNE-RT is Live</a>
+  <ul class="collapse">
+  <li><a href="#key-highlights" id="toc-key-highlights" class="nav-link" data-scroll-target="#key-highlights">Key Highlights</a></li>
+  <li><a href="#install" id="toc-install" class="nav-link" data-scroll-target="#install">Install</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">What’s New &amp; Updated</h1>
-<p class="subtitle lead">Posts about papers, events, news, and more</p>
-</div>
+<h1 class="title">MNE-RT: Open-Source Real-Time M/EEG Processing Library Released</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">news</div>
+    <div class="quarto-category">software</div>
+    <div class="quarto-category">open-source</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    Our lab’s open-source Python library for real-time EEG/MEG signal processing, neurofeedback, and BCI applications is now publicly available.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>REA.lab </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 19, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -268,214 +275,41 @@ window.Quarto = {
 </header>
 
 
-<div id="posts">
+<section id="mne-rt-is-live" class="level2">
+<h2 class="anchored" data-anchor-id="mne-rt-is-live">MNE-RT is Live</h2>
+<p>We are excited to announce the public release of <a href="https://payamsash.github.io/mne-rt/"><strong>MNE-RT</strong></a> — an open-source Python library for real-time M/EEG signal processing built on <a href="https://mne.tools/">MNE-Python</a> and MNE-LSL.</p>
+<p>MNE-RT covers the full real-time pipeline — from amplifier to 3-D brain display — in a single, researcher-friendly API designed for <strong>neurofeedback</strong>, <strong>BCI</strong>, and clinical or basic-science monitoring applications.</p>
+<section id="key-highlights" class="level3">
+<h3 class="anchored" data-anchor-id="key-highlights">Key Highlights</h3>
+<ul>
+<li><strong>20+ real-time feature modalities</strong> — sensor power, ERD/ERS, connectivity, cross-frequency coupling, graph-theory metrics, and more</li>
+<li><strong>Sensor and source-space processing</strong> using MNE inverse operators (eLORETA, dSPM, MNE)</li>
+<li><strong>Live artifact correction</strong> — ORICA, adaptive LMS, ASR, and real-time Maxwell filtering for MEG</li>
+<li><strong>Adaptive feedback protocols</strong> — threshold, z-score, reinforcement learning, sham, and operant schedules</li>
+<li><strong>Nine real-time visualisation windows</strong> including scalp topomaps, 3-D brain surface, and TFR heatmaps</li>
+<li><strong>Dual feedback output</strong> via OSC (Max/MSP, SuperCollider) and LSL (PsychoPy, OpenViBE, BCI2000)</li>
+</ul>
+</section>
+<section id="install" class="level3">
+<h3 class="anchored" data-anchor-id="install">Install</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install mne-rt</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>The library was developed with support from the Swiss National Science Foundation (grant 208164).</p>
+<!--Include social share buttons-->
+<!-- 
+AddToAny check more: https://www.addtoany.com/buttons/for/website 
+Using includes will make edits easier, will only need to add or remove button here if needed.
+https://quarto.org/docs/authoring/includes.html
+-->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
+</div>
+<script async="" src="https://static.addtoany.com/menu/page.js"></script>
 
-</div>
 
+</section>
+</section>
 
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Order By</option>
-      <option value="index" data-direction="asc">Default</option>
-      <option value="listing-title" data-direction="asc">
-        Title
-      </option>
-      <option value="listing-date-sort" data-direction="asc">
-        Date - Oldest
-      </option>
-      <option value="listing-date-sort" data-direction="desc">
-        Date - Newest
-      </option>
-      <option value="listing-author" data-direction="asc">
-        Author
-      </option>
-    </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="bmV3cyUyQ3NvZnR3YXJlJTJDb3Blbi1zb3VyY2U=" data-listing-date-sort="1781820000000" data-listing-file-modified-sort="1781890280429" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="154">
-<div class="thumbnail"><a href="./posts/mne-rt-release/index.html" class="no-external">
-
-<img loading="lazy" src="./files/images/placeholder3.JPG" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/mne-rt-release/index.html" class="no-external">MNE-RT: Open-Source Real-Time M/EEG Processing Library Released</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/mne-rt-release/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">news</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('c29mdHdhcmU='); return false;">software</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('b3Blbi1zb3VyY2U='); return false;">open-source</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/mne-rt-release/index.html" class="no-external">
-<p>Our lab’s open-source Python library for real-time EEG/MEG signal processing, neurofeedback, and BCI applications is now publicly available.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/mne-rt-release/index.html" class="no-external">
-<div class="listing-date">
-Jun 19, 2026
-</div>
-<div class="listing-author">
-REA.lab
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="bmV3cw==" data-listing-date-sort="1728943200000">
-<div class="thumbnail"><a href="https://drganghe.github.io/quarto-academic-site-examples.html" class="no-external">
-
-<img loading="lazy" src="./files/images/placeholder1.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="https://drganghe.github.io/quarto-academic-site-examples.html" class="no-external">Quarto Academic Website Examples and Tips</a>
-</h3>
-<div class="listing-subtitle">
-<a href="https://drganghe.github.io/quarto-academic-site-examples.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">news</div>
-
-</div>
-<div class="delink listing-description"><a href="https://drganghe.github.io/quarto-academic-site-examples.html" class="no-external">
-<p>Examples and tips for Quarto Academic Website</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="https://drganghe.github.io/quarto-academic-site-examples.html" class="no-external">
-<div class="listing-date">
-Oct 15, 2024
-</div>
-<div class="listing-author">
-Dr.&nbsp;Gang He
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="ZXZlbnQlMkNwcmVzZW50YXRpb24=" data-listing-date-sort="1725314400000" data-listing-file-modified-sort="1769537386098" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
-<div class="thumbnail"><a href="./posts/event-title/index.html" class="no-external">
-
-<img loading="lazy" src="./files/images/placeholder2.JPG" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/event-title/index.html" class="no-external">Event item</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/event-title/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZXZlbnQ='); return false;">event</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('cHJlc2VudGF0aW9u'); return false;">presentation</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/event-title/index.html" class="no-external">
-<p>About Event item.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/event-title/index.html" class="no-external">
-<div class="listing-date">
-Sep 3, 2024
-</div>
-<div class="listing-author">
-Event
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="bmV3cw==" data-listing-date-sort="1719180000000" data-listing-file-modified-sort="1769537386098" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
-<div class="thumbnail"><a href="./posts/news-title/index.html" class="no-external">
-
-<img loading="lazy" src="./files/images/placeholder3.JPG" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/news-title/index.html" class="no-external">News item</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/news-title/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">news</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/news-title/index.html" class="no-external">
-<p>About new item</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/news-title/index.html" class="no-external">
-<div class="listing-date">
-Jun 24, 2024
-</div>
-<div class="listing-author">
-News
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="cGFwZXI=" data-listing-date-sort="-1092963600000" data-listing-file-modified-sort="1769642400660" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="168">
-<div class="thumbnail"><a href="./posts/paper-title/index.html" class="no-external">
-
-<img loading="lazy" src="./posts/paper-title/featured.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/paper-title/index.html" class="no-external">Can quantum-mechanical description of physical reality be considered complete?</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/paper-title/index.html" class="no-external"><em>Physical Review</em></a>
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cGFwZXI='); return false;">paper</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/paper-title/index.html" class="no-external">
-<p>One is thus led to conclude that the description of reality as given by a wave function is not complete.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/paper-title/index.html" class="no-external">
-<div class="listing-date">
-May 15, 1935
-</div>
-<div class="listing-author">
-Albert Einstein, Boris Podolsky, Nathan Rosen
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
