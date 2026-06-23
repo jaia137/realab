@@ -10,7 +10,7 @@ page-layout: full
 about:
   id: hero-heading
   template: solana
-  image-width: 469px
+  image-width: 375px
   links:
     # - icon: sun
     #   text: Github

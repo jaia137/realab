@@ -9,8 +9,6 @@ image: "featured.svg"
 
 ## MNE-RT is Live
 
-![](featured.svg){width=100%}
-
 We are excited to announce the public release of [**MNE-RT**](https://payamsash.github.io/mne-rt/) — an open-source Python library for real-time M/EEG signal processing built on [MNE-Python](https://mne.tools/) and MNE-LSL.
 
 MNE-RT covers the full real-time pipeline — from amplifier to 3-D brain display — in a single, researcher-friendly API designed for **neurofeedback**, **BCI**, and clinical or basic-science monitoring applications.
