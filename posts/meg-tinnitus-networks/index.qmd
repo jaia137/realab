@@ -22,7 +22,7 @@ google-scholar: true
 
 ## Abstract
 
-TODO: Add abstract.
+Tinnitus, the perception of sound without an external source, affects many individuals, yet its impact on the brain’s functional connectome remains underexplored. Traditional functional connectivity (FC) methods, such as Pearson correlation, phase lag index, and coherence, rely on pairwise comparisons between activity of macro-scale brain regions, limiting holistic characterization. We used an approach that estimates the entire connectivity structure by analyzing all time-courses simultaneously, robust even for short recordings and suitable for real-time applications. Using resting-state MEG from tinnitus patients and controls, learned connectomes outperformed correlation-based ones in fingerprinting individuals across test/retest. Group analyses revealed altered FC across multiple frequency bands, impacting default mode, auditory, visual, and salience networks, indicating large-scale reorganization. Tinnitus exhibited highly individualized whole-brain FC profiles, highlighting the importance of individual variability and paving the way for personalized models to optimize patient-specific interventions.
 
 
 ## Links

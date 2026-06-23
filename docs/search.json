@@ -32,7 +32,7 @@
     "href": "posts/meg-tinnitus-networks/index.html#abstract",
     "title": "Shared and Individual Resting-State MEG Network Signatures of Tinnitus Revealed by Holistic Graph Learning",
     "section": "Abstract",
-    "text": "Abstract\nTODO: Add abstract."
+    "text": "Abstract\nTinnitus, the perception of sound without an external source, affects many individuals, yet its impact on the brain’s functional connectome remains underexplored. Traditional functional connectivity (FC) methods, such as Pearson correlation, phase lag index, and coherence, rely on pairwise comparisons between activity of macro-scale brain regions, limiting holistic characterization. We used an approach that estimates the entire connectivity structure by analyzing all time-courses simultaneously, robust even for short recordings and suitable for real-time applications. Using resting-state MEG from tinnitus patients and controls, learned connectomes outperformed correlation-based ones in fingerprinting individuals across test/retest. Group analyses revealed altered FC across multiple frequency bands, impacting default mode, auditory, visual, and salience networks, indicating large-scale reorganization. Tinnitus exhibited highly individualized whole-brain FC profiles, highlighting the importance of individual variability and paving the way for personalized models to optimize patient-specific interventions."
   },
   {
     "objectID": "posts/meg-tinnitus-networks/index.html#links",
@@ -46,7 +46,7 @@
     "href": "posts/eeg-tinnitus-xai/index.html#abstract",
     "title": "Prediction of acoustic tinnitus suppression using resting-state EEG via explainable AI approach",
     "section": "Abstract",
-    "text": "Abstract\nTODO: Add abstract."
+    "text": "Abstract\nTinnitus is defined as the perception of sound without an external source. Its perceptual suppression or on/off states remain poorly understood. This study investigates neural traits linked to brief acoustic tinnitus suppression (BATS) using naive resting-state EEG (closed eyes) from 102 individuals. A set of EEG features (band power, entropy, aperiodic slope and offset of the EEG spectrum, and connectivity) and standard classifiers were applied achieving consistent high accuracy across data splits: 98% for sensor and 86% for source models. The Random Forest model outperformed other classifiers by excelling in robustness and reduction of overfitting. It identified several key EEG features, most prominently alpha and gamma frequency band power. Gamma power was stronger in the left auditory network, while alpha power dominated the right hemisphere. Aperiodic features were normalized in individuals with BATS. Additionally, hyperconnected auditory-limbic networks in BATS suggest sensory gating may aid suppression. These findings demonstrate robust classification of BATS status, revealing distinct neural traits between tinnitus subpopulations. Our work emphasizes the role of neural mechanisms in predicting and managing tinnitus suppression. Moreover, it advances the understanding of effective feature selection, model choice, and validation strategies for analyzing clinical neurophysiological data in general."
   },
   {
     "objectID": "posts/eeg-tinnitus-xai/index.html#links",
