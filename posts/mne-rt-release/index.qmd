@@ -4,7 +4,7 @@ description: "Our lab's open-source Python library for real-time EEG/MEG signal 
 author: "REA.lab"
 date: "2026-06-19"
 categories: [news, software, open-source]
-image: "/files/images/placeholder3.JPG"
+image: "featured.svg"
 ---
 
 ## MNE-RT is Live
