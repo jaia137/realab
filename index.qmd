@@ -10,7 +10,7 @@ page-layout: full
 about:
   id: hero-heading
   template: solana
-  image-width: 375px
+  image-width: 469px
   links:
     # - icon: sun
     #   text: Github
@@ -58,6 +58,23 @@ listing:   # Comment the listing section and delete corresponding lines in the i
 {{< include files/includes/_academic.qmd >}}
 
 :::{#hero-heading}
+:::
+
+## REA.lab
+
+
+
+The **REA.lab** - can be read as: Real Life Audio Lab or Real-time Auditory Research Lab or Real Environment Audio Lab etc.- investigates how the brain and mind construct inner and outer auditory experiences. We combine psychophysics, psychoacoustics, neuroimaging, and 3D audio simulations to understand the full spectrum of hearing disorders—including hearing loss, tinnitus, and hyperacusis—as well as the neurodiverse reality of auditory processing. Our transdisciplinary approach integrates medicine, neuroscience, psychology, engineering, and computer science to develop methods, technology, objective biomarkers and therapies for normal and pathological hearing. 
+Our work group is based at the University of Zurich, Faculty of Medicine, Department of Otorhinolaryngology, Head and Neck Surgery, and collaborates with leading research institutions worldwide.
+
+
+### Research Approach
+Our philosophy is defined by three core pillars:
+
+*   **Full-Stack Engineering:** We adopt a philosophy of engineering our own experimental ecosystems, from custom hardware and acquisition setups to computational pipelines. This ensures transparency, interoperability, and sustainability of research output.
+*   **Open Science & Reproducibility:** We are committed to the principles of reproducible science and build open-source methodologies for the hearing and broader scientific community.
+*   **Ecological Validity:** We bridge the gap between reductionist lab settings and the real world. By utilizing 3D audio domes, auditory scene analysis and mobile Citizen Science apps, we capture the complexity and challenges of hearing in daily life.
+
 
 ## Patrick Neff, PD Dr.
 
@@ -75,23 +92,6 @@ listing:   # Comment the listing section and delete corresponding lines in the i
 - **Re-habilitation (Exp. Otorhinolaryngology)** | University of Zurich | 2025
 - **Habilitation (Exp. Psychiatry)** | University of Regensburg | 2022
 - **PhD in Neuropsychology** | University of Zürich | 2017
-
-:::
-
-## REA.lab
-
-
-
-The **REA.lab** - can be read as: Real Life Audio Lab or Real-time Auditory Research Lab or Real Environment Audio Lab etc.- investigates how the brain and mind construct inner and outer auditory experiences. We combine psychophysics, psychoacoustics, neuroimaging, and 3D audio simulations to understand the full spectrum of hearing disorders—including hearing loss, tinnitus, and hyperacusis—as well as the neurodiverse reality of auditory processing. Our transdisciplinary approach integrates medicine, neuroscience, psychology, engineering, and computer science to develop methods, technology, objective biomarkers and therapies for normal and pathological hearing. 
-Our work group is based at the University of Zurich, Faculty of Medicine, Department of Otorhinolaryngology, Head and Neck Surgery, and collaborates with leading research institutions worldwide.
-
-
-### Research Approach
-Our philosophy is defined by three core pillars:
-
-*   **Full-Stack Engineering:** We adopt a philosophy of engineering our own experimental ecosystems, from custom hardware and acquisition setups to computational pipelines. This ensures transparency, interoperability, and sustainability of research output.
-*   **Open Science & Reproducibility:** We are committed to the principles of reproducible science and build open-source methodologies for the hearing and broader scientific community.
-*   **Ecological Validity:** We bridge the gap between reductionist lab settings and the real world. By utilizing 3D audio domes, auditory scene analysis and mobile Citizen Science apps, we capture the complexity and challenges of hearing in daily life.
 
 
 <!-- Delete the following section and delete corresponding lines in the yaml part to remove the recent posts -->

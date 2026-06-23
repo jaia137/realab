@@ -1,3 +1,9 @@
+/* Hero profile image – 469 x 469 px square */
+img.about-image {
+  height: 469px !important;
+  object-fit: cover;
+}
+
 /*Inline block for altmetric badges, will keep the badges in the same line*/
 span.__dimensions_badge_embed__, div.altmetric-embed {
   display: inline-block;
