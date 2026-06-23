@@ -1,0 +1,30 @@
+---
+title: "Shared and Individual Resting-State MEG Network Signatures of Tinnitus Revealed by Holistic Graph Learning"
+description: "Holistic graph learning applied to resting-state MEG data reveals shared and individual network signatures of tinnitus."
+subtitle: "*IEEE*"
+author: 
+  - name: "REA.lab"   # TODO: replace with full author list
+date: "2025-06-01"    # TODO: replace with actual publication date
+categories: [paper]
+image: "featured.jpg"  # TODO: add featured image
+citation:
+  type: article-journal
+  container-title: "IEEE"   # TODO: replace with exact journal name
+  doi: "TODO"               # TODO: add DOI (IEEE arnumber: 11506300)
+  url: https://ieeexplore.ieee.org/document/11506300
+google-scholar: true
+---
+
+<!--Include academic icons or buttons-->
+
+{{< include ../../files/includes/_academic.qmd >}}
+
+
+## Abstract
+
+TODO: Add abstract.
+
+
+## Links
+
+Published [paper](https://ieeexplore.ieee.org/document/11506300)

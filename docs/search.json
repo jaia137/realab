@@ -4,7 +4,7 @@
     "href": "posts.html",
     "title": "What’s New & Updated",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nMNE-RT: Open-Source Real-Time M/EEG Processing Library Released\n\n\n\n\n\n\nnews\n\nsoftware\n\nopen-source\n\n\n\nOur lab’s open-source Python library for real-time EEG/MEG signal processing, neurofeedback, and BCI applications is now publicly available.\n\n\n\n\n\nJun 19, 2026\n\n\nREA.lab\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto Academic Website Examples and Tips\n\n\n\n\n\n\nnews\n\n\n\nExamples and tips for Quarto Academic Website\n\n\n\n\n\nOct 15, 2024\n\n\nDr. Gang He\n\n\n\n\n\n\n\n\n\n\n\n\nEvent item\n\n\n\n\n\n\nevent\n\npresentation\n\n\n\nAbout Event item.\n\n\n\n\n\nSep 3, 2024\n\n\nEvent\n\n\n\n\n\n\n\n\n\n\n\n\nNews item\n\n\n\n\n\n\nnews\n\n\n\nAbout new item\n\n\n\n\n\nJun 24, 2024\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\n\nCan quantum-mechanical description of physical reality be considered complete?\n\n\nPhysical Review\n\n\n\npaper\n\n\n\nOne is thus led to conclude that the description of reality as given by a wave function is not complete.\n\n\n\n\n\nMay 15, 1935\n\n\nAlbert Einstein, Boris Podolsky, Nathan Rosen\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nMNE-RT: Open-Source Real-Time M/EEG Processing Library Released\n\n\n\n\n\n\nnews\n\nsoftware\n\nopen-source\n\n\n\nOur lab’s open-source Python library for real-time EEG/MEG signal processing, neurofeedback, and BCI applications is now publicly available.\n\n\n\n\n\nJun 19, 2026\n\n\nREA.lab\n\n\n\n\n\n\n\n\n\n\n\n\nShared and Individual Resting-State MEG Network Signatures of Tinnitus Revealed by Holistic Graph Learning\n\n\nIEEE\n\n\n\npaper\n\n\n\nHolistic graph learning applied to resting-state MEG data reveals shared and individual network signatures of tinnitus.\n\n\n\n\n\nJun 1, 2025\n\n\nREA.lab\n\n\n\n\n\n\n\n\n\n\n\n\nPrediction of acoustic tinnitus suppression using resting-state EEG via explainable AI approach\n\n\nScientific Reports\n\n\n\npaper\n\n\n\nResting-state EEG combined with an explainable AI framework predicts individual responsiveness to acoustic tinnitus suppression.\n\n\n\n\n\nJan 1, 2025\n\n\nREA.lab\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto Academic Website Examples and Tips\n\n\n\n\n\n\nnews\n\n\n\nExamples and tips for Quarto Academic Website\n\n\n\n\n\nOct 15, 2024\n\n\nDr. Gang He\n\n\n\n\n\n\n\n\n\n\n\n\nEvent item\n\n\n\n\n\n\nevent\n\npresentation\n\n\n\nAbout Event item.\n\n\n\n\n\nSep 3, 2024\n\n\nEvent\n\n\n\n\n\n\n\n\n\n\n\n\nNews item\n\n\n\n\n\n\nnews\n\n\n\nAbout new item\n\n\n\n\n\nJun 24, 2024\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\n\nCan quantum-mechanical description of physical reality be considered complete?\n\n\nPhysical Review\n\n\n\npaper\n\n\n\nOne is thus led to conclude that the description of reality as given by a wave function is not complete.\n\n\n\n\n\nMay 15, 1935\n\n\nAlbert Einstein, Boris Podolsky, Nathan Rosen\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "publications.html",
@@ -28,18 +28,32 @@
     "text": "Spin3D utilizes our 3D audio dome infrastructure to simulate realistic acoustic environments. This platform allows us to test auditory perception and hearing device performance in complex, dynamic scenarios that mimic real-world challenges, moving beyond standard audiometric testing.\nHearHere is a Citizen Science initiative that maps sensory challenges in the urban soundscape. Using the custom “CS-Logger” app, we record environmental noise and subjective hearing experiences to identify urban hotspots and increase the ecological validity of our lab experiments.\nHLC_Audio focuses on advanced real-life audio analysis, bridging the gap between controlled lab settings and complex, noisy environments where hearing challenges truly emerge.\nThe Silence-Illusion Paradigm investigates how the brain constructs auditory reality by contrasting Auditory Illusions (context-driven filling-in) with Silence Perception (input suppression). This project aims to map the “Prediction-Sensation” spectrum across neuroatypical groups (Tinnitus, ASD, ADHD), establishing objective biomarkers for sensory processing disorders.\nFire full-stack physiological EEG paradigm we iterate to develop a method to study fatigue and fatiguability in auditory processing.\nANT (Advancing Neurofeedback in Tinnitus) develops next-generation neurofeedback protocols, bridging computational modeling with clinical application to treat tinnitus.\nTEAS (Neuromodulation in Tinnitus) investigates non-invasive electrical stimulation techniques to modulate auditory cortex activity and provide relief for tinnitus patients."
   },
   {
-    "objectID": "posts/mne-rt-release/index.html",
-    "href": "posts/mne-rt-release/index.html",
-    "title": "MNE-RT: Open-Source Real-Time M/EEG Processing Library Released",
-    "section": "",
-    "text": "We are excited to announce the public release of MNE-RT — an open-source Python library for real-time M/EEG signal processing built on MNE-Python and MNE-LSL.\nMNE-RT covers the full real-time pipeline — from amplifier to 3-D brain display — in a single, researcher-friendly API designed for neurofeedback, BCI, and clinical or basic-science monitoring applications.\n\n\n\n20+ real-time feature modalities — sensor power, ERD/ERS, connectivity, cross-frequency coupling, graph-theory metrics, and more\nSensor and source-space processing using MNE inverse operators (eLORETA, dSPM, MNE)\nLive artifact correction — ORICA, adaptive LMS, ASR, and real-time Maxwell filtering for MEG\nAdaptive feedback protocols — threshold, z-score, reinforcement learning, sham, and operant schedules\nNine real-time visualisation windows including scalp topomaps, 3-D brain surface, and TFR heatmaps\nDual feedback output via OSC (Max/MSP, SuperCollider) and LSL (PsychoPy, OpenViBE, BCI2000)\n\n\n\n\npip install mne-rt\nThe library was developed with support from the Swiss National Science Foundation (grant 208164)."
+    "objectID": "posts/meg-tinnitus-networks/index.html#abstract",
+    "href": "posts/meg-tinnitus-networks/index.html#abstract",
+    "title": "Shared and Individual Resting-State MEG Network Signatures of Tinnitus Revealed by Holistic Graph Learning",
+    "section": "Abstract",
+    "text": "Abstract\nTODO: Add abstract."
   },
   {
-    "objectID": "posts/mne-rt-release/index.html#mne-rt-is-live",
-    "href": "posts/mne-rt-release/index.html#mne-rt-is-live",
-    "title": "MNE-RT: Open-Source Real-Time M/EEG Processing Library Released",
-    "section": "",
-    "text": "We are excited to announce the public release of MNE-RT — an open-source Python library for real-time M/EEG signal processing built on MNE-Python and MNE-LSL.\nMNE-RT covers the full real-time pipeline — from amplifier to 3-D brain display — in a single, researcher-friendly API designed for neurofeedback, BCI, and clinical or basic-science monitoring applications.\n\n\n\n20+ real-time feature modalities — sensor power, ERD/ERS, connectivity, cross-frequency coupling, graph-theory metrics, and more\nSensor and source-space processing using MNE inverse operators (eLORETA, dSPM, MNE)\nLive artifact correction — ORICA, adaptive LMS, ASR, and real-time Maxwell filtering for MEG\nAdaptive feedback protocols — threshold, z-score, reinforcement learning, sham, and operant schedules\nNine real-time visualisation windows including scalp topomaps, 3-D brain surface, and TFR heatmaps\nDual feedback output via OSC (Max/MSP, SuperCollider) and LSL (PsychoPy, OpenViBE, BCI2000)\n\n\n\n\npip install mne-rt\nThe library was developed with support from the Swiss National Science Foundation (grant 208164)."
+    "objectID": "posts/meg-tinnitus-networks/index.html#links",
+    "href": "posts/meg-tinnitus-networks/index.html#links",
+    "title": "Shared and Individual Resting-State MEG Network Signatures of Tinnitus Revealed by Holistic Graph Learning",
+    "section": "Links",
+    "text": "Links\nPublished paper"
+  },
+  {
+    "objectID": "posts/eeg-tinnitus-xai/index.html#abstract",
+    "href": "posts/eeg-tinnitus-xai/index.html#abstract",
+    "title": "Prediction of acoustic tinnitus suppression using resting-state EEG via explainable AI approach",
+    "section": "Abstract",
+    "text": "Abstract\nTODO: Add abstract."
+  },
+  {
+    "objectID": "posts/eeg-tinnitus-xai/index.html#links",
+    "href": "posts/eeg-tinnitus-xai/index.html#links",
+    "title": "Prediction of acoustic tinnitus suppression using resting-state EEG via explainable AI approach",
+    "section": "Links",
+    "text": "Links\nPublished paper"
   },
   {
     "objectID": "posts/paper-title/index.html#abstract",
@@ -126,6 +140,20 @@
     "text": "Patrick Neff\nDepartment of Otorhinolaryngology, Head and Neck Surgery\nFaculty of Medicine\nUniversity of Zürich\nAddress: Scheuchzerstrasse 21, 8006 Zürich\nPhone: Send email and/or cookies\nE-mail: patrick.neff at uzh dot ch"
   },
   {
+    "objectID": "posts/mne-rt-release/index.html",
+    "href": "posts/mne-rt-release/index.html",
+    "title": "MNE-RT: Open-Source Real-Time M/EEG Processing Library Released",
+    "section": "",
+    "text": "We are excited to announce the public release of MNE-RT — an open-source Python library for real-time M/EEG signal processing built on MNE-Python and MNE-LSL.\nMNE-RT covers the full real-time pipeline — from amplifier to 3-D brain display — in a single, researcher-friendly API designed for neurofeedback, BCI, and clinical or basic-science monitoring applications.\n\n\n\n20+ real-time feature modalities — sensor power, ERD/ERS, connectivity, cross-frequency coupling, graph-theory metrics, and more\nSensor and source-space processing using MNE inverse operators (eLORETA, dSPM, MNE)\nLive artifact correction — ORICA, adaptive LMS, ASR, and real-time Maxwell filtering for MEG\nAdaptive feedback protocols — threshold, z-score, reinforcement learning, sham, and operant schedules\nNine real-time visualisation windows including scalp topomaps, 3-D brain surface, and TFR heatmaps\nDual feedback output via OSC (Max/MSP, SuperCollider) and LSL (PsychoPy, OpenViBE, BCI2000)\n\n\n\n\npip install mne-rt\nThe library was developed with support from the Swiss National Science Foundation (grant 208164)."
+  },
+  {
+    "objectID": "posts/mne-rt-release/index.html#mne-rt-is-live",
+    "href": "posts/mne-rt-release/index.html#mne-rt-is-live",
+    "title": "MNE-RT: Open-Source Real-Time M/EEG Processing Library Released",
+    "section": "",
+    "text": "We are excited to announce the public release of MNE-RT — an open-source Python library for real-time M/EEG signal processing built on MNE-Python and MNE-LSL.\nMNE-RT covers the full real-time pipeline — from amplifier to 3-D brain display — in a single, researcher-friendly API designed for neurofeedback, BCI, and clinical or basic-science monitoring applications.\n\n\n\n20+ real-time feature modalities — sensor power, ERD/ERS, connectivity, cross-frequency coupling, graph-theory metrics, and more\nSensor and source-space processing using MNE inverse operators (eLORETA, dSPM, MNE)\nLive artifact correction — ORICA, adaptive LMS, ASR, and real-time Maxwell filtering for MEG\nAdaptive feedback protocols — threshold, z-score, reinforcement learning, sham, and operant schedules\nNine real-time visualisation windows including scalp topomaps, 3-D brain surface, and TFR heatmaps\nDual feedback output via OSC (Max/MSP, SuperCollider) and LSL (PsychoPy, OpenViBE, BCI2000)\n\n\n\n\npip install mne-rt\nThe library was developed with support from the Swiss National Science Foundation (grant 208164)."
+  },
+  {
     "objectID": "posts/news-title/index.html",
     "href": "posts/news-title/index.html",
     "title": "News item",
@@ -179,7 +207,7 @@
     "href": "index.html#news-updates",
     "title": "rea.lab",
     "section": "News & Updates",
-    "text": "News & Updates\n\n\n\n\n\n\n\n\n\n\nMNE-RT: Open-Source Real-Time M/EEG Processing Library Released\n\n\n\nJun 19, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto Academic Website Examples and Tips\n\n\n\nOct 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nEvent item\n\n\n\nSep 3, 2024\n\n\n\n\n\n\nNo matching items\n\nSee all posts »"
+    "text": "News & Updates\n\n\n\n\n\n\n\n\n\n\nMNE-RT: Open-Source Real-Time M/EEG Processing Library Released\n\n\n\nJun 19, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nShared and Individual Resting-State MEG Network Signatures of Tinnitus Revealed by Holistic Graph Learning\n\n\nIEEE\n\n\n\nJun 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nPrediction of acoustic tinnitus suppression using resting-state EEG via explainable AI approach\n\n\nScientific Reports\n\n\n\nJan 1, 2025\n\n\n\n\n\n\nNo matching items\n\nSee all posts »"
   },
   {
     "objectID": "people.html",

@@ -70,6 +70,118 @@ https://quarto.org/docs/authoring/includes.html
   <media:content url="https://jaia137.github.io/realab/posts/mne-rt-release/featured.svg" medium="image" type="image/svg+xml"/>
 </item>
 <item>
+  <title>Shared and Individual Resting-State MEG Network Signatures of Tinnitus Revealed by Holistic Graph Learning</title>
+  <dc:creator>REA.lab </dc:creator>
+  <link>https://jaia137.github.io/realab/posts/meg-tinnitus-networks/</link>
+  <description><![CDATA[ 
+
+
+
+
+<!--Include academic icons or buttons-->
+<!-- 
+Load Academicons v1: https://jpswalsh.github.io/academicons/
+-->
+<p><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"></p>
+<p><link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"></p>
+<!---
+The following code are needed to show dimension citation and altmetrics.
+https://api.altmetric.com/embeds.html
+https://badge.dimensions.ai/
+--->
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+<script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>TODO: Add abstract.</p>
+</section>
+<section id="links" class="level2">
+<h2 class="anchored" data-anchor-id="links">Links</h2>
+<p>Published <a href="https://ieeexplore.ieee.org/document/11506300">paper</a></p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@article{2025,
+  author = {, REA.lab},
+  title = {Shared and {Individual} {Resting-State} {MEG} {Network}
+    {Signatures} of {Tinnitus} {Revealed} by {Holistic} {Graph}
+    {Learning}},
+  journal = {IEEE},
+  date = {2025-06-01},
+  url = {https://ieeexplore.ieee.org/document/11506300},
+  doi = {TODO},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-2025" class="csl-entry quarto-appendix-citeas">
+REA.lab. 2025. <span>“Shared and Individual Resting-State MEG Network
+Signatures of Tinnitus Revealed by Holistic Graph Learning.”</span>
+<em>IEEE</em>, June. <a href="https://doi.org/TODO">https://doi.org/TODO</a>.
+</div></div></section></div> ]]></description>
+  <category>paper</category>
+  <guid>https://jaia137.github.io/realab/posts/meg-tinnitus-networks/</guid>
+  <pubDate>Sat, 31 May 2025 22:00:00 GMT</pubDate>
+  <media:content url="https://jaia137.github.io/realab/posts/meg-tinnitus-networks/featured.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Prediction of acoustic tinnitus suppression using resting-state EEG via explainable AI approach</title>
+  <dc:creator>REA.lab </dc:creator>
+  <link>https://jaia137.github.io/realab/posts/eeg-tinnitus-xai/</link>
+  <description><![CDATA[ 
+
+
+
+
+<!--Include academic icons or buttons-->
+<!-- 
+Load Academicons v1: https://jpswalsh.github.io/academicons/
+-->
+<p><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"></p>
+<p><link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"></p>
+<!---
+The following code are needed to show dimension citation and altmetrics.
+https://api.altmetric.com/embeds.html
+https://badge.dimensions.ai/
+--->
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+<script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>TODO: Add abstract.</p>
+</section>
+<section id="links" class="level2">
+<h2 class="anchored" data-anchor-id="links">Links</h2>
+<p>Published <a href="https://www.nature.com/articles/s41598-025-95351-w">paper</a></p>
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.1038/s41598-025-95351-w"></div>
+
+<span class="__dimensions_badge_embed__" data-doi="10.1038/s41598-025-95351-w" data-hide-zero-citations="true" data-style="small_circle"></span><script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@article{2025,
+  author = {, REA.lab},
+  title = {Prediction of Acoustic Tinnitus Suppression Using
+    Resting-State {EEG} via Explainable {AI} Approach},
+  journal = {Scientific Reports},
+  date = {2025-01-01},
+  url = {https://www.nature.com/articles/s41598-025-95351-w},
+  doi = {10.1038/s41598-025-95351-w},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-2025" class="csl-entry quarto-appendix-citeas">
+REA.lab. 2025. <span>“Prediction of Acoustic Tinnitus Suppression Using
+Resting-State EEG via Explainable AI Approach.”</span> <em>Scientific
+Reports</em>, January. <a href="https://doi.org/10.1038/s41598-025-95351-w">https://doi.org/10.1038/s41598-025-95351-w</a>.
+</div></div></section></div> ]]></description>
+  <category>paper</category>
+  <guid>https://jaia137.github.io/realab/posts/eeg-tinnitus-xai/</guid>
+  <pubDate>Tue, 31 Dec 2024 23:00:00 GMT</pubDate>
+  <media:content url="https://jaia137.github.io/realab/posts/eeg-tinnitus-xai/featured.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
   <title>Quarto Academic Website Examples and Tips</title>
   <link>https://jaia137.github.io/realab/</link>
   <description>Examples and tips for Quarto Academic Website</description>

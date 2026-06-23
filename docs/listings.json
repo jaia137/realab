@@ -3,6 +3,8 @@
     "listing": "/posts.html",
     "items": [
       "/posts/mne-rt-release/index.html",
+      "/posts/meg-tinnitus-networks/index.html",
+      "/posts/eeg-tinnitus-xai/index.html",
       "/posts/event-title/index.html",
       "/posts/news-title/index.html",
       "/posts/paper-title/index.html"
@@ -16,6 +18,8 @@
     "listing": "/index.html",
     "items": [
       "/posts/mne-rt-release/index.html",
+      "/posts/meg-tinnitus-networks/index.html",
+      "/posts/eeg-tinnitus-xai/index.html",
       "/posts/event-title/index.html",
       "/posts/news-title/index.html",
       "/posts/paper-title/index.html"

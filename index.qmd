@@ -12,10 +12,10 @@ about:
   template: solana
   image-width: 375px
   links:
-    # - icon: sun
-    #   text: Github
-    #   href: https://github.com/jaia137
-    #   target: _blank
+    - icon: sun
+      text: Github
+      href: https://github.com/rea-labs
+      target: _blank
     - icon: globe
       text: Web
       href: https://jaia137.github.io/realab/
