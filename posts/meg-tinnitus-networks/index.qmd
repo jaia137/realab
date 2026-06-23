@@ -6,7 +6,7 @@ author:
   - name: "REA.lab"   # TODO: replace with full author list
 date: "2025-06-01"    # TODO: replace with actual publication date
 categories: [paper]
-image: "featured.jpg"  # TODO: add featured image
+image: "featured.png"
 citation:
   type: article-journal
   container-title: "IEEE"   # TODO: replace with exact journal name
