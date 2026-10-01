@@ -6,20 +6,20 @@
       version="2.0">
 <channel>
 <title>rea.lab</title>
-<link>https://jaia137.github.io/realab/posts.html</link>
-<atom:link href="https://jaia137.github.io/realab/posts.xml" rel="self" type="application/rss+xml"/>
+<link>https://realab.science/posts.html</link>
+<atom:link href="https://realab.science/posts.xml" rel="self" type="application/rss+xml"/>
 <description>Website of rea.lab</description>
 <image>
-<url>https://jaia137.github.io/realab/files/images/placeholder4.JPG</url>
+<url>https://realab.science/files/images/placeholder4.JPG</url>
 <title>rea.lab</title>
-<link>https://jaia137.github.io/realab/posts.html</link>
+<link>https://realab.science/posts.html</link>
 </image>
 <generator>quarto-1.8.27</generator>
 <lastBuildDate>Thu, 18 Jun 2026 22:00:00 GMT</lastBuildDate>
 <item>
   <title>MNE-RT: Open-Source Real-Time M/EEG Processing Library Released</title>
   <dc:creator>REA.lab </dc:creator>
-  <link>https://jaia137.github.io/realab/posts/mne-rt-release/</link>
+  <link>https://realab.science/posts/mne-rt-release/</link>
   <description><![CDATA[ 
 
 
@@ -65,14 +65,14 @@ https://quarto.org/docs/authoring/includes.html
   <category>news</category>
   <category>software</category>
   <category>open-source</category>
-  <guid>https://jaia137.github.io/realab/posts/mne-rt-release/</guid>
+  <guid>https://realab.science/posts/mne-rt-release/</guid>
   <pubDate>Thu, 18 Jun 2026 22:00:00 GMT</pubDate>
-  <media:content url="https://jaia137.github.io/realab/posts/mne-rt-release/featured.svg" medium="image" type="image/svg+xml"/>
+  <media:content url="https://realab.science/posts/mne-rt-release/featured.svg" medium="image" type="image/svg+xml"/>
 </item>
 <item>
   <title>Shared and Individual Resting-State MEG Network Signatures of Tinnitus Revealed by Holistic Graph Learning</title>
   <dc:creator>REA.lab </dc:creator>
-  <link>https://jaia137.github.io/realab/posts/meg-tinnitus-networks/</link>
+  <link>https://realab.science/posts/meg-tinnitus-networks/</link>
   <description><![CDATA[ 
 
 
@@ -120,14 +120,14 @@ Signatures of Tinnitus Revealed by Holistic Graph Learning.”</span>
 <em>IEEE</em>, June. <a href="https://doi.org/TODO">https://doi.org/TODO</a>.
 </div></div></section></div> ]]></description>
   <category>paper</category>
-  <guid>https://jaia137.github.io/realab/posts/meg-tinnitus-networks/</guid>
+  <guid>https://realab.science/posts/meg-tinnitus-networks/</guid>
   <pubDate>Sat, 31 May 2025 22:00:00 GMT</pubDate>
-  <media:content url="https://jaia137.github.io/realab/posts/meg-tinnitus-networks/featured.png" medium="image" type="image/png" height="45" width="144"/>
+  <media:content url="https://realab.science/posts/meg-tinnitus-networks/featured.png" medium="image" type="image/png" height="45" width="144"/>
 </item>
 <item>
   <title>Prediction of acoustic tinnitus suppression using resting-state EEG via explainable AI approach</title>
   <dc:creator>REA.lab </dc:creator>
-  <link>https://jaia137.github.io/realab/posts/eeg-tinnitus-xai/</link>
+  <link>https://realab.science/posts/eeg-tinnitus-xai/</link>
   <description><![CDATA[ 
 
 
@@ -177,29 +177,29 @@ Resting-State EEG via Explainable AI Approach.”</span> <em>Scientific
 Reports</em>, January. <a href="https://doi.org/10.1038/s41598-025-95351-w">https://doi.org/10.1038/s41598-025-95351-w</a>.
 </div></div></section></div> ]]></description>
   <category>paper</category>
-  <guid>https://jaia137.github.io/realab/posts/eeg-tinnitus-xai/</guid>
+  <guid>https://realab.science/posts/eeg-tinnitus-xai/</guid>
   <pubDate>Tue, 31 Dec 2024 23:00:00 GMT</pubDate>
-  <media:content url="https://jaia137.github.io/realab/posts/eeg-tinnitus-xai/featured.png" medium="image" type="image/png" height="164" width="144"/>
+  <media:content url="https://realab.science/posts/eeg-tinnitus-xai/featured.png" medium="image" type="image/png" height="164" width="144"/>
 </item>
 <item>
   <title>Quarto Academic Website Examples and Tips</title>
-  <link>https://jaia137.github.io/realab/</link>
+  <link>https://realab.science/</link>
   <description>Examples and tips for Quarto Academic Website</description>
   <category>news</category>
-  <guid>https://jaia137.github.io/realab/</guid>
+  <guid>https://realab.science/</guid>
   <pubDate>Mon, 14 Oct 2024 22:00:00 GMT</pubDate>
-  <media:content url="https://jaia137.github.io/realab/files/images/placeholder1.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://realab.science/files/images/placeholder1.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Event item</title>
   <dc:creator>Event </dc:creator>
-  <link>https://jaia137.github.io/realab/posts/event-title/</link>
+  <link>https://realab.science/posts/event-title/</link>
   <description><![CDATA[ 
 
 
 
 
-<p><a href="https://drganghe.github.io/quarto-academic-website-template/"><img src="https://jaia137.github.io/realab/files/images/placeholder2.JPG" class="img-fluid" style="width:90.0%"></a></p>
+<p><a href="https://drganghe.github.io/quarto-academic-website-template/"><img src="https://realab.science/files/images/placeholder2.JPG" class="img-fluid" style="width:90.0%"></a></p>
 <!--Include social share buttons-->
 <!-- 
 AddToAny check more: https://www.addtoany.com/buttons/for/website 
@@ -216,14 +216,14 @@ https://quarto.org/docs/authoring/includes.html
  ]]></description>
   <category>event</category>
   <category>presentation</category>
-  <guid>https://jaia137.github.io/realab/posts/event-title/</guid>
+  <guid>https://realab.science/posts/event-title/</guid>
   <pubDate>Mon, 02 Sep 2024 22:00:00 GMT</pubDate>
-  <media:content url="https://jaia137.github.io/realab/files/images/placeholder2.JPG" medium="image"/>
+  <media:content url="https://realab.science/files/images/placeholder2.JPG" medium="image"/>
 </item>
 <item>
   <title>News item</title>
   <dc:creator>News </dc:creator>
-  <link>https://jaia137.github.io/realab/posts/news-title/</link>
+  <link>https://realab.science/posts/news-title/</link>
   <description><![CDATA[ 
 
 
@@ -248,16 +248,16 @@ https://quarto.org/docs/authoring/includes.html
 
  ]]></description>
   <category>news</category>
-  <guid>https://jaia137.github.io/realab/posts/news-title/</guid>
+  <guid>https://realab.science/posts/news-title/</guid>
   <pubDate>Sun, 23 Jun 2024 22:00:00 GMT</pubDate>
-  <media:content url="https://jaia137.github.io/realab/files/images/placeholder3.JPG" medium="image"/>
+  <media:content url="https://realab.science/files/images/placeholder3.JPG" medium="image"/>
 </item>
 <item>
   <title>Can quantum-mechanical description of physical reality be considered complete?</title>
   <dc:creator>Albert Einstein</dc:creator>
   <dc:creator>Boris Podolsky</dc:creator>
   <dc:creator>Nathan Rosen</dc:creator>
-  <link>https://jaia137.github.io/realab/posts/paper-title/</link>
+  <link>https://realab.science/posts/paper-title/</link>
   <description><![CDATA[ 
 
 
@@ -310,9 +310,9 @@ Quantum-Mechanical Description of Physical Reality Be Considered
 Complete?”</span> <em>Physical Review</em> 47 (7938): 777–80. <a href="https://doi.org/10.1103/PhysRev.47.777">https://doi.org/10.1103/PhysRev.47.777</a>.
 </div></div></section></div> ]]></description>
   <category>paper</category>
-  <guid>https://jaia137.github.io/realab/posts/paper-title/</guid>
-  <pubDate>Tue, 14 May 1935 23:00:00 GMT</pubDate>
-  <media:content url="https://jaia137.github.io/realab/posts/paper-title/featured.jpg" medium="image" type="image/jpeg"/>
+  <guid>https://realab.science/posts/paper-title/</guid>
+  <pubDate>Wed, 15 May 1935 00:00:00 GMT</pubDate>
+  <media:content url="https://realab.science/posts/paper-title/featured.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

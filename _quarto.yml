@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - CNAME
+    - robots.txt
 
 # Meta
 description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
@@ -8,7 +11,7 @@ author-meta: "Patrick Neff, PD Dr."
 
 website:
   title: "rea.lab"
-  image: "https://jaia137.github.io/realab/files/images/placeholder4.JPG"
+  image: "https://realab.science/files/images/placeholder4.JPG"
   description: "Website of rea.lab"
  
   navbar:
@@ -71,7 +74,7 @@ website:
   twitter-card: true 
 #  card-style: summary      
   
-  site-url: "https://jaia137.github.io/realab/"
+  site-url: "https://realab.science/"
   
   google-analytics:
     tracking-id: ""  # Please delete or replace with your own tracking ID

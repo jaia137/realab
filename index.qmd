@@ -18,7 +18,7 @@ about:
       target: _blank
     - icon: globe
       text: Web
-      href: https://jaia137.github.io/realab/
+      href: https://realab.science/
       target: _blank
     - icon: envelope
       text: E-mail

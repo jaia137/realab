@@ -1,1 +1,3 @@
-Sitemap: https://jaia137.github.io/realab/sitemap.xml
+User-agent: *
+Allow: /
+Sitemap: https://realab.science/sitemap.xml
