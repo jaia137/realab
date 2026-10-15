@@ -59,6 +59,17 @@ listing:
   contents: 
     - /people/masters-student.yml
 
+- id: alumni
+  sort: "lastname asc"
+  type: grid
+  fields: [image, title, subtitle]
+  grid-item-align: center
+  grid-columns: 4
+  image-height: 200px
+  categories: false
+  contents:
+    - /people/masters-alumni.yml
+
 page-navigation: false
 title-block-banner: false
 toc: false
@@ -95,4 +106,7 @@ format:
 :::{#pi}
 :::
 
+## Alumni
 
+:::{#alumni}
+:::

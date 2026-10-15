@@ -211,6 +211,34 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-alumni .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-image","listing-title","listing-lastname","listing-subtitle","listing-categories","listing-started"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-alumni'] = new List('listing-alumni', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id="></script>
 
@@ -485,27 +513,11 @@ Psychology - LIFE Academy
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./files/profiles/profile9.JPG" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Philip Aruliah, BSc Psychology
-</h5>
-<div class="card-subtitle listing-subtitle">
-
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="TWFzdGVycyUyMFN0dWRlbnQ=">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
 <img loading="lazy" src="./files/profiles/profile10.JPG" class="thumbnail-image card-img" style="height: 200px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Yajaira Suriel Santana, MSc ETH Arc
+Yajaira Suriel Santana, MSc Arc
 </h5>
 <div class="card-subtitle listing-subtitle">
 
@@ -537,22 +549,6 @@ Audio engineer
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="UmVzZWFyY2glMjBTdGFmZg==">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="./files/profiles/profile6.JPG" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Cevincia Singleton, MSc Nursing Science
-</h5>
-<div class="card-subtitle listing-subtitle">
-Study Manager
-</div>
-</div>
-</div></a>
-</div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
@@ -573,6 +569,30 @@ Patrick Neff, PD Dr.
 </h5>
 <div class="card-subtitle listing-subtitle">
 Principal Investigator
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="alumni" class="level2">
+<h2 class="anchored" data-anchor-id="alumni">Alumni</h2>
+<div id="listing-alumni" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-4">
+<div class="g-col-1" data-index="0" data-categories="TWFzdGVycyUyMEFsdW1uaQ==">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="./files/profiles/profile9.JPG" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Philip Aruliah, BSc Psychology
+</h5>
+<div class="card-subtitle listing-subtitle">
+
 </div>
 </div>
 </div></a>

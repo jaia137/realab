@@ -1,12 +1,4 @@
     - path: #
-      image: "/files/profiles/profile6.JPG"
-      title: "Cevincia Singleton, MSc Nursing Science"
-      lastname: "Singleton"
-      subtitle: "Study Manager"
-      categories: [Research Staff] 
-      started: "2025"
-
-    - path: #
       image: "/files/profiles/profile7.JPG"
       title: "Eric Larrieux, MSc Electrical Engineering"
       lastname: "Larrieux"
