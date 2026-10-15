@@ -29,7 +29,3 @@ pip install mne-rt
 ```
 
 The library was developed with support from the Swiss National Science Foundation (grant 208164).
-
-<!--Include social share buttons-->
-
-{{< include /files/includes/_socialshare.qmd >}}

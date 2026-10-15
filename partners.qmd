@@ -89,7 +89,3 @@ format:
 :::
 :::
 
-<!--Include social share buttons-->
-
-{{< include /files/includes/_socialshare.qmd >}}
-

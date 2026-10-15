@@ -8,7 +8,11 @@ page-layout: full
 
 **Spin3D** utilizes our 3D audio dome infrastructure to simulate realistic acoustic environments. This platform allows us to test auditory perception and hearing device performance in complex, dynamic scenarios that mimic real-world challenges, moving beyond standard audiometric testing.
 
-**HearHere** is a Citizen Science initiative that maps sensory challenges in the urban soundscape. Using the custom "CS-Logger" app, we record environmental noise and subjective hearing experiences to identify urban hotspots and increase the ecological validity of our lab experiments.
+### HearHere {#hearhere}
+
+[**HearHere**](https://www.citizenscience.uzh.ch/en/projects/hearhere.html) is a citizen science initiative exploring how people with diverse hearing and sensory experiences perceive Zurich's urban soundscapes. Participants use a mobile sensing app to contribute short ambient audio recordings, locations, and subjective ratings. Together, these contributions help map noise hotspots and acoustic relief zones and inform more inclusive urban planning.
+
+Read our [HearHere news update](posts/hearhere/index.qmd) or visit the [Citizen Science Zurich project page](https://www.citizenscience.uzh.ch/en/projects/hearhere.html) for project details and information about participating.
 
 **HLC_Audio** focuses on advanced real-life audio analysis, bridging the gap between controlled lab settings and complex, noisy environments where hearing challenges truly emerge.
 
@@ -19,7 +23,3 @@ page-layout: full
 **ANT (Advancing Neurofeedback in Tinnitus)** develops next-generation neurofeedback protocols, bridging computational modeling with clinical application to treat tinnitus.
 
 **TEAS (Neuromodulation in Tinnitus)** investigates non-invasive electrical stimulation techniques to modulate auditory cortex activity and provide relief for tinnitus patients.
-
-<!--Include social share buttons-->
-
-{{< include /files/includes/_socialshare.qmd >}}

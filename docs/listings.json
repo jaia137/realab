@@ -2,6 +2,7 @@
   {
     "listing": "/posts.html",
     "items": [
+      "/posts/hearhere/index.html",
       "/posts/mne-rt-release/index.html",
       "/posts/meg-tinnitus-networks/index.html",
       "/posts/eeg-tinnitus-xai/index.html",
@@ -17,6 +18,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/hearhere/index.html",
       "/posts/mne-rt-release/index.html",
       "/posts/meg-tinnitus-networks/index.html",
       "/posts/eeg-tinnitus-xai/index.html",
