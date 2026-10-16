@@ -17,7 +17,7 @@
 <generator>quarto-1.8.27</generator>
 <lastBuildDate>Thu, 15 Oct 2026 22:00:00 GMT</lastBuildDate>
 <item>
-  <title>HearHere: Mapping Zurich’s Everyday Soundscapes Together</title>
+  <title>HearHere - Participatory Noise Mapping</title>
   <dc:creator>REA.lab </dc:creator>
   <link>https://realab.science/posts/hearhere/</link>
   <description><![CDATA[ 
@@ -25,23 +25,12 @@
 
 
 
-<section id="beyond-decibels" class="level2">
-<h2 class="anchored" data-anchor-id="beyond-decibels">Beyond decibels</h2>
-<p>How does a city sound, and how differently do we experience it? <a href="https://www.citizenscience.uzh.ch/en/projects/hearhere.html"><strong>HearHere</strong></a> brings citizens and researchers together to explore Zurich’s everyday soundscapes. Rather than relying on noise levels alone, the project captures how urban sound actually feels to the people moving through it.</p>
-<p>Using a mobile sensing app, participants contribute short ambient audio recordings, GPS locations, and subjective ratings of their experiences. These contributions will help build a community-driven, multidimensional noise map that identifies both <strong>noise hotspots</strong> and <strong>acoustic relief zones</strong>.</p>
-</section>
-<section id="diverse-experiences-shared-knowledge" class="level2">
-<h2 class="anchored" data-anchor-id="diverse-experiences-shared-knowledge">Diverse experiences, shared knowledge</h2>
-<p>HearHere welcomes anyone living in or visiting Zurich, including people with hearing loss, hearing aids, tinnitus, hyperacusis, or neurodivergent sensory experiences. No prior knowledge is required.</p>
-<p>Alongside mobile data collection, participants can contribute to workshops with scientists and policymakers to interpret findings and co-create recommendations for more inclusive urban planning.</p>
-</section>
-<section id="from-pilot-to-broader-participation" class="level2">
-<h2 class="anchored" data-anchor-id="from-pilot-to-broader-participation">From pilot to broader participation</h2>
-<p>According to the project overview, the initial pilot involved more than 20 participants and over 100 geospatial audio measurements across Zurich. The next stages focus on broader participation, continued data collection, and developing an interactive map and resources for the public.</p>
-<p>Visit the <a href="https://www.citizenscience.uzh.ch/en/projects/hearhere.html">HearHere page at Citizen Science Zurich</a> for the project phases and information about participating, or explore HearHere alongside our <a href="../../projects.html#hearhere">ongoing research projects</a>.</p>
+<p><img src="https://realab.science/posts/hearhere/featured.png" class="img-fluid" alt="HearHere participatory noise mapping project"></p>
+<p>HearHere investigates urban sound exposure and subjective sensory experience in Zurich, including people with hearing conditions and neurodivergent sensory profiles. Participants collect georeferenced ambient audio and perceptual ratings using a mobile sensing app. These data support multidimensional mapping of noise hotspots and acoustic relief zones.</p>
+<p>A pilot generated over 100 geospatial audio measurements from more than 20 participants. Further data collection and Delphi workshops will inform recommendations for inclusive urban planning.</p>
+<p><a href="https://www.citizenscience.uzh.ch/en/projects/hearhere.html">Project details and participation</a></p>
 
 
-</section>
 
  ]]></description>
   <category>news</category>
@@ -49,6 +38,7 @@
   <category>citizen science</category>
   <guid>https://realab.science/posts/hearhere/</guid>
   <pubDate>Thu, 15 Oct 2026 22:00:00 GMT</pubDate>
+  <media:content url="https://realab.science/posts/hearhere/featured.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 <item>
   <title>MNE-RT: Open-Source Real-Time M/EEG Processing Library Released</title>
@@ -204,119 +194,6 @@ Reports</em>, January. <a href="https://doi.org/10.1038/s41598-025-95351-w">http
   <guid>https://realab.science/posts/eeg-tinnitus-xai/</guid>
   <pubDate>Tue, 31 Dec 2024 23:00:00 GMT</pubDate>
   <media:content url="https://realab.science/posts/eeg-tinnitus-xai/featured.png" medium="image" type="image/png" height="164" width="144"/>
-</item>
-<item>
-  <title>Quarto Academic Website Examples and Tips</title>
-  <link>https://realab.science/</link>
-  <description>Examples and tips for Quarto Academic Website</description>
-  <category>news</category>
-  <guid>https://realab.science/</guid>
-  <pubDate>Mon, 14 Oct 2024 22:00:00 GMT</pubDate>
-  <media:content url="https://realab.science/files/images/placeholder1.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Event item</title>
-  <dc:creator>Event </dc:creator>
-  <link>https://realab.science/posts/event-title/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p><a href="https://drganghe.github.io/quarto-academic-website-template/"><img src="https://realab.science/files/images/placeholder2.JPG" class="img-fluid" style="width:90.0%"></a></p>
-
-
-
- ]]></description>
-  <category>event</category>
-  <category>presentation</category>
-  <guid>https://realab.science/posts/event-title/</guid>
-  <pubDate>Mon, 02 Sep 2024 22:00:00 GMT</pubDate>
-  <media:content url="https://realab.science/files/images/placeholder2.JPG" medium="image"/>
-</item>
-<item>
-  <title>News item</title>
-  <dc:creator>News </dc:creator>
-  <link>https://realab.science/posts/news-title/</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="summary" class="level2">
-<h2 class="anchored" data-anchor-id="summary">Summary</h2>
-<p>About the news</p>
-
-
-</section>
-
- ]]></description>
-  <category>news</category>
-  <guid>https://realab.science/posts/news-title/</guid>
-  <pubDate>Sun, 23 Jun 2024 22:00:00 GMT</pubDate>
-  <media:content url="https://realab.science/files/images/placeholder3.JPG" medium="image"/>
-</item>
-<item>
-  <title>Can quantum-mechanical description of physical reality be considered complete?</title>
-  <dc:creator>Albert Einstein</dc:creator>
-  <dc:creator>Boris Podolsky</dc:creator>
-  <dc:creator>Nathan Rosen</dc:creator>
-  <link>https://realab.science/posts/paper-title/</link>
-  <description><![CDATA[ 
-
-
-
-
-<!--Include academic icons or bottons-->
-<!-- 
-Load Academicons v1: https://jpswalsh.github.io/academicons/
--->
-<p><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"></p>
-<p><link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"></p>
-<!---
-The following code are needed to show dimension citation and altmetrics.
-https://api.altmetric.com/embeds.html
-https://badge.dimensions.ai/
---->
-<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-<script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
-<section id="abstract" class="level2">
-<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.</p>
-</section>
-<section id="links" class="level2">
-<h2 class="anchored" data-anchor-id="links">Links</h2>
-<p>Published <a href="https://journals.aps.org/pr/pdf/10.1103/PhysRev.47.777">paper</a></p>
-<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.1103/PhysRev.47.777"></div>
-
-<span class="__dimensions_badge_embed__" data-doi="10.1103/PhysRev.47.777" data-hide-zero-citations="true" data-style="small_circle"></span><script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-
-</section>
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@article{einstein1935,
-  author = {Einstein, Albert and Podolsky, Boris and Rosen, Nathan},
-  title = {Can Quantum-Mechanical Description of Physical Reality Be
-    Considered Complete?},
-  journal = {Physical Review},
-  volume = {47},
-  number = {7938},
-  pages = {777-80},
-  date = {1935-05-15},
-  url = {https://journals.aps.org/pr/pdf/10.1103/PhysRev.47.777},
-  doi = {10.1103/PhysRev.47.777},
-  langid = {en}
-}
-</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-einstein1935" class="csl-entry quarto-appendix-citeas">
-Einstein, Albert, Boris Podolsky, and Nathan Rosen. 1935. <span>“Can
-Quantum-Mechanical Description of Physical Reality Be Considered
-Complete?”</span> <em>Physical Review</em> 47 (7938): 777–80. <a href="https://doi.org/10.1103/PhysRev.47.777">https://doi.org/10.1103/PhysRev.47.777</a>.
-</div></div></section></div> ]]></description>
-  <category>paper</category>
-  <guid>https://realab.science/posts/paper-title/</guid>
-  <pubDate>Tue, 14 May 1935 23:00:00 GMT</pubDate>
-  <media:content url="https://realab.science/posts/paper-title/featured.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

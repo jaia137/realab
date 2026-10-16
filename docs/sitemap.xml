@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://realab.science/posts.html</loc>
-    <lastmod>2026-03-23T21:44:30.635Z</lastmod>
+    <lastmod>2026-10-16T00:00:36.025Z</lastmod>
   </url>
   <url>
     <loc>https://realab.science/publications.html</loc>
@@ -13,44 +13,32 @@
     <lastmod>2026-10-15T23:44:17.331Z</lastmod>
   </url>
   <url>
-    <loc>https://realab.science/posts/meg-tinnitus-networks/index.html</loc>
-    <lastmod>2026-06-23T20:09:43.294Z</lastmod>
-  </url>
-  <url>
-    <loc>https://realab.science/posts/mne-rt-release/index.html</loc>
-    <lastmod>2026-10-15T23:44:17.340Z</lastmod>
-  </url>
-  <url>
-    <loc>https://realab.science/posts/event-title/index.html</loc>
-    <lastmod>2026-10-15T23:44:17.337Z</lastmod>
-  </url>
-  <url>
-    <loc>https://realab.science/contact.html</loc>
-    <lastmod>2026-02-12T18:35:17.671Z</lastmod>
-  </url>
-  <url>
-    <loc>https://realab.science/teaching.html</loc>
-    <lastmod>2026-01-27T17:21:26.378Z</lastmod>
-  </url>
-  <url>
-    <loc>https://realab.science/partners.html</loc>
-    <lastmod>2026-10-15T23:44:17.328Z</lastmod>
-  </url>
-  <url>
-    <loc>https://realab.science/posts/paper-title/index.html</loc>
-    <lastmod>2026-01-28T23:20:00.660Z</lastmod>
+    <loc>https://realab.science/posts/hearhere/index.html</loc>
+    <lastmod>2026-10-16T00:00:36.020Z</lastmod>
   </url>
   <url>
     <loc>https://realab.science/posts/eeg-tinnitus-xai/index.html</loc>
     <lastmod>2026-10-01T13:41:01.655Z</lastmod>
   </url>
   <url>
-    <loc>https://realab.science/posts/hearhere/index.html</loc>
-    <lastmod>2026-10-15T23:44:17.342Z</lastmod>
+    <loc>https://realab.science/partners.html</loc>
+    <lastmod>2026-10-15T23:44:17.328Z</lastmod>
   </url>
   <url>
-    <loc>https://realab.science/posts/news-title/index.html</loc>
-    <lastmod>2026-10-15T23:44:17.334Z</lastmod>
+    <loc>https://realab.science/teaching.html</loc>
+    <lastmod>2026-01-27T17:21:26.378Z</lastmod>
+  </url>
+  <url>
+    <loc>https://realab.science/contact.html</loc>
+    <lastmod>2026-02-12T18:35:17.671Z</lastmod>
+  </url>
+  <url>
+    <loc>https://realab.science/posts/mne-rt-release/index.html</loc>
+    <lastmod>2026-10-15T23:44:17.340Z</lastmod>
+  </url>
+  <url>
+    <loc>https://realab.science/posts/meg-tinnitus-networks/index.html</loc>
+    <lastmod>2026-06-23T20:09:43.294Z</lastmod>
   </url>
   <url>
     <loc>https://realab.science/labs.html</loc>
@@ -58,7 +46,7 @@
   </url>
   <url>
     <loc>https://realab.science/index.html</loc>
-    <lastmod>2026-10-01T13:35:07.284Z</lastmod>
+    <lastmod>2026-10-16T00:00:36.023Z</lastmod>
   </url>
   <url>
     <loc>https://realab.science/people.html</loc>

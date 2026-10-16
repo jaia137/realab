@@ -1,26 +1,16 @@
 ---
-title: "HearHere: Mapping Zurich's Everyday Soundscapes Together"
-description: "A citizen science project exploring noise hotspots, acoustic relief zones, and diverse hearing experiences in Zurich."
-subtitle: "Citizen science for more inclusive urban soundscapes"
+title: "HearHere - Participatory Noise Mapping"
+description: "Citizen science on urban sound exposure and sensory experience in Zurich."
+image: "featured.png"
 author: "REA.lab"
 date: "2026-10-16"
 categories: [news, research, citizen science]
 ---
 
-## Beyond decibels
+![](featured.png){fig-alt="HearHere participatory noise mapping project"}
 
-How does a city sound, and how differently do we experience it? [**HearHere**](https://www.citizenscience.uzh.ch/en/projects/hearhere.html) brings citizens and researchers together to explore Zurich's everyday soundscapes. Rather than relying on noise levels alone, the project captures how urban sound actually feels to the people moving through it.
+HearHere investigates urban sound exposure and subjective sensory experience in Zurich, including people with hearing conditions and neurodivergent sensory profiles. Participants collect georeferenced ambient audio and perceptual ratings using a mobile sensing app. These data support multidimensional mapping of noise hotspots and acoustic relief zones.
 
-Using a mobile sensing app, participants contribute short ambient audio recordings, GPS locations, and subjective ratings of their experiences. These contributions will help build a community-driven, multidimensional noise map that identifies both **noise hotspots** and **acoustic relief zones**.
+A pilot generated over 100 geospatial audio measurements from more than 20 participants. Further data collection and Delphi workshops will inform recommendations for inclusive urban planning.
 
-## Diverse experiences, shared knowledge
-
-HearHere welcomes anyone living in or visiting Zurich, including people with hearing loss, hearing aids, tinnitus, hyperacusis, or neurodivergent sensory experiences. No prior knowledge is required.
-
-Alongside mobile data collection, participants can contribute to workshops with scientists and policymakers to interpret findings and co-create recommendations for more inclusive urban planning.
-
-## From pilot to broader participation
-
-According to the project overview, the initial pilot involved more than 20 participants and over 100 geospatial audio measurements across Zurich. The next stages focus on broader participation, continued data collection, and developing an interactive map and resources for the public.
-
-Visit the [HearHere page at Citizen Science Zurich](https://www.citizenscience.uzh.ch/en/projects/hearhere.html) for the project phases and information about participating, or explore HearHere alongside our [ongoing research projects](../../projects.qmd#hearhere).
+[Project details and participation](https://www.citizenscience.uzh.ch/en/projects/hearhere.html)

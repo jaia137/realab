@@ -4,7 +4,7 @@
     "href": "posts.html",
     "title": "What’s New & Updated",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nHearHere: Mapping Zurich’s Everyday Soundscapes Together\n\n\nCitizen science for more inclusive urban soundscapes\n\n\n\nnews\n\nresearch\n\ncitizen science\n\n\n\nA citizen science project exploring noise hotspots, acoustic relief zones, and diverse hearing experiences in Zurich.\n\n\n\n\n\nOct 16, 2026\n\n\nREA.lab\n\n\n\n\n\n\n\n\n\n\n\n\nMNE-RT: Open-Source Real-Time M/EEG Processing Library Released\n\n\n\n\n\n\nnews\n\nsoftware\n\nopen-source\n\n\n\nOur lab’s open-source Python library for real-time EEG/MEG signal processing, neurofeedback, and BCI applications is now publicly available.\n\n\n\n\n\nJun 19, 2026\n\n\nREA.lab\n\n\n\n\n\n\n\n\n\n\n\n\nShared and Individual Resting-State MEG Network Signatures of Tinnitus Revealed by Holistic Graph Learning\n\n\nIEEE\n\n\n\npaper\n\n\n\nHolistic graph learning applied to resting-state MEG data reveals shared and individual network signatures of tinnitus.\n\n\n\n\n\nJun 1, 2025\n\n\nREA.lab\n\n\n\n\n\n\n\n\n\n\n\n\nPrediction of acoustic tinnitus suppression using resting-state EEG via explainable AI approach\n\n\nScientific Reports\n\n\n\npaper\n\n\n\nResting-state EEG combined with an explainable AI framework predicts individual responsiveness to acoustic tinnitus suppression.\n\n\n\n\n\nJan 1, 2025\n\n\nREA.lab\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto Academic Website Examples and Tips\n\n\n\n\n\n\nnews\n\n\n\nExamples and tips for Quarto Academic Website\n\n\n\n\n\nOct 15, 2024\n\n\nDr. Gang He\n\n\n\n\n\n\n\n\n\n\n\n\nEvent item\n\n\n\n\n\n\nevent\n\npresentation\n\n\n\nAbout Event item.\n\n\n\n\n\nSep 3, 2024\n\n\nEvent\n\n\n\n\n\n\n\n\n\n\n\n\nNews item\n\n\n\n\n\n\nnews\n\n\n\nAbout new item\n\n\n\n\n\nJun 24, 2024\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\n\nCan quantum-mechanical description of physical reality be considered complete?\n\n\nPhysical Review\n\n\n\npaper\n\n\n\nOne is thus led to conclude that the description of reality as given by a wave function is not complete.\n\n\n\n\n\nMay 15, 1935\n\n\nAlbert Einstein, Boris Podolsky, Nathan Rosen\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nHearHere - Participatory Noise Mapping\n\n\n\n\n\n\nnews\n\nresearch\n\ncitizen science\n\n\n\nCitizen science on urban sound exposure and sensory experience in Zurich.\n\n\n\n\n\nOct 16, 2026\n\n\nREA.lab\n\n\n\n\n\n\n\n\n\n\n\n\nMNE-RT: Open-Source Real-Time M/EEG Processing Library Released\n\n\n\n\n\n\nnews\n\nsoftware\n\nopen-source\n\n\n\nOur lab’s open-source Python library for real-time EEG/MEG signal processing, neurofeedback, and BCI applications is now publicly available.\n\n\n\n\n\nJun 19, 2026\n\n\nREA.lab\n\n\n\n\n\n\n\n\n\n\n\n\nShared and Individual Resting-State MEG Network Signatures of Tinnitus Revealed by Holistic Graph Learning\n\n\nIEEE\n\n\n\npaper\n\n\n\nHolistic graph learning applied to resting-state MEG data reveals shared and individual network signatures of tinnitus.\n\n\n\n\n\nJun 1, 2025\n\n\nREA.lab\n\n\n\n\n\n\n\n\n\n\n\n\nPrediction of acoustic tinnitus suppression using resting-state EEG via explainable AI approach\n\n\nScientific Reports\n\n\n\npaper\n\n\n\nResting-state EEG combined with an explainable AI framework predicts individual responsiveness to acoustic tinnitus suppression.\n\n\n\n\n\nJan 1, 2025\n\n\nREA.lab\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "publications.html",
@@ -28,67 +28,25 @@
     "text": "Spin3D utilizes our 3D audio dome infrastructure to simulate realistic acoustic environments. This platform allows us to test auditory perception and hearing device performance in complex, dynamic scenarios that mimic real-world challenges, moving beyond standard audiometric testing.\n\n\nHearHere is a citizen science initiative exploring how people with diverse hearing and sensory experiences perceive Zurich’s urban soundscapes. Participants use a mobile sensing app to contribute short ambient audio recordings, locations, and subjective ratings. Together, these contributions help map noise hotspots and acoustic relief zones and inform more inclusive urban planning.\nRead our HearHere news update or visit the Citizen Science Zurich project page for project details and information about participating.\nHLC_Audio focuses on advanced real-life audio analysis, bridging the gap between controlled lab settings and complex, noisy environments where hearing challenges truly emerge.\nThe Silence-Illusion Paradigm investigates how the brain constructs auditory reality by contrasting Auditory Illusions (context-driven filling-in) with Silence Perception (input suppression). This project aims to map the “Prediction-Sensation” spectrum across neuroatypical groups (Tinnitus, ASD, ADHD), establishing objective biomarkers for sensory processing disorders.\nFire full-stack physiological EEG paradigm we iterate to develop a method to study fatigue and fatiguability in auditory processing.\nANT (Advancing Neurofeedback in Tinnitus) develops next-generation neurofeedback protocols, bridging computational modeling with clinical application to treat tinnitus.\nTEAS (Neuromodulation in Tinnitus) investigates non-invasive electrical stimulation techniques to modulate auditory cortex activity and provide relief for tinnitus patients."
   },
   {
-    "objectID": "posts/meg-tinnitus-networks/index.html#abstract",
-    "href": "posts/meg-tinnitus-networks/index.html#abstract",
-    "title": "Shared and Individual Resting-State MEG Network Signatures of Tinnitus Revealed by Holistic Graph Learning",
-    "section": "Abstract",
-    "text": "Abstract\nTinnitus, the perception of sound without an external source, affects many individuals, yet its impact on the brain’s functional connectome remains underexplored. Traditional functional connectivity (FC) methods, such as Pearson correlation, phase lag index, and coherence, rely on pairwise comparisons between activity of macro-scale brain regions, limiting holistic characterization. We used an approach that estimates the entire connectivity structure by analyzing all time-courses simultaneously, robust even for short recordings and suitable for real-time applications. Using resting-state MEG from tinnitus patients and controls, learned connectomes outperformed correlation-based ones in fingerprinting individuals across test/retest. Group analyses revealed altered FC across multiple frequency bands, impacting default mode, auditory, visual, and salience networks, indicating large-scale reorganization. Tinnitus exhibited highly individualized whole-brain FC profiles, highlighting the importance of individual variability and paving the way for personalized models to optimize patient-specific interventions."
+    "objectID": "posts/hearhere/index.html",
+    "href": "posts/hearhere/index.html",
+    "title": "HearHere - Participatory Noise Mapping",
+    "section": "",
+    "text": "HearHere investigates urban sound exposure and subjective sensory experience in Zurich, including people with hearing conditions and neurodivergent sensory profiles. Participants collect georeferenced ambient audio and perceptual ratings using a mobile sensing app. These data support multidimensional mapping of noise hotspots and acoustic relief zones.\nA pilot generated over 100 geospatial audio measurements from more than 20 participants. Further data collection and Delphi workshops will inform recommendations for inclusive urban planning.\nProject details and participation"
   },
   {
-    "objectID": "posts/meg-tinnitus-networks/index.html#links",
-    "href": "posts/meg-tinnitus-networks/index.html#links",
-    "title": "Shared and Individual Resting-State MEG Network Signatures of Tinnitus Revealed by Holistic Graph Learning",
+    "objectID": "posts/eeg-tinnitus-xai/index.html#abstract",
+    "href": "posts/eeg-tinnitus-xai/index.html#abstract",
+    "title": "Prediction of acoustic tinnitus suppression using resting-state EEG via explainable AI approach",
+    "section": "Abstract",
+    "text": "Abstract\nTinnitus is defined as the perception of sound without an external source. Its perceptual suppression or on/off states remain poorly understood. This study investigates neural traits linked to brief acoustic tinnitus suppression (BATS) using naive resting-state EEG (closed eyes) from 102 individuals. A set of EEG features (band power, entropy, aperiodic slope and offset of the EEG spectrum, and connectivity) and standard classifiers were applied achieving consistent high accuracy across data splits: 98% for sensor and 86% for source models. The Random Forest model outperformed other classifiers by excelling in robustness and reduction of overfitting. It identified several key EEG features, most prominently alpha and gamma frequency band power. Gamma power was stronger in the left auditory network, while alpha power dominated the right hemisphere. Aperiodic features were normalized in individuals with BATS. Additionally, hyperconnected auditory-limbic networks in BATS suggest sensory gating may aid suppression. These findings demonstrate robust classification of BATS status, revealing distinct neural traits between tinnitus subpopulations. Our work emphasizes the role of neural mechanisms in predicting and managing tinnitus suppression. Moreover, it advances the understanding of effective feature selection, model choice, and validation strategies for analyzing clinical neurophysiological dat"
+  },
+  {
+    "objectID": "posts/eeg-tinnitus-xai/index.html#links",
+    "href": "posts/eeg-tinnitus-xai/index.html#links",
+    "title": "Prediction of acoustic tinnitus suppression using resting-state EEG via explainable AI approach",
     "section": "Links",
     "text": "Links\nPublished paper"
-  },
-  {
-    "objectID": "posts/mne-rt-release/index.html",
-    "href": "posts/mne-rt-release/index.html",
-    "title": "MNE-RT: Open-Source Real-Time M/EEG Processing Library Released",
-    "section": "",
-    "text": "We are excited to announce the public release of MNE-RT — an open-source Python library for real-time M/EEG signal processing built on MNE-Python and MNE-LSL.\nMNE-RT covers the full real-time pipeline — from amplifier to 3-D brain display — in a single, researcher-friendly API designed for neurofeedback, BCI, and clinical or basic-science monitoring applications.\n\n\n\n20+ real-time feature modalities — sensor power, ERD/ERS, connectivity, cross-frequency coupling, graph-theory metrics, and more\nSensor and source-space processing using MNE inverse operators (eLORETA, dSPM, MNE)\nLive artifact correction — ORICA, adaptive LMS, ASR, and real-time Maxwell filtering for MEG\nAdaptive feedback protocols — threshold, z-score, reinforcement learning, sham, and operant schedules\nNine real-time visualisation windows including scalp topomaps, 3-D brain surface, and TFR heatmaps\nDual feedback output via OSC (Max/MSP, SuperCollider) and LSL (PsychoPy, OpenViBE, BCI2000)\n\n\n\n\npip install mne-rt\nThe library was developed with support from the Swiss National Science Foundation (grant 208164)."
-  },
-  {
-    "objectID": "posts/mne-rt-release/index.html#mne-rt-is-live",
-    "href": "posts/mne-rt-release/index.html#mne-rt-is-live",
-    "title": "MNE-RT: Open-Source Real-Time M/EEG Processing Library Released",
-    "section": "",
-    "text": "We are excited to announce the public release of MNE-RT — an open-source Python library for real-time M/EEG signal processing built on MNE-Python and MNE-LSL.\nMNE-RT covers the full real-time pipeline — from amplifier to 3-D brain display — in a single, researcher-friendly API designed for neurofeedback, BCI, and clinical or basic-science monitoring applications.\n\n\n\n20+ real-time feature modalities — sensor power, ERD/ERS, connectivity, cross-frequency coupling, graph-theory metrics, and more\nSensor and source-space processing using MNE inverse operators (eLORETA, dSPM, MNE)\nLive artifact correction — ORICA, adaptive LMS, ASR, and real-time Maxwell filtering for MEG\nAdaptive feedback protocols — threshold, z-score, reinforcement learning, sham, and operant schedules\nNine real-time visualisation windows including scalp topomaps, 3-D brain surface, and TFR heatmaps\nDual feedback output via OSC (Max/MSP, SuperCollider) and LSL (PsychoPy, OpenViBE, BCI2000)\n\n\n\n\npip install mne-rt\nThe library was developed with support from the Swiss National Science Foundation (grant 208164)."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "Patrick Neff\nDepartment of Otorhinolaryngology, Head and Neck Surgery\nFaculty of Medicine\nUniversity of Zürich\nAddress: Scheuchzerstrasse 21, 8006 Zürich\nPhone: Send email and/or cookies\nE-mail: patrick.neff at uzh dot ch"
-  },
-  {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "Fall 2024,   Fall 2023\nClass 1 introduction."
-  },
-  {
-    "objectID": "teaching.html#class-1",
-    "href": "teaching.html#class-1",
-    "title": "Teaching",
-    "section": "",
-    "text": "Fall 2024,   Fall 2023\nClass 1 introduction."
-  },
-  {
-    "objectID": "teaching.html#class-2",
-    "href": "teaching.html#class-2",
-    "title": "Teaching",
-    "section": "Class 2",
-    "text": "Class 2\n\n\n\n\n\nSpring 2025,   Fall 2023\nClass 2 introduction."
-  },
-  {
-    "objectID": "teaching.html#class-3",
-    "href": "teaching.html#class-3",
-    "title": "Teaching",
-    "section": "Class 3",
-    "text": "Class 3\n\n\n\n\n\nSpring 2025,   Spring 2024\nClass 3 introduction."
   },
   {
     "objectID": "partners.html",
@@ -126,74 +84,67 @@
     "text": "Industry\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/paper-title/index.html#abstract",
-    "href": "posts/paper-title/index.html#abstract",
-    "title": "Can quantum-mechanical description of physical reality be considered complete?",
-    "section": "Abstract",
-    "text": "Abstract\nIn a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete."
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Fall 2024,   Fall 2023\nClass 1 introduction."
   },
   {
-    "objectID": "posts/paper-title/index.html#links",
-    "href": "posts/paper-title/index.html#links",
-    "title": "Can quantum-mechanical description of physical reality be considered complete?",
+    "objectID": "teaching.html#class-1",
+    "href": "teaching.html#class-1",
+    "title": "Teaching",
+    "section": "",
+    "text": "Fall 2024,   Fall 2023\nClass 1 introduction."
+  },
+  {
+    "objectID": "teaching.html#class-2",
+    "href": "teaching.html#class-2",
+    "title": "Teaching",
+    "section": "Class 2",
+    "text": "Class 2\n\n\n\n\n\nSpring 2025,   Fall 2023\nClass 2 introduction."
+  },
+  {
+    "objectID": "teaching.html#class-3",
+    "href": "teaching.html#class-3",
+    "title": "Teaching",
+    "section": "Class 3",
+    "text": "Class 3\n\n\n\n\n\nSpring 2025,   Spring 2024\nClass 3 introduction."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Patrick Neff\nDepartment of Otorhinolaryngology, Head and Neck Surgery\nFaculty of Medicine\nUniversity of Zürich\nAddress: Scheuchzerstrasse 21, 8006 Zürich\nPhone: Send email and/or cookies\nE-mail: patrick.neff at uzh dot ch"
+  },
+  {
+    "objectID": "posts/mne-rt-release/index.html",
+    "href": "posts/mne-rt-release/index.html",
+    "title": "MNE-RT: Open-Source Real-Time M/EEG Processing Library Released",
+    "section": "",
+    "text": "We are excited to announce the public release of MNE-RT — an open-source Python library for real-time M/EEG signal processing built on MNE-Python and MNE-LSL.\nMNE-RT covers the full real-time pipeline — from amplifier to 3-D brain display — in a single, researcher-friendly API designed for neurofeedback, BCI, and clinical or basic-science monitoring applications.\n\n\n\n20+ real-time feature modalities — sensor power, ERD/ERS, connectivity, cross-frequency coupling, graph-theory metrics, and more\nSensor and source-space processing using MNE inverse operators (eLORETA, dSPM, MNE)\nLive artifact correction — ORICA, adaptive LMS, ASR, and real-time Maxwell filtering for MEG\nAdaptive feedback protocols — threshold, z-score, reinforcement learning, sham, and operant schedules\nNine real-time visualisation windows including scalp topomaps, 3-D brain surface, and TFR heatmaps\nDual feedback output via OSC (Max/MSP, SuperCollider) and LSL (PsychoPy, OpenViBE, BCI2000)\n\n\n\n\npip install mne-rt\nThe library was developed with support from the Swiss National Science Foundation (grant 208164)."
+  },
+  {
+    "objectID": "posts/mne-rt-release/index.html#mne-rt-is-live",
+    "href": "posts/mne-rt-release/index.html#mne-rt-is-live",
+    "title": "MNE-RT: Open-Source Real-Time M/EEG Processing Library Released",
+    "section": "",
+    "text": "We are excited to announce the public release of MNE-RT — an open-source Python library for real-time M/EEG signal processing built on MNE-Python and MNE-LSL.\nMNE-RT covers the full real-time pipeline — from amplifier to 3-D brain display — in a single, researcher-friendly API designed for neurofeedback, BCI, and clinical or basic-science monitoring applications.\n\n\n\n20+ real-time feature modalities — sensor power, ERD/ERS, connectivity, cross-frequency coupling, graph-theory metrics, and more\nSensor and source-space processing using MNE inverse operators (eLORETA, dSPM, MNE)\nLive artifact correction — ORICA, adaptive LMS, ASR, and real-time Maxwell filtering for MEG\nAdaptive feedback protocols — threshold, z-score, reinforcement learning, sham, and operant schedules\nNine real-time visualisation windows including scalp topomaps, 3-D brain surface, and TFR heatmaps\nDual feedback output via OSC (Max/MSP, SuperCollider) and LSL (PsychoPy, OpenViBE, BCI2000)\n\n\n\n\npip install mne-rt\nThe library was developed with support from the Swiss National Science Foundation (grant 208164)."
+  },
+  {
+    "objectID": "posts/meg-tinnitus-networks/index.html#abstract",
+    "href": "posts/meg-tinnitus-networks/index.html#abstract",
+    "title": "Shared and Individual Resting-State MEG Network Signatures of Tinnitus Revealed by Holistic Graph Learning",
+    "section": "Abstract",
+    "text": "Abstract\nTinnitus, the perception of sound without an external source, affects many individuals, yet its impact on the brain’s functional connectome remains underexplored. Traditional functional connectivity (FC) methods, such as Pearson correlation, phase lag index, and coherence, rely on pairwise comparisons between activity of macro-scale brain regions, limiting holistic characterization. We used an approach that estimates the entire connectivity structure by analyzing all time-courses simultaneously, robust even for short recordings and suitable for real-time applications. Using resting-state MEG from tinnitus patients and controls, learned connectomes outperformed correlation-based ones in fingerprinting individuals across test/retest. Group analyses revealed altered FC across multiple frequency bands, impacting default mode, auditory, visual, and salience networks, indicating large-scale reorganization. Tinnitus exhibited highly individualized whole-brain FC profiles, highlighting the importance of individual variability and paving the way for personalized models to optimize patient-specific interventions."
+  },
+  {
+    "objectID": "posts/meg-tinnitus-networks/index.html#links",
+    "href": "posts/meg-tinnitus-networks/index.html#links",
+    "title": "Shared and Individual Resting-State MEG Network Signatures of Tinnitus Revealed by Holistic Graph Learning",
     "section": "Links",
     "text": "Links\nPublished paper"
-  },
-  {
-    "objectID": "posts/eeg-tinnitus-xai/index.html#abstract",
-    "href": "posts/eeg-tinnitus-xai/index.html#abstract",
-    "title": "Prediction of acoustic tinnitus suppression using resting-state EEG via explainable AI approach",
-    "section": "Abstract",
-    "text": "Abstract\nTinnitus is defined as the perception of sound without an external source. Its perceptual suppression or on/off states remain poorly understood. This study investigates neural traits linked to brief acoustic tinnitus suppression (BATS) using naive resting-state EEG (closed eyes) from 102 individuals. A set of EEG features (band power, entropy, aperiodic slope and offset of the EEG spectrum, and connectivity) and standard classifiers were applied achieving consistent high accuracy across data splits: 98% for sensor and 86% for source models. The Random Forest model outperformed other classifiers by excelling in robustness and reduction of overfitting. It identified several key EEG features, most prominently alpha and gamma frequency band power. Gamma power was stronger in the left auditory network, while alpha power dominated the right hemisphere. Aperiodic features were normalized in individuals with BATS. Additionally, hyperconnected auditory-limbic networks in BATS suggest sensory gating may aid suppression. These findings demonstrate robust classification of BATS status, revealing distinct neural traits between tinnitus subpopulations. Our work emphasizes the role of neural mechanisms in predicting and managing tinnitus suppression. Moreover, it advances the understanding of effective feature selection, model choice, and validation strategies for analyzing clinical neurophysiological dat"
-  },
-  {
-    "objectID": "posts/eeg-tinnitus-xai/index.html#links",
-    "href": "posts/eeg-tinnitus-xai/index.html#links",
-    "title": "Prediction of acoustic tinnitus suppression using resting-state EEG via explainable AI approach",
-    "section": "Links",
-    "text": "Links\nPublished paper"
-  },
-  {
-    "objectID": "posts/hearhere/index.html",
-    "href": "posts/hearhere/index.html",
-    "title": "HearHere: Mapping Zurich’s Everyday Soundscapes Together",
-    "section": "",
-    "text": "How does a city sound, and how differently do we experience it? HearHere brings citizens and researchers together to explore Zurich’s everyday soundscapes. Rather than relying on noise levels alone, the project captures how urban sound actually feels to the people moving through it.\nUsing a mobile sensing app, participants contribute short ambient audio recordings, GPS locations, and subjective ratings of their experiences. These contributions will help build a community-driven, multidimensional noise map that identifies both noise hotspots and acoustic relief zones."
-  },
-  {
-    "objectID": "posts/hearhere/index.html#beyond-decibels",
-    "href": "posts/hearhere/index.html#beyond-decibels",
-    "title": "HearHere: Mapping Zurich’s Everyday Soundscapes Together",
-    "section": "",
-    "text": "How does a city sound, and how differently do we experience it? HearHere brings citizens and researchers together to explore Zurich’s everyday soundscapes. Rather than relying on noise levels alone, the project captures how urban sound actually feels to the people moving through it.\nUsing a mobile sensing app, participants contribute short ambient audio recordings, GPS locations, and subjective ratings of their experiences. These contributions will help build a community-driven, multidimensional noise map that identifies both noise hotspots and acoustic relief zones."
-  },
-  {
-    "objectID": "posts/hearhere/index.html#diverse-experiences-shared-knowledge",
-    "href": "posts/hearhere/index.html#diverse-experiences-shared-knowledge",
-    "title": "HearHere: Mapping Zurich’s Everyday Soundscapes Together",
-    "section": "Diverse experiences, shared knowledge",
-    "text": "Diverse experiences, shared knowledge\nHearHere welcomes anyone living in or visiting Zurich, including people with hearing loss, hearing aids, tinnitus, hyperacusis, or neurodivergent sensory experiences. No prior knowledge is required.\nAlongside mobile data collection, participants can contribute to workshops with scientists and policymakers to interpret findings and co-create recommendations for more inclusive urban planning."
-  },
-  {
-    "objectID": "posts/hearhere/index.html#from-pilot-to-broader-participation",
-    "href": "posts/hearhere/index.html#from-pilot-to-broader-participation",
-    "title": "HearHere: Mapping Zurich’s Everyday Soundscapes Together",
-    "section": "From pilot to broader participation",
-    "text": "From pilot to broader participation\nAccording to the project overview, the initial pilot involved more than 20 participants and over 100 geospatial audio measurements across Zurich. The next stages focus on broader participation, continued data collection, and developing an interactive map and resources for the public.\nVisit the HearHere page at Citizen Science Zurich for the project phases and information about participating, or explore HearHere alongside our ongoing research projects."
-  },
-  {
-    "objectID": "posts/news-title/index.html",
-    "href": "posts/news-title/index.html",
-    "title": "News item",
-    "section": "",
-    "text": "About the news"
-  },
-  {
-    "objectID": "posts/news-title/index.html#summary",
-    "href": "posts/news-title/index.html#summary",
-    "title": "News item",
-    "section": "",
-    "text": "About the news"
   },
   {
     "objectID": "labs.html",
@@ -235,7 +186,7 @@
     "href": "index.html#news-updates",
     "title": "rea.lab",
     "section": "News & Updates",
-    "text": "News & Updates\n\n\n\n\n\n\n\n\nHearHere: Mapping Zurich’s Everyday Soundscapes Together\n\n\nCitizen science for more inclusive urban soundscapes\n\n\n\nOct 16, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nMNE-RT: Open-Source Real-Time M/EEG Processing Library Released\n\n\n\nJun 19, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nShared and Individual Resting-State MEG Network Signatures of Tinnitus Revealed by Holistic Graph Learning\n\n\nIEEE\n\n\n\nJun 1, 2025\n\n\n\n\n\n\nNo matching items\n\nSee all posts »"
+    "text": "News & Updates\n\n\n\n\n\n\n\n\n\n\nHearHere - Participatory Noise Mapping\n\n\n\nOct 16, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nMNE-RT: Open-Source Real-Time M/EEG Processing Library Released\n\n\n\nJun 19, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nShared and Individual Resting-State MEG Network Signatures of Tinnitus Revealed by Holistic Graph Learning\n\n\nIEEE\n\n\n\nJun 1, 2025\n\n\n\n\n\n\nNo matching items\n\nSee all posts »"
   },
   {
     "objectID": "people.html",
