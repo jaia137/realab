@@ -151,14 +151,14 @@
     "href": "labs.html",
     "title": "Labs",
     "section": "",
-    "text": "VividSoundLab (VSL) at HLC\nVSL at HLC\nLocation: Stampfenbachstrasse 73, 8006 Zürich (UZH, STB)\n\n\n3D Audio System: - 42-speaker dome array - Multiple overlapping 3D audio encoders (e.g. higher order Ambisonics)\nAudio Hardware: - RME 64-channel digital audio interface - Low-latency and real-time implementation, synchronization with sensor systems\nSoftware & Integration: - SPAT (Spatial Audio Processing) - Max/MSP - OSC (Open Sound Control)\nEEG System: - Brain Products 64-channel EEG system\nPhysiological Monitoring: - Pulse oximetry - Electromyography (EMG) - Electrocardiography (ECG) - Respiration monitoring - Galvanic skin response (GSR)"
+    "text": "VividSoundLab (VSL) at HLC\nVSL at HLC\nLocation: Stampfenbachstrasse 73, 8006 Zürich (UZH, STB)\n\n\n3D Audio System:\n\n42-speaker dome array\nMultiple overlapping 3D audio encoders (e.g. higher order Ambisonics)\n\nAudio Hardware:\n\nRME 64-channel digital audio interface\nLow-latency and real-time implementation, synchronization with sensor systems\n\nSoftware & Integration:\n\nSPAT (Spatial Audio Processing)\nMax/MSP\nOSC (Open Sound Control)\n\nEEG System:\n\nBrain Products 64-channel EEG system\n\nPhysiological Monitoring:\n\nPulse oximetry\nElectromyography (EMG)\nElectrocardiography (ECG)\nRespiration monitoring\nGalvanic skin response (GSR)"
   },
   {
     "objectID": "labs.html#vividsoundlab-vsl",
     "href": "labs.html#vividsoundlab-vsl",
     "title": "Labs",
     "section": "",
-    "text": "VividSoundLab (VSL) at HLC\nVSL at HLC\nLocation: Stampfenbachstrasse 73, 8006 Zürich (UZH, STB)\n\n\n3D Audio System: - 42-speaker dome array - Multiple overlapping 3D audio encoders (e.g. higher order Ambisonics)\nAudio Hardware: - RME 64-channel digital audio interface - Low-latency and real-time implementation, synchronization with sensor systems\nSoftware & Integration: - SPAT (Spatial Audio Processing) - Max/MSP - OSC (Open Sound Control)\nEEG System: - Brain Products 64-channel EEG system\nPhysiological Monitoring: - Pulse oximetry - Electromyography (EMG) - Electrocardiography (ECG) - Respiration monitoring - Galvanic skin response (GSR)"
+    "text": "VividSoundLab (VSL) at HLC\nVSL at HLC\nLocation: Stampfenbachstrasse 73, 8006 Zürich (UZH, STB)\n\n\n3D Audio System:\n\n42-speaker dome array\nMultiple overlapping 3D audio encoders (e.g. higher order Ambisonics)\n\nAudio Hardware:\n\nRME 64-channel digital audio interface\nLow-latency and real-time implementation, synchronization with sensor systems\n\nSoftware & Integration:\n\nSPAT (Spatial Audio Processing)\nMax/MSP\nOSC (Open Sound Control)\n\nEEG System:\n\nBrain Products 64-channel EEG system\n\nPhysiological Monitoring:\n\nPulse oximetry\nElectromyography (EMG)\nElectrocardiography (ECG)\nRespiration monitoring\nGalvanic skin response (GSR)"
   },
   {
     "objectID": "labs.html#scheuchzerstrasse-lab-sch",
