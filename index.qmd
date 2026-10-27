@@ -80,10 +80,10 @@ Our philosophy is defined by three core pillars:
 ### Experience
 
 - <b>**Scientific Group Lead & Private Lecturer** | UZH | 2022 - Present</b>
-- **Senior Guest Research Fellow** | ETH Zürich (CVL) | 2025 - Present
-- **Postdoctoral Fellow (SNF)** | EPFL Geneva (MIPlab) | 2021 - 2023
-- **Postdoctoral Fellow (SNF)** | University of Salzburg (CCNS) | 2019 - 2021
-- **Postdoctoral Fellow (SNF)** | University of Regensburg (UR) | 2017 - 2025
+- **Senior Guest Research Fellow** | ETH Zürich, Computer Vision Lab (CVL) | 2025 - Present
+- **Postdoctoral Fellow (SNF)** | EPFL Geneva, Medical Image Processing Laboratory (MIPlab) | 2021 - 2023
+- **Postdoctoral Fellow (SNF)** | University of Salzburg, Centre for Cognitive Neuroscience (CCNS) | 2019 - 2021
+- **Postdoctoral Fellow (SNF)** | University of Regensburg | 2017 - 2025
 
 
 ### Education
