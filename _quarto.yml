@@ -6,7 +6,7 @@ project:
     - robots.txt
 
 # Meta
-description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
+description-meta: "REA.lab: real-life audio and auditory research at the University of Zurich."
 author-meta: "Patrick Neff, PD Dr."
 
 website:
@@ -44,17 +44,14 @@ website:
     # right:
       # - text: CV
       #   href: files/nsf-biosketch.pdf
-      # - '<a href="https://github.com/drganghe/quarto-academic-website-template" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>'
       # - '<a href="https://bsky.app" target="_blank">Bluesky</a>'
       # - '<a href="posts.xml" target="_blank">RSS</a>'
   
   page-navigation: true
   
   page-footer: 
-    left: "[rea.lab](http://www.github.com) &copy; <script>document.write(new Date().getFullYear())</script>" 
-    center: "Build on [Quart Academic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io)"
+    left: "[rea.lab](https://realab.science/) &copy; <script>document.write(new Date().getFullYear())</script>"
     # right:
-    #   - '<a href="https://github.com/drganghe/quarto-academic-website-template" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>'
     #   - '<a href="https://bsky.app" target="_blank">Bluesky</a>'
     #   - '<a href="posts.xml" target="_blank">RSS</a>'
   
@@ -95,6 +92,4 @@ format:
     link-external-icon: false
     link-external-newwindow: true
     email-obfuscation: javascript
-    link-external-filter: '^(?:http:|https:)\/\/drganghe\.github\.io\/custom'
     include-in-header: "files/includes/_academic.qmd"
-

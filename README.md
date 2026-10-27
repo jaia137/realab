@@ -23,7 +23,3 @@ Welcome! This is a simple and customizable template for building your own academ
 - Install [Quarto](https://quarto.org/docs/get-started/)
 - Learn the basics from the [official Quarto documentation](https://quarto.org/docs/guide/)
 - Try publishing the site *before* making major changes to confirm it runs correctly
-
-## 📚 More Examples & Tips
-
-- [Quarto Academic Site Examples and Tips](https://drganghe.github.io/quarto-academic-site-examples.html)
